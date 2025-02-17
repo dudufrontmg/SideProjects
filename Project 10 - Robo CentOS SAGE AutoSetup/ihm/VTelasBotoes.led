@@ -1,0 +1,16 @@
+
+#######################################
+## Definição de Botões Configuráveis ##
+#######################################
+
+ botoes_base = hbox(
+    button[ ACAO="TELA TAU_INDICE", TIP="Índice SE TAUBATE", EXPAND=HORIZONTAL ]("Índice", cb_acao),
+    button[ ACAO="TELA TAU_UNIFILAR_500kV", TIP="Unifilar 500kV", EXPAND=HORIZONTAL ]("Unifilar 500kV", cb_acao),
+    button[ ACAO="TELA TAU_UNIFILAR_440kV", TIP="Unifilar 440kV",EXPAND=HORIZONTAL ] ("Unifilar 440kV",cb_acao),
+    button[ ACAO="TELA TAU_UNIFILAR_230kV", TIP="Unifilar 230kV",EXPAND=HORIZONTAL ] ("Unifilar 230kV",cb_acao),
+    button[ ACAO="TELA TAU_UNIFILAR_138kV", TIP="Unifilar 138kV",EXPAND=HORIZONTAL ] ("Unifilar 138kV",cb_acao),    
+    button[ ACAO="TELA TAU_ARQUITETURA_SALA_COMANDO", TIP="Arquitetura", EXPAND=HORIZONTAL ]("Arquitetura", cb_acao),
+    button[ ACAO="TELA TAU_TABULAR_DIG_AQ", TIP="Tabular Digital", EXPAND=HORIZONTAL ]("Tabular Digital", cb_acao),
+    button[ ACAO="TELA TAU_TABULAR_ANA_AQ", TIP="Tabular Analógico", EXPAND=HORIZONTAL ]("Tabular Analógico", cb_acao),
+    button[ ACAO="RECONHECER_ALARME DIG", TIP=" Reconhecer Alarmes ", SIZE=130x ,BGCOLOR= "192 0 0"]("Reconhecer Alarme",   cb_acao)
+)

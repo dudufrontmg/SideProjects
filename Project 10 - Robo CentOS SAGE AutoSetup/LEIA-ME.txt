@@ -1,0 +1,6 @@
+No diretório sage, adicionar os seguintes arquivos:
+
+backup CNF da base existente
+arquivo de licença cepel
+patches conforme versão do seu CentOS e Update
+updates caso for necessário

@@ -1,0 +1,59 @@
+;--------------------------------------------------------------------------
+;
+; Listas predefinidas para o diálogo de anotações
+;
+;--------------------------------------------------------------------------
+
+; Lista de ocorrências
+;  . Severidade: NOR, ADV, URG ou FAT
+;  . Cor       : Um nome de cor existente em SigPaleta.dat
+;  . Descrição : Texto livre, limitado a 32 caracteres
+;  . Item ANOMALIA adicionado em 23/10/2008 para suprir necessidades de gestao de anomalias - FAB10.MARKE5
+
+[Ocorrências]
+;                           [--------------------------------]
+- NOR COR_ANOT_NORM          Tag de informacao	
+- ADV COR_ANOT_RESTRICAO     Tag de LT energizada	
+- URG COR_ANOT_URG           Tag de impedimento de controle
+- FAT COR_ANOT_URG           Tag de impedimento operativo
+- NOR COR_ANOT_NORM          Anomalia
+;                           [--------------------------------]
+
+;--------------------------------------------------------------------------
+; Lista de motivos (textos livres, limitados a 32 caracteres)
+
+[Motivos]
+;[--------------------------------]
+- Curto Circuito
+- Desajuste na Proteção
+- Estrutura Danificada
+- Para-Raio Danificado
+- Falha Humana
+- Falha: Eqptos. Potência
+- Falha: Eqptos. Prot/Controle
+- Isoladores Danificados
+- Isoladores Sujos
+- Substituição de Isoladores
+- Manobra Programada
+- Manobra Não Programada
+- Manutenção Preventiva
+- Manutenção Corretiva
+- Mudança de Tap
+- Sobrecarga
+- Sobretensão
+- Subtensão
+- Subfreqüência
+- Transferência de Carga
+- Restrição de Cargas
+- Transitório
+- Variação de Tensão no Sistema
+- Animal Fechou Curto-Circuito
+- Árvore Tocando Cabos
+- Chuvas
+- Descarga Atmosférica
+- Queimadas
+- Vento
+;[--------------------------------]
+
+;--------------------------------------------------------------------------
+

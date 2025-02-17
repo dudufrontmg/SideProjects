@@ -1,0 +1,699 @@
+
+TCTL
+             ID = CTCL
+      ALR_CLOSE = Fechar
+       ALR_TRIP = Abrir
+      DLG_CLOSE = Fechar Equipamento
+       DLG_TRIP = Abrir Equipamento
+           NSEQ = 1
+            TIP = CTL
+
+TCTL
+             ID = BLOQ
+      ALR_CLOSE = Bloqueio
+       ALR_TRIP = Desbloqueio
+      DLG_CLOSE = Bloquear
+       DLG_TRIP = Desbloquear
+           NSEQ = 2
+            TIP = CTL
+
+TCTL
+             ID = LCRM
+      ALR_CLOSE = Local
+       ALR_TRIP = Remoto
+      DLG_CLOSE = Local
+       DLG_TRIP = Remoto
+           NSEQ = 3
+            TIP = CTL
+
+TCTL
+             ID = HABD
+      ALR_CLOSE = Habilita
+       ALR_TRIP = Desabilita
+      DLG_CLOSE = Habilitar
+       DLG_TRIP = Desabilitar
+           NSEQ = 4
+            TIP = CTL
+
+TCTL
+             ID = MANA
+      ALR_CLOSE = Manual
+       ALR_TRIP = Automatico
+      DLG_CLOSE = Manual
+       DLG_TRIP = Automático
+           NSEQ = 5
+            TIP = CTL
+
+TCTL
+             ID = LIGD
+      ALR_CLOSE = Ligado
+       ALR_TRIP = Desligado
+      DLG_CLOSE = Ligar
+       DLG_TRIP = Desligar
+           NSEQ = 6
+            TIP = CTL
+
+TCTL
+             ID = AUMD
+      ALR_CLOSE = Aumentar
+       ALR_TRIP = Diminuir
+      DLG_CLOSE = Aumentar
+       DLG_TRIP = Diminuir
+           NSEQ = 7
+            TIP = CTL
+
+TCTL
+             ID = TRNL
+      ALR_CLOSE = Transferir
+       ALR_TRIP = Normalizar
+      DLG_CLOSE = Transferir
+       DLG_TRIP = Normalizar
+           NSEQ = 8
+            TIP = CTL
+
+TCTL
+             ID = RSTC
+      ALR_CLOSE = (c)
+       ALR_TRIP = (t)
+      DLG_CLOSE = Executar
+           NSEQ = 9
+            TIP = CTL
+
+TCTL
+             ID = PULS
+      ALR_CLOSE = Raise
+       ALR_TRIP = Lower
+      DLG_CLOSE = Aumentar
+       DLG_TRIP = Diminuir
+           NSEQ = 10
+            TIP = CTL
+
+TCTL
+             ID = STPT
+      ALR_CLOSE = Set Point A
+       ALR_TRIP = Set Point B
+      DLG_CLOSE = Enviar SetPoint
+           NSEQ = 11
+            TIP = CTL
+
+TCTL
+             ID = STP2
+      ALR_CLOSE = Set Point 2
+       ALR_TRIP = Set Point 2
+      DLG_CLOSE = Enviar SetPoints
+           NSEQ = 12
+            TIP = CTL
+
+TCTL
+             ID = REST
+      ALR_CLOSE = Reset Com
+       ALR_TRIP = Reset Com
+       DLG_TRIP = Resetar UTR
+           NSEQ = 13
+            TIP = CTL
+
+TCTL
+             ID = RSTT
+      ALR_CLOSE = Ajuste (c)
+       ALR_TRIP = Ajuste (t)
+       DLG_TRIP = Executar
+           NSEQ = 17
+            TIP = CTL
+
+TCTL
+             ID = DISCR
+      ALR_CLOSE = Discreto
+       ALR_TRIP = Discreto
+      DLG_CLOSE = Ctrl Discreto
+           NSEQ = 32
+            TIP = CTL
+
+TCTL
+             ID = VAGO
+      ALR_CLOSE = Vago
+       ALR_TRIP = Vago
+       DLG_TRIP = Vago
+           NSEQ = 33
+            TIP = CTL
+
+TCTL
+             ID = LSTAT
+      ALR_CLOSE = Reset estat
+       ALR_TRIP = Reset estst
+      DLG_CLOSE = Reset de Estatisticas
+       DLG_TRIP = Reset de Estatisticas
+           NSEQ = 18
+            TIP = CMD
+
+TCTL
+             ID = PFUTR
+      ALR_CLOSE = Failover
+       ALR_TRIP = Failover
+       DLG_TRIP = Failover de UTR
+           NSEQ = 14
+            TIP = CMD
+
+TCTL
+             ID = PFCAN
+      ALR_CLOSE = Failover
+       ALR_TRIP = Failover
+       DLG_TRIP = Failover de Enlace
+           NSEQ = 19
+            TIP = CMD
+
+TCTL
+             ID = PHUTR
+      ALR_CLOSE = Ativa Com
+       ALR_TRIP = Ativa Com
+       DLG_TRIP = Habilitar UTR
+           NSEQ = 16
+            TIP = CMD
+
+TCTL
+             ID = PDUTR
+      ALR_CLOSE = Desativ Com
+       ALR_TRIP = Desativ Com
+       DLG_TRIP = Desabilitar UTR
+           NSEQ = 15
+            TIP = CMD
+
+TCTL
+             ID = PHCAN
+      ALR_CLOSE = Ativa Com
+       ALR_TRIP = Ativa Com
+       DLG_TRIP = Habilitar Enlace
+           NSEQ = 20
+            TIP = CMD
+
+TCTL
+             ID = PDCAN
+      ALR_CLOSE = Desativ Com
+       ALR_TRIP = Desativ Com
+       DLG_TRIP = Desabilitar Enlace
+           NSEQ = 21
+            TIP = CMD
+
+TCTL
+             ID = PHSEC
+      ALR_CLOSE = Ativa Com
+       ALR_TRIP = Ativa Com
+       DLG_TRIP = Habilitar Secundário
+           NSEQ = 22
+            TIP = CMD
+
+TCTL
+             ID = PDSEC
+      ALR_CLOSE = Desativ Com
+       ALR_TRIP = Desativ Com
+       DLG_TRIP = Inibir Secundário
+           NSEQ = 23
+            TIP = CMD
+
+TCTL
+             ID = ATLIA
+      ALR_CLOSE = Ativa Com
+       ALR_TRIP = Ativa Com
+       DLG_TRIP = Ativar Aquisição
+           NSEQ = 24
+            TIP = CMD
+
+TCTL
+             ID = DTLIA
+      ALR_CLOSE = Desativ Com
+       ALR_TRIP = Desativ Com
+       DLG_TRIP = Desativar Aquisição
+           NSEQ = 25
+            TIP = CMD
+
+TCTL
+             ID = ATLID
+      ALR_CLOSE = Ativa Com
+       ALR_TRIP = Ativa Com
+       DLG_TRIP = Ativar Distribuição
+           NSEQ = 26
+            TIP = CMD
+
+TCTL
+             ID = DTLID
+      ALR_CLOSE = Desativ Com
+       ALR_TRIP = Desativ Com
+       DLG_TRIP = Desativar Distribuição
+           NSEQ = 27
+            TIP = CMD
+
+TCTL
+             ID = ATTAC
+      ALR_CLOSE = Ativa Com
+       ALR_TRIP = Ativa Com
+       DLG_TRIP = Ativar TAC
+           NSEQ = 28
+            TIP = CMD
+
+TCTL
+             ID = DTTAC
+      ALR_CLOSE = Desativ Com
+       ALR_TRIP = Desativ Com
+       DLG_TRIP = Desativar TAC
+           NSEQ = 29
+            TIP = CMD
+
+TCTL
+             ID = ATENM
+      ALR_CLOSE = Ativa Com
+       ALR_TRIP = Ativa Com
+       DLG_TRIP = Ativar Enlace
+           NSEQ = 30
+            TIP = CMD
+
+TCTL
+             ID = DTENM
+      ALR_CLOSE = Desativ Com
+       ALR_TRIP = Desativ Com
+       DLG_TRIP = Desativar Enlace
+           NSEQ = 31
+            TIP = CMD
+
+TCTL
+             ID = ATMUL
+      ALR_CLOSE = Ativa Com
+       ALR_TRIP = Ativa Com
+       DLG_TRIP = Ativar Multiligação
+           NSEQ = 34
+            TIP = CMD
+
+TCTL
+             ID = DTMUL
+      ALR_CLOSE = Desativ Com
+       ALR_TRIP = Desativ Com
+       DLG_TRIP = Desativar Multiligação
+           NSEQ = 35
+            TIP = CMD
+
+TCTL
+             ID = ATMSE
+      ALR_CLOSE = Ativa Com
+       ALR_TRIP = Ativa Com
+       DLG_TRIP = Ativar Tele-medido
+           NSEQ = 36
+            TIP = CMD
+
+TCTL
+             ID = DTMSE
+      ALR_CLOSE = Desativ Com
+       ALR_TRIP = Desativ Com
+       DLG_TRIP = Desativar Tele-medido
+           NSEQ = 37
+            TIP = CMD
+
+TCTL
+             ID = ATCSE
+      ALR_CLOSE = Ativa Com
+       ALR_TRIP = Ativa Com
+       DLG_TRIP = Ativar Grand. Calculada
+           NSEQ = 38
+            TIP = CMD
+
+TCTL
+             ID = DTCSE
+      ALR_CLOSE = Desativ Com
+       ALR_TRIP = Desativ Com
+       DLG_TRIP = Desativar Grand. Calculada
+           NSEQ = 39
+            TIP = CMD
+
+TCTL
+             ID = ATTSE
+      ALR_CLOSE = Ativa Com
+       ALR_TRIP = Ativa Com
+       DLG_TRIP = Ativar Tele-sinais
+           NSEQ = 40
+            TIP = CMD
+
+TCTL
+             ID = DTTSE
+      ALR_CLOSE = Desativ Com
+       ALR_TRIP = Desativ Com
+       DLG_TRIP = Desativar Tele-sinais
+           NSEQ = 41
+            TIP = CMD
+
+TCTL
+             ID = CART
+      ALR_CLOSE = Colocar
+       ALR_TRIP = Retirar
+      DLG_CLOSE = Colocar
+       DLG_TRIP = Retirar
+           NSEQ = 42
+            TIP = CTL
+
+TCTL
+             ID = LUZF
+      ALR_CLOSE = Acende
+       ALR_TRIP = Apaga
+      DLG_CLOSE = Acender
+       DLG_TRIP = Apagar
+           NSEQ = 43
+            TIP = CTL
+
+TCTL
+             ID = BLOQI
+      ALR_CLOSE = Desbloqueio
+       ALR_TRIP = Bloqueio
+      DLG_CLOSE = Desbloquear
+       DLG_TRIP = Bloquear
+           NSEQ = 44
+            TIP = CTL
+
+TCTL
+             ID = CRL25
+      ALR_CLOSE = 25Y
+       ALR_TRIP = 25N
+      DLG_CLOSE = 25Y
+           NSEQ = 45
+            TIP = CTL
+
+TCTL
+             ID = AJUST
+      ALR_CLOSE = PARALELO
+       ALR_TRIP = ANEL
+      DLG_CLOSE = PARALELO
+           NSEQ = 46
+            TIP = CTL
+
+TCTL
+             ID = RESET
+      ALR_CLOSE = Reset OK
+       ALR_TRIP = Falha
+      DLG_CLOSE = Reset
+           NSEQ = 47
+            TIP = CTL
+
+TCTL
+             ID = LIG25
+      ALR_CLOSE = Ligado
+       ALR_TRIP = Desligado
+      DLG_CLOSE = Ligar
+           NSEQ = 48
+            TIP = CTL
+
+TCTL
+             ID = DES25
+      ALR_CLOSE = Ligado
+       ALR_TRIP = Desligado
+       DLG_TRIP = Desligar
+           NSEQ = 49
+            TIP = CTL
+
+TCTL
+             ID = SEL25
+      ALR_CLOSE = 25Y
+       ALR_TRIP = 25N
+      DLG_CLOSE = 25Y
+           NSEQ = 50
+            TIP = CTL
+
+TCTL
+             ID = RMLC
+      ALR_CLOSE = Remoto
+       ALR_TRIP = Local
+      DLG_CLOSE = Remoto
+       DLG_TRIP = Local
+           NSEQ = 51
+            TIP = CTL
+
+TCTL
+             ID = AUMA
+      ALR_CLOSE = Automatico
+       ALR_TRIP = Manual
+      DLG_CLOSE = Automatico
+       DLG_TRIP = Manual
+           NSEQ = 52
+            TIP = CTL
+
+TCTL
+             ID = ALTER
+      ALR_CLOSE = (c)
+       ALR_TRIP = (t)
+      DLG_CLOSE = Alterar
+           NSEQ = 53
+            TIP = CTL
+
+TCTL
+             ID = NLTR
+      ALR_CLOSE = Normalizar
+       ALR_TRIP = Transferir
+      DLG_CLOSE = Normalizar
+       DLG_TRIP = Transferir
+           NSEQ = 54
+            TIP = CTL
+
+TCTL
+             ID = REARM
+      ALR_CLOSE = Rearme
+       ALR_TRIP = Atuado
+      DLG_CLOSE = Rearmar
+           NSEQ = 55
+            TIP = CTL
+
+TCTL
+             ID = SELEC
+      ALR_CLOSE = Selecionado
+       ALR_TRIP = Nao Selec
+      DLG_CLOSE = Selecionar
+           NSEQ = 56
+            TIP = CTL
+
+TCTL
+             ID = DIMA
+      ALR_CLOSE = Diminuir
+       ALR_TRIP = Aumentar
+      DLG_CLOSE = Diminuir
+       DLG_TRIP = Aumentar
+           NSEQ = 57
+            TIP = CTL
+
+TCTL
+             ID = PANE
+      ALR_CLOSE = ANEL
+       ALR_TRIP = PARALELO
+      DLG_CLOSE = ANEL
+       DLG_TRIP = PARALELO
+           NSEQ = 58
+            TIP = CTL
+
+TCTL
+             ID = AANPA
+      ALR_CLOSE = ANEL
+       ALR_TRIP = PARALELO
+      DLG_CLOSE = ANEL
+           NSEQ = 59
+            TIP = CTL
+
+TCTL
+             ID = MOTRI
+      ALR_CLOSE = Monopolar
+       ALR_TRIP = Tripolar
+      DLG_CLOSE = Monopolar
+       DLG_TRIP = Tripolar
+           NSEQ = 60
+            TIP = CTL
+
+TCTL
+             ID = HABIL
+      ALR_CLOSE = (c)
+       ALR_TRIP = (t)
+      DLG_CLOSE = Habilitar
+           NSEQ = 61
+            TIP = CTL
+
+TCTL
+             ID = USR60
+      ALR_CLOSE = Close USR60
+       ALR_TRIP = Trip  USR60
+      DLG_CLOSE = Fechar USR60
+       DLG_TRIP = Abrir  USR60
+           NSEQ = 62
+            TIP = CTL
+
+TCTL
+             ID = USR61
+      ALR_CLOSE = Close USR61
+       ALR_TRIP = Trip  USR61
+      DLG_CLOSE = Fechar USR61
+       DLG_TRIP = Abrir  USR61
+           NSEQ = 63
+            TIP = CTL
+
+TCTL
+             ID = USR62
+      ALR_CLOSE = Close USR62
+       ALR_TRIP = Trip  USR62
+      DLG_CLOSE = Fechar USR62
+       DLG_TRIP = Abrir  USR62
+           NSEQ = 64
+            TIP = CTL
+
+TCTL
+             ID = USR63
+      ALR_CLOSE = Close USR63
+       ALR_TRIP = Trip  USR63
+      DLG_CLOSE = Fechar USR63
+       DLG_TRIP = Abrir  USR63
+           NSEQ = 65
+            TIP = CTL
+
+TCTL
+             ID = USR64
+      ALR_CLOSE = Close USR64
+       ALR_TRIP = Trip  USR64
+      DLG_CLOSE = Fechar USR64
+       DLG_TRIP = Abrir  USR64
+           NSEQ = 66
+            TIP = CTL
+
+TCTL
+             ID = LIGG
+      ALR_CLOSE = (c)
+       ALR_TRIP = (t)
+      DLG_CLOSE = Ligar/Desligar
+           NSEQ = 67
+            TIP = CTL
+
+TCTL
+             ID = BLOQS
+      ALR_CLOSE = Desbloqueio
+       ALR_TRIP = Bloqueio
+      DLG_CLOSE = Desbloquear
+           NSEQ = 68
+            TIP = CTL
+
+TCTL
+             ID = DESH
+      ALR_CLOSE = Desabilita
+       ALR_TRIP = Habilita
+      DLG_CLOSE = Desabilitar
+       DLG_TRIP = Habilitar
+           NSEQ = 69
+            TIP = CTL
+
+TCTL
+             ID = EXEC
+      ALR_CLOSE = EM EXECUCAO
+       ALR_TRIP = PARADA
+      DLG_CLOSE = Executar
+       DLG_TRIP = Parar
+           NSEQ = 70
+            TIP = CTL
+
+TCTL
+             ID = PPEN
+      ALR_CLOSE = PROSSEGUIR
+       ALR_TRIP = ABORTOU
+      DLG_CLOSE = Prosseguir
+       DLG_TRIP = Abortar
+           NSEQ = 71
+            TIP = CTL
+
+TCTL
+             ID = CART1
+      ALR_CLOSE = Colocar
+       ALR_TRIP = Retirar
+      DLG_CLOSE = Colocar
+       DLG_TRIP = Retirar
+           NSEQ = 72
+            TIP = CTL
+
+TCTL
+             ID = PART0
+      ALR_CLOSE = Partir
+       ALR_TRIP = Parar
+      DLG_CLOSE = Partir
+       DLG_TRIP = Parar
+           NSEQ = 73
+            TIP = CTL
+
+TCTL
+             ID = BLOQD
+      ALR_CLOSE = Bloqueio
+       ALR_TRIP = (t)
+      DLG_CLOSE = Bloquear
+           NSEQ = 74
+            TIP = CTL
+
+TCTL
+             ID = MONOT
+      ALR_CLOSE = Tripolar
+       ALR_TRIP = Monopolar
+      DLG_CLOSE = Tripolar
+       DLG_TRIP = Monopolar
+           NSEQ = 75
+            TIP = CTL
+
+TCTL
+             ID = ANEP
+      ALR_CLOSE = PARALELO
+       ALR_TRIP = ANEL
+      DLG_CLOSE = PARALELO
+       DLG_TRIP = ANEL
+           NSEQ = 76
+            TIP = CTL
+
+TCTL
+             ID = DESLI
+      ALR_CLOSE = Ligado
+       ALR_TRIP = Desligado
+      DLG_CLOSE = Desligar
+           NSEQ = 77
+            TIP = CTL
+
+TCTL
+             ID = ATUAR
+      ALR_CLOSE = Normal
+       ALR_TRIP = Atuado
+      DLG_CLOSE = Atuar
+           NSEQ = 78
+            TIP = CTL
+
+TCTL
+             ID = ABRE2
+      ALR_CLOSE = Aberto
+       ALR_TRIP = Fechado
+      DLG_CLOSE = Abrir
+           NSEQ = 79
+            TIP = CTL
+
+TCTL
+             ID = FECH2
+      ALR_CLOSE = Aberto
+       ALR_TRIP = Fechado
+      DLG_CLOSE = Fechar
+           NSEQ = 80
+            TIP = CTL
+
+TCTL
+             ID = ATIV
+      ALR_CLOSE = Ativar
+       ALR_TRIP = Desativar
+      DLG_CLOSE = Ativar
+       DLG_TRIP = Desativar
+           NSEQ = 81
+            TIP = CTL
+
+TCTL
+             ID = N2N3
+      ALR_CLOSE = COT
+       ALR_TRIP = Local
+      DLG_CLOSE = COT
+       DLG_TRIP = Local
+           NSEQ = 82
+            TIP = CTL
+
+TCTL
+             ID = LIGA
+      ALR_CLOSE = Estado Lig.
+       ALR_TRIP = Estado Desl
+      DLG_CLOSE = Ligada
+       DLG_TRIP = Desligada
+           NSEQ = 83
+            TIP = CTL
+

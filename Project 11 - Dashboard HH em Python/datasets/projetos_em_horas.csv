@@ -1,0 +1,109 @@
+﻿Cod Projeto;Descrição do Item;Disciplina;Hs Orçadas;Hs Programadas;Hs Ajustadas;Hs Executadas;Hs Saldo;Qtde Dias Total;Qtde Dias Percorridos;Saldo em Dias;% dias Percorridos
+PCS_20_297;Configuração_Controle_SAGE;Controle/Supervisão;186;110;0;0;110;485;421;64;86.8
+PCS_20_297;Configuração_Proteção_SIP5;;0;0;0;53;-53;485;421;64;86.8
+PCS_20_297;Configuração_Proteção_SIP5;Proteção/Controle;187;169;0;61;108;485;421;64;86.8
+PCS_20_297;Documentação;Desenhista;0;0;0;86.83;-86.83;697;633;64;90.82
+PCS_20_297;Documentação;Projetista;506;506;540;190.33;349.67;697;633;64;90.82
+PCS_20_297;Documentação;Proteção/Controle;0;0;0;4.5;-4.5;697;633;64;90.82
+PCS_20_297;Documentação;Trainee;0;0;0;124.01;-124.01;697;633;64;90.82
+PCS_20_297;Montagem_Campo;Eletricista;0;540;0;0;540;697;633;64;90.82
+PCS_20_297;Montagem_Campo;Técnico Eletricista;0;0;0;9;-9;697;633;64;90.82
+PCS_20_297;Montagem_Painéis;Técnico Eletricista;1000;1000;1000;0;1000;92;92;0;100
+PCS_20_297;Outros;Projetista;200;200;200;11;189;422;422;0;100
+PCS_20_297;Outros;Técnico Eletricista;0;0;0;141.5;-141.5;422;422;0;100
+PCS_20_297;PréTestes_Controle_SAGE;Controle/Supervisão;185;270;0;0;270;363;299;64;82.37
+PCS_20_297;PréTestes_Proteção_SIP5;;0;0;0;97;-97;363;299;64;82.37
+PCS_20_297;PréTestes_Proteção_SIP5;Proteção/Controle;330;270;0;63;207;363;299;64;82.37
+PCS_20_297;TAC_Controle_SAGE;Controle/Supervisão;411;765;0;0;765;243;179;64;73.66
+PCS_20_297;TAC_Proteção_SIP5;Proteção/Controle;411;765;0;0;765;243;179;64;73.66
+PCS_20_297;TAF_Controle_SAGE;Controle/Supervisão;330;270;0;96.86;173.14;273;209;64;76.56
+PCS_20_297;TAF_Proteção_SIP5;Proteção/Controle;0;0;0;44;-44;273;209;64;76.56
+PCS_20_297;TAF_Proteção_SIP5;Proteção/Controle;330;270;0;200.73;69.27;273;209;64;76.56
+PCS_20_304;Configuração_Controle_STD;Controle/Supervisão;54;117;0;0;117;304;240;64;78.95
+PCS_20_304;Configuração_Proteção_SIP5;Proteção/Controle;0;0;0;150;-150;228;228;0;100
+PCS_20_304;Configuração_Proteção_SIP5;Proteção/Controle;100;153;0;0;153;228;228;0;100
+PCS_20_304;Documentação;Desenhista;0;0;0;45.29;-45.29;364;299;65;82.14
+PCS_20_304;Documentação;Projetista;418;418;666;611.71;54.29;364;299;65;82.14
+PCS_20_304;Documentação;Trainee;0;0;0;7.13;-7.13;364;299;65;82.14
+PCS_20_304;Montagem_Campo;Técnico Eletricista;0;270;0;0;270;182;118;64;64.84
+PCS_20_304;Outros;Projetista;200;200;200;0;200;333;333;0;100
+PCS_20_304;PréTestes_Proteção_SIP5;Proteção/Controle;176;135;0;0;135;243;179;64;73.66
+PCS_20_304;TAC_Controle_STD;Controle/Supervisão;117;405;0;0;405;182;118;64;64.84
+PCS_20_304;TAC_Proteção_SIP5;Proteção/Controle;168;540;0;0;540;182;118;64;64.84
+PCS_20_304;TAF_Controle_STD;Controle/Supervisão;45;27;0;0;27;212;148;64;69.81
+PCS_20_304;TAF_Proteção_SIP5;Proteção/Controle;131;135;0;0;135;212;148;64;69.81
+PCS_20_305;Configuração_Controle_SAGE;;0;0;0;34.5;-34.5;1093;1029;64;94.14
+PCS_20_305;Configuração_Controle_SAGE;Controle/Supervisão;235;373;0;202;171;1093;1029;64;94.14
+PCS_20_305;Configuração_Proteção_SIP5;Proteção/Controle;0;0;0;58.91;-58.91;608;544;64;89.47
+PCS_20_305;Configuração_Proteção_SIP5;Proteção/Controle;235;342;0;166.5;175.5;608;544;64;89.47
+PCS_20_305;Documentação;;0;0;0;0.5;-0.5;1093;1029;64;94.14
+PCS_20_305;Documentação;Controle/Supervisão;0;0;0;38;-38;1093;1029;64;94.14
+PCS_20_305;Documentação;Desenhista;0;0;0;215.12;-215.12;1093;1029;64;94.14
+PCS_20_305;Documentação;Projetista;638;638;1300;849.41;450.59;1093;1029;64;94.14
+PCS_20_305;Documentação;Proteção/Controle;0;0;0;10.41;-10.41;1093;1029;64;94.14
+PCS_20_305;Documentação;Trainee;0;0;0;46.56;-46.56;1093;1029;64;94.14
+PCS_20_305;Montagem_Campo;Controle/Supervisão;0;0;0;161.38;-161.38;485;421;64;86.8
+PCS_20_305;Montagem_Campo;Controle/Supervisão;0;0;0;99.17;-99.17;485;421;64;86.8
+PCS_20_305;Montagem_Campo;Eletricista;0;0;0;307.17;-307.17;485;421;64;86.8
+PCS_20_305;Montagem_Campo;Técnico Eletricista;0;810;0;322.88;487.12;485;421;64;86.8
+PCS_20_305;Outros;Controle/Supervisão;0;0;0;4;-4;788;788;0;100
+PCS_20_305;Outros;Projetista;200;200;200;106.25;93.75;788;788;0;100
+PCS_20_305;Outros;Trainee;0;0;0;3.98;-3.98;788;788;0;100
+PCS_20_305;PréTestes_Controle_SAGE;Controle/Supervisão;350;280;0;124.98;155.02;212;212;0;100
+PCS_20_305;PréTestes_Proteção_SIP5;;0;0;0;4.97;-4.97;229;229;0;100
+PCS_20_305;PréTestes_Proteção_SIP5;Proteção/Controle;355;280;0;185;95;229;229;0;100
+PCS_20_305;Segurança do Trabalho;Controle/Supervisão;0;0;0;44;-44;1063;1029;34;96.8
+PCS_20_305;TAC_Controle_SAGE;Controle/Supervisão;0;0;0;342.93;-342.93;425;391;34;92
+PCS_20_305;TAC_Controle_SAGE;Controle/Supervisão;680;1300;0;699.44;600.56;425;391;34;92
+PCS_20_305;TAC_Proteção_SIP5;Proteção/Controle;0;0;0;395.73;-395.73;425;391;34;92
+PCS_20_305;TAC_Proteção_SIP5;Proteção/Controle;682;1605;0;786.74;818.26;425;391;34;92
+PCS_20_305;TAF_Controle_SAGE;Controle/Supervisão;350;280;0;70.96;209.04;304;304;0;100
+PCS_20_305;TAF_Proteção_SIP5;Proteção/Controle;359;280;0;88.5;191.5;321;321;0;100
+PCS_20_305;TAF_Proteção_SIP5;Trainee;0;0;0;47.81;-47.81;321;321;0;100
+PCS_20_307;Configuração_Controle_SAGE;Controle/Supervisão;420;360;0;280.48;79.52;1093;1029;64;94.14
+PCS_20_307;Configuração_Controle_STD;Controle/Supervisão;50;50;0;0;50;393;393;0;100
+PCS_20_307;Configuração_Controle_STD;Controle/Supervisão;0;0;0;50;-50;393;393;0;100
+PCS_20_307;Configuração_Proteção_SIP5;Estudo Seletividade;0;0;0;45;-45;697;633;64;90.82
+PCS_20_307;Configuração_Proteção_SIP5;Proteção/Controle;0;0;0;52.57;-52.57;697;633;64;90.82
+PCS_20_307;Configuração_Proteção_SIP5;Proteção/Controle;0;0;0;18;-18;697;633;64;90.82
+PCS_20_307;Configuração_Proteção_SIP5;Proteção/Controle;420;360;420;154;266;697;633;64;90.82
+PCS_20_307;Configuração_Proteção_SIP5;Trainee;0;0;0;38.83;-38.83;697;633;64;90.82
+PCS_20_307;Documentação;;0;0;0;25.98;-25.98;710;645;65;90.85
+PCS_20_307;Documentação;Controle/Supervisão;0;0;0;18;-18;710;645;65;90.85
+PCS_20_307;Documentação;Desenhista;0;0;0;516.32;-516.32;710;645;65;90.85
+PCS_20_307;Documentação;Estudo Seletividade;0;0;0;36;-36;710;645;65;90.85
+PCS_20_307;Documentação;Projetista;959;959;959;972.06;-13.06;710;645;65;90.85
+PCS_20_307;Documentação;Trainee;0;0;0;157.14;-157.14;710;645;65;90.85
+PCS_20_307;Montagem_Campo;Técnico Eletricista;0;1620;0;443;1177;759;695;64;91.57
+PCS_20_307;Outros;Coordenação;0;0;0;14;-14;1002;1002;0;100
+PCS_20_307;Outros;Projetista;200;200;200;61.91;138.09;1002;1002;0;100
+PCS_20_307;Outros;Proteção/Controle;0;0;0;24;-24;1002;1002;0;100
+PCS_20_307;Outros;Técnico Eletricista;0;0;0;54;-54;1002;1002;0;100
+PCS_20_307;Outros;Trainee;0;0;0;52.57;-52.57;1002;1002;0;100
+PCS_20_307;PréTestes_Controle_SAGE;Controle/Supervisão;510;330;0;238.87;91.13;396;396;0;100
+PCS_20_307;PréTestes_Proteção_SIP5;Estudo Seletividade;0;0;0;62;-62;518;518;0;100
+PCS_20_307;PréTestes_Proteção_SIP5;Proteção/Controle;0;0;0;44;-44;518;518;0;100
+PCS_20_307;PréTestes_Proteção_SIP5;Proteção/Controle;0;0;0;55.06;-55.06;518;518;0;100
+PCS_20_307;PréTestes_Proteção_SIP5;Proteção/Controle;0;0;0;43;-43;518;518;0;100
+PCS_20_307;PréTestes_Proteção_SIP5;Proteção/Controle;561;545;0;254;291;518;518;0;100
+PCS_20_307;PréTestes_Proteção_SIP5;Trainee;0;0;0;84.12;-84.12;518;518;0;100
+PCS_20_307;TAC_Controle_SAGE;;0;0;0;390.67;-390.67;332;268;64;80.72
+PCS_20_307;TAC_Controle_SAGE;Controle/Supervisão;1000;1440;0;590.84;849.16;332;268;64;80.72
+PCS_20_307;TAC_Proteção_SIP5;Proteção/Controle;0;0;0;168.24;-168.24;332;268;64;80.72
+PCS_20_307;TAC_Proteção_SIP5;Proteção/Controle;1038;1575;0;572.14;1002.86;332;268;64;80.72
+PCS_20_307;TAF_Controle_SAGE;;0;0;0;9;-9;425;425;0;100
+PCS_20_307;TAF_Controle_SAGE;Controle/Supervisão;510;455;750;384;366;425;425;0;100
+PCS_20_307;TAF_Controle_SAGE;Controle/Supervisão;0;0;0;123;-123;425;425;0;100
+PCS_20_307;TAF_Proteção_SIP5;Estudo Seletividade;0;0;0;167;-167;547;547;0;100
+PCS_20_307;TAF_Proteção_SIP5;Proteção/Controle;0;0;0;9;-9;547;547;0;100
+PCS_20_307;TAF_Proteção_SIP5;Proteção/Controle;0;0;0;26.97;-26.97;547;547;0;100
+PCS_20_307;TAF_Proteção_SIP5;Proteção/Controle;587;630;0;285;345;547;547;0;100
+PCS_20_307;TAF_Proteção_SIP5;Trainee;0;0;0;141.24;-141.24;547;547;0;100
+PCS_20_324 - SIEMENS;Documentação;;0;0;0;4.88;-4.88;305;240;65;78.69
+PCS_20_324 - SIEMENS;Documentação;Projetista;105.6;105.6;0;29.33;76.27;305;240;65;78.69
+PCS_20_324 - SIEMENS;Montagem_Painéis;Técnico Eletricista;2534.4;2534.4;0;0;2534.4;305;240;65;78.69
+PCS_20_324 - SIEMENS;Montagem_Plataforma;Eletricista;211.2;211.2;0;0;211.2;305;240;65;78.69
+PCS_20_324 - SIEMENS;PréTestes_Proteção_SIP5;Eletricista;211.2;211.2;0;0;211.2;305;240;65;78.69
+PCS_20_324 - SIEMENS;TAF_Proteção_SIP5;Eletricista;211.2;211.2;0;0;211.2;305;240;65;78.69
+;;;;;;;;;;;
+Totais  ;;;19097.6;25720.6;6435;14110.91;12908.69; ; ; ; 

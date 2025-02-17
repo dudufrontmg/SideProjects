@@ -1,0 +1,293 @@
+#!/bin/csh
+
+#  Script   : criabkpsage
+#  Script   : abbsagecnf.csh (original)
+#  Autor    : Fabricio Beltram
+#  Data     : 16/12/2009
+#  Empresa  : ABB Ltda.
+
+#  Editado  : Antonio Carlos Pigossi Júnior - ISA CTEEP 
+#  Data     : 10/06/2019
+
+#  Funcao   : Cria um backup da base de dados utilizando o mesmo procedimento
+#           + do script criasagecnf desenvolvido pelo Cepel.
+#           + Este script cria um novo diretorio temporario dentro do diretorio
+#           + $SAGE, contendo os arquivos de configuracao da maquina.
+#
+#           + Utiliza por padrao o bzip2 para maior compactacao dos arquivos.
+#				+ Alterado a nomenclatura do arquivo de acordo com a IT de SAS.
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2, or (at your option)
+# any later version.
+
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+
+set EXCLUSOES="--exclude CVS --exclude bd/old"
+set OPC_TAR="-uf"
+set old_list=`ls $BD | grep old_`
+set tmp_arq_dir="serv_conf_$HOSTNAME"
+set tmp_data=`date "+%d-%m-%Y_%H%Mh"`
+
+if ($1 != "") then
+   setenv BASE $1
+endif
+
+if (! -d $SAGE/config/$BASE) then
+   echo "Base $BASE nao esta instalada."
+   exit
+endif
+
+set nome_arq_geral='bkp_sage_'"$HOSTNAME"'_'"$BASE"'_'"$tmp_data"
+
+echo ""
+
+while (1)
+   echo "----- Script de backup da ISA CTEEP - Revisao 6.0 -----"
+   echo ""
+   sleep 1
+   echo -n "Inicia o backup para a configuracao da base $BASE e informacoes da maquina? ([S]im/[N]ao): "
+   set RESP = $<
+   echo ""
+   if (("$RESP" != "s") && ("$RESP" != "S") && ("$RESP" != "n") && ("$RESP" != "N"))   then
+      echo "Resposta invalida, entre com s, S, ou n, N."
+      echo ""
+   else if (($RESP == 'n') || ($RESP == 'N'))  then
+      echo "Operacao cancelada, terminando o script."
+      echo ""
+      exit
+   else
+      break
+   endif
+end
+
+#----------------------------------------------------------
+#--------- apaga o arquivo final, se existir --------------
+#----------------------------------------------------------
+cd $SAGE
+
+sleep 1
+echo "Apagando arquivos de core, aguarde..."
+echo ""
+
+find ./config/$BASE -name "core.*" | xargs /bin/rm -f
+find ./calculos/$BASE -name "core.*" | xargs /bin/rm -f
+find ./bin/ -name "core.*" | xargs /bin/rm -f
+#----------------------------------------------------------
+
+sleep 1
+echo "Coletando informacoes, configuracoes da maquina."
+echo ""
+
+#  Cria diretorio temporario para guardar os arquivos de
+#+ de configuracao da maquina.
+if (! -d $SAGE/$tmp_arq_dir) then
+   mkdir $SAGE/$tmp_arq_dir
+endif
+
+# Verifica tempo de uso da maquina
+uptime > $SAGE/$tmp_arq_dir/uptime.txt
+
+# Variavel NDIAS
+grep -q NDIAS $SAGE/config/$BASE/sys/SSC_Amb && echo $NDIAS > $SAGE/$tmp_arq_dir/NDIAS.txt
+
+# Variavel TMP_AGRUP
+grep -q TMP_AGRUP $SAGE/config/$BASE/sys/SSC_Amb && echo $TMP_AGRUP > $SAGE/$tmp_arq_dir/TMP_AGRUP.txt
+
+# Variavel TMP_FAIL_GSD
+grep -q TMP_FAIL_GSD $SAGE/config/$BASE/sys/SSC_Amb && echo $TMP_FAIL_GSD > $SAGE/$tmp_arq_dir/TMP_FAIL_GSD.txt
+
+# Verifica boot do SAGE habilitado
+cd $SAGE
+cd ..
+if (-e .xsession) then
+     ls -la .xsession > $SAGE/$tmp_arq_dir/Boot_SAGE_ou_Linux.txt
+endif
+
+#  Fuso Horario
+if (-e /etc/timezone) then
+    cp -f /etc/timezone $SAGE/$tmp_arq_dir/
+endif
+
+# Verifica configuração do Horario de Verão
+cd $SAGE
+if (-e $SAGE/drivers/.sagetz) then
+    cat $SAGE/drivers/.sagetz > $SAGE/$tmp_arq_dir/Horario_de_verao.txt
+endif
+
+# Verifica qual servidor é HOT qual é Stand-by
+psax | grep alr > $SAGE/$tmp_arq_dir/Hot_Standby.txt
+
+# Procurar por arquivos grandes no $LOG (> 50MB)
+find $LOG -size +50M > $SAGE/$tmp_arq_dir/arquivos_grande_LOG.txt
+
+# Quem está logado e ultimo boot
+who -a > $SAGE/$tmp_arq_dir/Usuarios_logado_ultimo_boot.txt
+
+# Ultimos comandos executados
+history > $SAGE/$tmp_arq_dir/history.txt
+
+# Tamanho do history
+echo $history > $SAGE/$tmp_arq_dir/tamanho_history.txt
+
+# Verifica sincronismo - ntp.conf
+ntpq -p > $SAGE/$tmp_arq_dir/processo_ntpd.txt
+
+# Arquivo logrotate
+cp -f /etc/logrotate.conf $SAGE/$tmp_arq_dir/
+
+# Arquivo ntp.conf
+cp -f /etc/ntp.conf $SAGE/$tmp_arq_dir/
+
+# Arquivo chrony.conf
+cp -f /etc/chrony.conf $SAGE/$tmp_arq_dir/
+
+# Verifica sincronismo - chrony.conf
+chronyc sources -v > $SAGE/$tmp_arq_dir/processo_chrony.txt
+
+#  informacoes sobre o processador
+cp -f /proc/cpuinfo $SAGE/$tmp_arq_dir/
+
+#  informacoes sobre a memoria
+free -tm > $SAGE/$tmp_arq_dir/memoria.txt
+cp -f /proc/meminfo $SAGE/$tmp_arq_dir/
+
+#  informacoes sobre os HDs
+df -h > $SAGE/$tmp_arq_dir/HDs.txt
+
+#  informacoes sobre o hardware
+echo "" > $SAGE/$tmp_arq_dir/pciinfo
+echo "--- Informacoes Genericas sobre o hardware" >> $SAGE/$tmp_arq_dir/pciinfo
+echo "" >> $SAGE/$tmp_arq_dir/pciinfo
+lspci >> $SAGE/$tmp_arq_dir/pciinfo
+
+echo "" >> $SAGE/$tmp_arq_dir/pciinfo
+echo "--- Informacoes Detalhadas sobre o hardware" >> $SAGE/$tmp_arq_dir/pciinfo
+echo "" >> $SAGE/$tmp_arq_dir/pciinfo
+lspci -v >> $SAGE/$tmp_arq_dir/pciinfo
+
+#  informacoes sobre as configuracoes de todas as placas de rede
+cp -f /etc/sysconfig/network-scripts/ifcfg-* $SAGE/$tmp_arq_dir/
+
+#  informacoes sobre as configuracoes de todas as rotas
+if ( `find /etc/sysconfig/network-scripts/ -name "route*" | wc -l` >= "1" ) then
+	cp -f /etc/sysconfig/network-scripts/route-* $SAGE/$tmp_arq_dir/
+endif
+
+# ifconfig
+ifconfig -a > $SAGE/$tmp_arq_dir/ifconfig.txt
+
+# rotas
+route > $SAGE/$tmp_arq_dir/route.txt
+
+#  copia arquivo de hosts
+cp -f /etc/hosts $SAGE/$tmp_arq_dir/
+
+#  arquivo informativo dos updates instalados
+cat $SAGE/.upd* > $SAGE/$tmp_arq_dir/updates_instalados.txt
+
+#  pacotes rpm instalados
+rpm -qa > $SAGE/$tmp_arq_dir/pacotes_instalados.txt
+
+# copia configuracao do arquivo de servidor grafico
+[ -f /etc/X11/xorg.conf ] && cp -f /etc/X11/xorg.conf $SAGE/$tmp_arq_dir/
+[ -f /etc/X11/XF86Config ] && cp -f /etc/X11/XF86Config $SAGE/$tmp_arq_dir/
+
+# copia log de mensagens do kernel
+dmesg > $SAGE/$tmp_arq_dir/dmesg.txt
+
+# Versao do Linux
+uname -a > $SAGE/$tmp_arq_dir/Plataforma_32_ou_64bits.txt
+
+# Versao do CentOS
+cat /etc/redhat-release > $SAGE/$tmp_arq_dir/CentOS_release.txt
+
+# copia modules.conf e/ou modprobe.conf
+[ -f /etc/modules.conf ] && cp -f /etc/modules.conf $SAGE/$tmp_arq_dir/
+[ -f /etc/modprobe.conf ] && cp -f /etc/modprobe.conf $SAGE/$tmp_arq_dir/
+
+# copia o arquivo rc.local
+[ -f /etc/rc.local ] && cp -f /etc/rc.local $SAGE/$tmp_arq_dir/
+
+#----------------------------------------------------------
+sleep 1
+echo "Coletando unix.log (messages)"
+echo ""
+
+cp -f /var/log/messages* $SAGE/$tmp_arq_dir/
+
+#----------------------------------------------------------
+sleep 1
+echo "Coletando arquivos de log de alarmes, eventos e auditagem"
+echo ""
+
+find $ARQS/*.alr $ARQS/*.sde $ARQS/*.aud -mtime -360 | xargs tar cfz $SAGE/$tmp_arq_dir/arqs.tar.gz -P
+
+#----------------------------------------------------------
+sleep 1
+echo "Criando backup geral da base $BASE "
+echo ""
+
+if (-e "$nome_arq_geral".tar.bz2) then
+   \rm -fr "$nome_arq_geral".tar.bz2
+endif
+
+#----------------------------------------------------------
+#--------- cria arquivo tar com itens dependentes ---------
+#----------------------------------------------------------
+
+echo "- [01] Adicionando diretorio bd/$MODELO"
+tar $OPC_TAR "$nome_arq_geral".tar $EXCLUSOES ./bd/$MODELO
+
+echo "- [02] Adicionando diretorio config/$BASE/bd"
+tar $OPC_TAR "$nome_arq_geral".tar $EXCLUSOES ./config/$BASE/bd
+
+echo "- [03] Adicionando diretorio config/$BASE/ihm"
+tar $OPC_TAR "$nome_arq_geral".tar $EXCLUSOES ./config/$BASE/ihm
+
+echo "- [04] Adicionando diretorio config/$BASE/simul"
+tar $OPC_TAR "$nome_arq_geral".tar $EXCLUSOES ./config/$BASE/simul
+
+echo "- [05] Adicionando diretorio config/$BASE/sys"
+tar $OPC_TAR "$nome_arq_geral".tar $EXCLUSOES ./config/$BASE/sys
+
+echo "- [06] Adicionando diretorio config/$BASE/log"
+tar $OPC_TAR "$nome_arq_geral".tar $EXCLUSOES ./config/$BASE/log
+
+echo "- [07] Adicionando diretorio config/$BASE/telas"
+tar $OPC_TAR "$nome_arq_geral".tar $EXCLUSOES ./config/$BASE/telas
+
+echo "- [08] Adicionando diretorio calculos/$BASE"
+tar $OPC_TAR "$nome_arq_geral".tar $EXCLUSOES ./calculos/$BASE
+
+echo "- [09] Adicionando diretorio config/$BASE/sti"
+tar $OPC_TAR "$nome_arq_geral".tar $EXCLUSOES ./config/$BASE/sti
+
+echo "- [10] Adicionando diretorio $tmp_arq_dir"
+tar $OPC_TAR "$nome_arq_geral".tar $EXCLUSOES ./$tmp_arq_dir
+
+#----------------------------------------------------------
+#------ comprime o arquivo de resultado -------------------
+#----------------------------------------------------------
+echo ""
+echo "Aguarde enquanto o arquivo esta sendo compactado com o bzip2."
+echo ""
+bzip2 "$nome_arq_geral".tar
+ls -lh "$nome_arq_geral".tar.bz2
+
+#  Remove diretorio temporario para guardar os arquivos de
+#+ de configuracao da maquina.
+rm -rf $SAGE/$tmp_arq_dir
+
+#----------------------------------------------------------
+#------------------ notifica fim da criacao ---------------
+#----------------------------------------------------------
+echo ""
+echo "Fim da criacao do backup geral SAGE base $BASE"
+echo ""
+
+exit 

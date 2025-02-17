@@ -1,0 +1,839 @@
+﻿Data Apontamento;Nome Colaborador;Disciplina;Total Horas;Código do Projeto;Descrição da Atividade
+01/07/2023;CLEBER UILIAM ALVES;Controle/Supervisão;01:58:00;PCS_20_305;TAC_Controle_SAGE
+01/07/2023;FELIPE PEREIRA SILVA;Proteção/Controle;02:45:00;PCS_20_305;TAC_Proteção_SIP5
+03/07/2023;ERICK DUARTE FAULA BOY-INATIVO-;Estudo Seletividade;04:00:00;PCS_20_307;Configuração_Proteção_SIP5
+03/07/2023;ERICK DUARTE FAULA BOY-INATIVO-;Estudo Seletividade;05:00:00;PCS_20_307;Configuração_Proteção_SIP5
+03/07/2023;FELIPE PEREIRA SILVA;Proteção/Controle;03:30:00;PCS_20_305;TAC_Proteção_SIP5
+03/07/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:00:00;PCS_20_305;TAC_Proteção_SIP5
+03/07/2023;GABRIEL FREITAS;Proteção/Controle;02:00:00;PCS_20_307;TAC_Proteção_SIP5
+03/07/2023;GABRIEL FREITAS;Proteção/Controle;00:30:00;PCS_20_307;TAC_Proteção_SIP5
+03/07/2023;GABRIEL FREITAS;Proteção/Controle;01:00:00;PCS_20_307;TAC_Proteção_SIP5
+03/07/2023;GABRIEL FREITAS;Proteção/Controle;05:30:00;PCS_20_307;TAC_Proteção_SIP5
+03/07/2023;GUSTAVO ZANI-INATIVO-;Controle/Supervisão;04:00:00;PCS_20_307;TAF_Controle_SAGE
+03/07/2023;GUSTAVO ZANI-INATIVO-;Controle/Supervisão;05:00:00;PCS_20_307;TAF_Controle_SAGE
+03/07/2023;HENRIQUE TAKEMURA;Projetista;03:00:00;PCS_20_304;Documentação
+03/07/2023;HENRIQUE TAKEMURA;Projetista;05:00:00;PCS_20_304;Documentação
+03/07/2023;Leonardo Montevechi Pereira;Controle/Supervisão;04:00:00;PCS_20_307;TAC_Controle_SAGE
+03/07/2023;Leonardo Montevechi Pereira;Controle/Supervisão;05:00:00;PCS_20_307;TAC_Controle_SAGE
+03/07/2023;RAFAEL GARCIA;Projetista;01:00:00;PCS_20_305;Documentação
+03/07/2023;RAFAEL GARCIA;Projetista;02:30:00;PCS_20_305;Documentação
+03/07/2023;RAFAEL GARCIA;Projetista;05:00:00;PCS_20_305;Documentação
+03/07/2023;ROBSON EGIDIO TEODORO;Proteção/Controle;04:00:00;PCS_20_297;Configuração_Proteção_SIP5
+03/07/2023;ROBSON EGIDIO TEODORO;Proteção/Controle;05:00:00;PCS_20_297;Configuração_Proteção_SIP5
+04/07/2023;Bruno Pereira;Projetista;02:00:00;PCS_20_304;Documentação
+04/07/2023;Bruno Pereira;Projetista;01:07:00;PCS_20_304;Documentação
+04/07/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:00:00;PCS_20_305;TAC_Proteção_SIP5
+04/07/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_297;TAF_Proteção_SIP5
+04/07/2023;GABRIEL FREITAS;Proteção/Controle;04:00:00;PCS_20_307;TAC_Proteção_SIP5
+04/07/2023;GABRIEL FREITAS;Proteção/Controle;06:30:00;PCS_20_307;TAC_Proteção_SIP5
+04/07/2023;GABRIEL FREITAS;Proteção/Controle;00:19:00;PCS_20_307;TAC_Proteção_SIP5
+04/07/2023;GABRIEL FREITAS;Proteção/Controle;00:19:00;PCS_20_307;TAC_Proteção_SIP5
+04/07/2023;GUSTAVO ZANI-INATIVO-;Controle/Supervisão;04:00:00;PCS_20_307;TAF_Controle_SAGE
+04/07/2023;GUSTAVO ZANI-INATIVO-;Controle/Supervisão;05:00:00;PCS_20_307;TAF_Controle_SAGE
+04/07/2023;HENRIQUE TAKEMURA;Projetista;04:00:00;PCS_20_304;Documentação
+04/07/2023;HENRIQUE TAKEMURA;Projetista;05:00:00;PCS_20_304;Documentação
+04/07/2023;Leonardo Montevechi Pereira;Controle/Supervisão;04:00:00;PCS_20_307;TAC_Controle_SAGE
+04/07/2023;Leonardo Montevechi Pereira;Controle/Supervisão;06:33:00;PCS_20_307;TAC_Controle_SAGE
+04/07/2023;RAFAEL GARCIA;Projetista;05:00:00;PCS_20_305;Documentação
+04/07/2023;RAFAEL GARCIA;Projetista;04:00:00;PCS_20_305;Documentação
+04/07/2023;RICARDO DOS SANTOS REIS;Projetista;01:19:00;PCS_20_305;Documentação
+04/07/2023;RICARDO DOS SANTOS REIS;Projetista;01:30:00;PCS_20_304;Documentação
+04/07/2023;RICARDO DOS SANTOS REIS;Projetista;01:55:00;PCS_20_307;Documentação
+05/07/2023;Bruno Pereira;Projetista;02:39:00;PCS_20_304;Documentação
+05/07/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:43:00;PCS_20_297;TAF_Proteção_SIP5
+05/07/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:00:00;PCS_20_297;TAF_Proteção_SIP5
+05/07/2023;GABRIEL FREITAS;Proteção/Controle;10:40:00;PCS_20_307;TAC_Proteção_SIP5
+05/07/2023;GABRIEL FREITAS;Proteção/Controle;00:19:00;PCS_20_307;TAC_Proteção_SIP5
+05/07/2023;GABRIEL FREITAS;Proteção/Controle;00:19:00;PCS_20_307;TAC_Proteção_SIP5
+05/07/2023;HENRIQUE TAKEMURA;Projetista;09:00:00;PCS_20_304;Documentação
+05/07/2023;Leonardo Montevechi Pereira;Controle/Supervisão;04:01:00;PCS_20_307;TAC_Controle_SAGE
+05/07/2023;Leonardo Montevechi Pereira;Controle/Supervisão;06:01:00;PCS_20_307;TAC_Controle_SAGE
+05/07/2023;RAFAEL GARCIA;Projetista;04:00:00;PCS_20_305;Documentação
+05/07/2023;RAFAEL GARCIA;Projetista;05:00:00;PCS_20_305;Documentação
+05/07/2023;RICARDO DOS SANTOS REIS;Projetista;01:30:00;PCS_20_305;Documentação
+05/07/2023;RICARDO DOS SANTOS REIS;Projetista;03:00:00;PCS_20_307;Documentação
+05/07/2023;RICARDO DOS SANTOS REIS;Projetista;01:00:00;PCS_20_307;Documentação
+05/07/2023;ROBSON EGIDIO TEODORO;Proteção/Controle;04:00:00;PCS_20_297;Configuração_Proteção_SIP5
+05/07/2023;ROBSON EGIDIO TEODORO;Proteção/Controle;05:00:00;PCS_20_297;Configuração_Proteção_SIP5
+06/07/2023;GABRIEL FREITAS;Proteção/Controle;04:00:00;PCS_20_307;TAC_Proteção_SIP5
+06/07/2023;GABRIEL FREITAS;Proteção/Controle;05:10:00;PCS_20_307;TAC_Proteção_SIP5
+06/07/2023;GABRIEL FREITAS;Proteção/Controle;00:19:00;PCS_20_307;TAC_Proteção_SIP5
+06/07/2023;GABRIEL FREITAS;Proteção/Controle;00:19:00;PCS_20_307;TAC_Proteção_SIP5
+06/07/2023;Leonardo Montevechi Pereira;Controle/Supervisão;04:00:00;PCS_20_307;TAC_Controle_SAGE
+06/07/2023;Leonardo Montevechi Pereira;Controle/Supervisão;04:58:00;PCS_20_307;TAC_Controle_SAGE
+06/07/2023;RAFAEL GARCIA;Projetista;04:00:00;PCS_20_305;Documentação
+06/07/2023;RAFAEL GARCIA;Projetista;05:00:00;PCS_20_305;Documentação
+06/07/2023;RICARDO DOS SANTOS REIS;Projetista;00:45:00;PCS_20_304;Documentação
+07/07/2023;GABRIEL FREITAS;Proteção/Controle;04:00:00;PCS_20_307;TAC_Proteção_SIP5
+07/07/2023;GABRIEL FREITAS;Proteção/Controle;07:00:00;PCS_20_307;TAC_Proteção_SIP5
+07/07/2023;GABRIEL FREITAS;Proteção/Controle;00:19:00;PCS_20_307;TAC_Proteção_SIP5
+07/07/2023;GABRIEL FREITAS;Proteção/Controle;00:19:00;PCS_20_307;TAC_Proteção_SIP5
+07/07/2023;Leonardo Montevechi Pereira;Controle/Supervisão;04:01:00;PCS_20_307;TAC_Controle_SAGE
+07/07/2023;Leonardo Montevechi Pereira;Controle/Supervisão;07:01:00;PCS_20_307;TAC_Controle_SAGE
+07/07/2023;RAFAEL GARCIA;Projetista;04:00:00;PCS_20_305;Documentação
+07/07/2023;RAFAEL GARCIA;Projetista;04:00:00;PCS_20_305;Documentação
+07/07/2023;RICARDO DOS SANTOS REIS;Projetista;01:00:00;PCS_20_305;Documentação
+08/07/2023;RAFAEL RIUL MANFRIN-INATIVO-;Proteção/Controle;01:00:00;PCS_20_307;TAC_Proteção_SIP5
+09/07/2023;GABRIEL FREITAS;Proteção/Controle;04:00:00;PCS_20_307;TAC_Proteção_SIP5
+09/07/2023;GABRIEL FREITAS;Proteção/Controle;03:00:00;PCS_20_307;TAC_Proteção_SIP5
+09/07/2023;GABRIEL FREITAS;Proteção/Controle;00:19:00;PCS_20_307;TAC_Proteção_SIP5
+09/07/2023;GABRIEL FREITAS;Proteção/Controle;05:00:00;PCS_20_307;TAC_Proteção_SIP5
+09/07/2023;Leonardo Montevechi Pereira;Controle/Supervisão;04:00:00;PCS_20_307;TAC_Controle_SAGE
+09/07/2023;Leonardo Montevechi Pereira;Controle/Supervisão;05:00:00;PCS_20_307;TAC_Controle_SAGE
+09/07/2023;Leonardo Montevechi Pereira;Controle/Supervisão;02:28:00;PCS_20_307;TAC_Controle_SAGE
+10/07/2023;GABRIEL FREITAS;Proteção/Controle;04:00:00;PCS_20_307;TAC_Proteção_SIP5
+10/07/2023;HENRIQUE TAKEMURA;Projetista;03:00:00;PCS_20_304;Documentação
+10/07/2023;RAFAEL GARCIA;Projetista;01:00:00;PCS_20_305;Documentação
+10/07/2023;RAFAEL GARCIA;Projetista;02:30:00;PCS_20_305;Documentação
+10/07/2023;RAFAEL GARCIA;Projetista;05:00:00;PCS_20_305;Documentação
+10/07/2023;RICARDO DOS SANTOS REIS;Projetista;00:30:00;PCS_20_305;Documentação
+10/07/2023;WILLIAM GUABIRABA DE CAMPOS;Projetista;01:00:00;PCS_20_324 - SIEMENS;Documentação
+11/07/2023;HENRIQUE TAKEMURA;Projetista;09:00:00;PCS_20_304;Documentação
+11/07/2023;RAFAEL GARCIA;Projetista;04:00:00;PCS_20_305;Documentação
+11/07/2023;RAFAEL GARCIA;Projetista;05:00:00;PCS_20_305;Documentação
+11/07/2023;RICARDO DOS SANTOS REIS;Projetista;00:30:00;PCS_20_305;Documentação
+12/07/2023;HENDERSON NOGUEIRA;Projetista;01:30:00;PCS_20_307;Documentação
+12/07/2023;HENDERSON NOGUEIRA;Projetista;01:00:00;PCS_20_307;Documentação
+12/07/2023;HENDERSON NOGUEIRA;Projetista;02:00:00;PCS_20_307;Documentação
+12/07/2023;HENRIQUE TAKEMURA;Projetista;01:00:00;PCS_20_304;Documentação
+12/07/2023;HENRIQUE TAKEMURA;Projetista;05:00:00;PCS_20_304;Documentação
+12/07/2023;RAFAEL GARCIA;Projetista;04:00:00;PCS_20_305;Documentação
+12/07/2023;RAFAEL GARCIA;Projetista;05:00:00;PCS_20_305;Documentação
+12/07/2023;RICARDO DOS SANTOS REIS;Projetista;00:30:00;PCS_20_305;Documentação
+13/07/2023;RICARDO DOS SANTOS REIS;Projetista;00:19:00;PCS_20_307;Documentação
+13/07/2023;STEFANO DA CRUZ;Proteção/Controle;01:30:00;PCS_20_305;Configuração_Proteção_SIP5
+13/07/2023;STEFANO DA CRUZ;Proteção/Controle;02:00:00;PCS_20_305;Configuração_Proteção_SIP5
+13/07/2023;STEFANO DA CRUZ;Proteção/Controle;02:58:00;PCS_20_305;Configuração_Proteção_SIP5
+13/07/2023;STEFANO DA CRUZ;Proteção/Controle;01:30:00;PCS_20_305;Configuração_Proteção_SIP5
+14/07/2023;HENDERSON NOGUEIRA;Projetista;03:00:00;PCS_20_307;Documentação
+14/07/2023;HENDERSON NOGUEIRA;Projetista;02:00:00;PCS_20_307;Documentação
+14/07/2023;HENDERSON NOGUEIRA;Projetista;01:00:00;PCS_20_307;Documentação
+14/07/2023;RICARDO DOS SANTOS REIS;Projetista;00:30:00;PCS_20_307;Documentação
+14/07/2023;STEFANO DA CRUZ;Proteção/Controle;01:00:00;PCS_20_305;Configuração_Proteção_SIP5
+14/07/2023;STEFANO DA CRUZ;Proteção/Controle;02:30:00;PCS_20_305;Configuração_Proteção_SIP5
+14/07/2023;STEFANO DA CRUZ;Proteção/Controle;00:30:00;PCS_20_305;Configuração_Proteção_SIP5
+14/07/2023;STEFANO DA CRUZ;Proteção/Controle;02:00:00;PCS_20_305;Configuração_Proteção_SIP5
+17/07/2023;HENDERSON NOGUEIRA;Projetista;01:00:00;PCS_20_307;Documentação
+17/07/2023;HENDERSON NOGUEIRA;Projetista;00:55:00;PCS_20_307;Documentação
+17/07/2023;RICARDO DOS SANTOS REIS;Projetista;01:00:00;PCS_20_307;Documentação
+17/07/2023;RICARDO DOS SANTOS REIS;Projetista;01:30:00;PCS_20_305;Documentação
+17/07/2023;RICARDO DOS SANTOS REIS;Projetista;01:00:00;PCS_20_307;Documentação
+21/07/2023;BRUNO FERREIRA;Técnico Eletricista;00:00:00;PCS_20_307;Montagem_Campo
+21/07/2023;Bruno Pereira;Projetista;00:00:00;PCS_20_304;Documentação
+21/07/2023;CLEBER UILIAM ALVES;Controle/Supervisão;00:00:00;PCS_20_305;TAC_Controle_SAGE
+21/07/2023;CLEBER UILIAM ALVES;Controle/Supervisão;00:00:00;PCS_20_307;TAC_Controle_SAGE
+21/07/2023;FELIPE PEREIRA SILVA;Proteção/Controle;00:00:00;PCS_20_305;TAC_Proteção_SIP5
+21/07/2023;HENRIQUE TAKEMURA;Projetista;00:00:00;PCS_20_304;Documentação
+21/07/2023;Leonardo Montevechi Pereira;Controle/Supervisão;00:00:00;PCS_20_307;Configuração_Controle_SAGE
+21/07/2023;Lucas Assunção;Técnico Eletricista;00:00:00;PCS_20_307;Montagem_Campo
+21/07/2023;RAFAEL GARCIA;Projetista;00:00:00;PCS_20_305;Documentação
+21/07/2023;RAFAEL SILVEIRA-INATIVO-;Eletricista;00:00:00;PCS_20_305;Montagem_Campo
+21/07/2023;RICARDO DOS SANTOS REIS;Projetista;00:00:00;PCS_20_304;Documentação
+21/07/2023;RICARDO DOS SANTOS REIS;Projetista;00:00:00;PCS_20_305;Documentação
+21/07/2023;Rodrigo Cassino de Almeida;Proteção/Controle;04:00:00;PCS_20_297;TAF_Proteção_SIP5
+21/07/2023;Rodrigo Cassino de Almeida;Proteção/Controle;05:00:00;PCS_20_297;TAF_Proteção_SIP5
+21/07/2023;STEFANO DA CRUZ;Proteção/Controle;00:00:00;PCS_20_307;Configuração_Proteção_SIP5
+21/07/2023;WILLIAM GUABIRABA DE CAMPOS;Projetista;00:00:00;PCS_20_324 - SIEMENS;Documentação
+24/07/2023;Bruno Pereira;Projetista;00:42:00;PCS_20_304;Documentação
+24/07/2023;CLEBER UILIAM ALVES;Controle/Supervisão;06:30:00;PCS_20_305;TAC_Controle_SAGE
+24/07/2023;CLEBER UILIAM ALVES;Controle/Supervisão;05:00:00;PCS_20_305;TAC_Controle_SAGE
+24/07/2023;FELIPE PEREIRA SILVA;Proteção/Controle;07:00:00;PCS_20_305;TAC_Proteção_SIP5
+24/07/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:00:00;PCS_20_305;TAC_Proteção_SIP5
+24/07/2023;HENRIQUE TAKEMURA;Projetista;01:00:00;PCS_20_304;Documentação
+24/07/2023;RAFAEL SILVEIRA-INATIVO-;Eletricista;04:00:00;PCS_20_305;Montagem_Campo
+24/07/2023;RAFAEL SILVEIRA-INATIVO-;Eletricista;05:00:00;PCS_20_305;Montagem_Campo
+24/07/2023;Rodrigo Cassino de Almeida;Proteção/Controle;04:00:00;PCS_20_297;TAF_Proteção_SIP5
+24/07/2023;Rodrigo Cassino de Almeida;Proteção/Controle;05:00:00;PCS_20_297;TAF_Proteção_SIP5
+25/07/2023;Bruno Pereira;Projetista;02:15:00;PCS_20_304;Documentação
+25/07/2023;Bruno Pereira;Projetista;00:30:00;PCS_20_304;Documentação
+25/07/2023;Bruno Pereira;Projetista;00:48:00;PCS_20_304;Documentação
+25/07/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_305;TAC_Controle_SAGE
+25/07/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_305;TAC_Controle_SAGE
+25/07/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_305;TAC_Proteção_SIP5
+25/07/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_305;TAC_Proteção_SIP5
+25/07/2023;RAFAEL SILVEIRA-INATIVO-;Eletricista;04:00:00;PCS_20_305;Montagem_Campo
+25/07/2023;RAFAEL SILVEIRA-INATIVO-;Eletricista;05:00:00;PCS_20_305;Montagem_Campo
+25/07/2023;Rodrigo Cassino de Almeida;Proteção/Controle;05:00:00;PCS_20_297;TAF_Proteção_SIP5
+25/07/2023;Rodrigo Cassino de Almeida;Proteção/Controle;04:00:00;PCS_20_297;TAF_Proteção_SIP5
+25/07/2023;WILLIAM GUABIRABA DE CAMPOS;Projetista;02:00:00;PCS_20_324 - SIEMENS;Documentação
+26/07/2023;Bruno Pereira;Projetista;01:04:00;PCS_20_304;Documentação
+26/07/2023;Bruno Pereira;Projetista;02:30:00;PCS_20_304;Documentação
+26/07/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_305;TAC_Controle_SAGE
+26/07/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_305;TAC_Controle_SAGE
+26/07/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_305;TAC_Proteção_SIP5
+26/07/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_305;TAC_Proteção_SIP5
+26/07/2023;HENRIQUE TAKEMURA;Projetista;02:00:00;PCS_20_304;Documentação
+26/07/2023;RAFAEL SILVEIRA-INATIVO-;Eletricista;05:00:00;PCS_20_305;Montagem_Campo
+26/07/2023;RAFAEL SILVEIRA-INATIVO-;Eletricista;04:00:00;PCS_20_305;Montagem_Campo
+26/07/2023;Rodrigo Cassino de Almeida;Proteção/Controle;05:00:00;PCS_20_297;TAF_Proteção_SIP5
+26/07/2023;Rodrigo Cassino de Almeida;Proteção/Controle;04:00:00;PCS_20_297;TAF_Proteção_SIP5
+27/07/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_305;TAC_Controle_SAGE
+27/07/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_305;TAC_Controle_SAGE
+27/07/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_305;TAC_Proteção_SIP5
+27/07/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_305;TAC_Proteção_SIP5
+27/07/2023;HENRIQUE TAKEMURA;Projetista;02:00:00;PCS_20_304;Documentação
+27/07/2023;Rodrigo Cassino de Almeida;Proteção/Controle;04:00:00;PCS_20_297;TAF_Proteção_SIP5
+27/07/2023;Rodrigo Cassino de Almeida;Proteção/Controle;05:00:00;PCS_20_297;TAF_Proteção_SIP5
+28/07/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_305;TAC_Controle_SAGE
+28/07/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_305;TAC_Controle_SAGE
+28/07/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_305;TAC_Proteção_SIP5
+28/07/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_305;TAC_Proteção_SIP5
+28/07/2023;HENRIQUE TAKEMURA;Projetista;02:00:00;PCS_20_304;Documentação
+28/07/2023;RICARDO DOS SANTOS REIS;Projetista;00:15:00;PCS_20_305;Documentação
+28/07/2023;Rodrigo Cassino de Almeida;Proteção/Controle;05:00:00;PCS_20_297;TAF_Proteção_SIP5
+28/07/2023;Rodrigo Cassino de Almeida;Proteção/Controle;04:00:00;PCS_20_297;TAF_Proteção_SIP5
+31/07/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_305;TAC_Controle_SAGE
+31/07/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_305;TAC_Controle_SAGE
+31/07/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_305;TAC_Proteção_SIP5
+31/07/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_305;TAC_Proteção_SIP5
+31/07/2023;HENRIQUE TAKEMURA;Projetista;02:00:00;PCS_20_304;Documentação
+31/07/2023;RICARDO DOS SANTOS REIS;Projetista;01:30:00;PCS_20_304;Documentação
+31/07/2023;Rodrigo Cassino de Almeida;Proteção/Controle;04:00:00;PCS_20_297;TAF_Proteção_SIP5
+31/07/2023;Rodrigo Cassino de Almeida;Proteção/Controle;05:00:00;PCS_20_297;TAF_Proteção_SIP5
+01/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_305;TAC_Controle_SAGE
+01/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_305;TAC_Controle_SAGE
+01/08/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_305;TAC_Proteção_SIP5
+01/08/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_305;TAC_Proteção_SIP5
+01/08/2023;Leonardo Montevechi Pereira;Controle/Supervisão;05:30:00;PCS_20_307;Configuração_Controle_SAGE
+01/08/2023;RAFAEL GARCIA;Projetista;02:00:00;PCS_20_305;Documentação
+01/08/2023;RAFAEL GARCIA;Projetista;05:00:00;PCS_20_305;Documentação
+01/08/2023;RICARDO DOS SANTOS REIS;Projetista;01:30:00;PCS_20_305;Documentação
+01/08/2023;Rodrigo Cassino de Almeida;Proteção/Controle;05:00:00;PCS_20_297;TAF_Proteção_SIP5
+01/08/2023;Rodrigo Cassino de Almeida;Proteção/Controle;04:00:00;PCS_20_297;TAF_Proteção_SIP5
+02/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_305;TAC_Controle_SAGE
+02/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_305;TAC_Controle_SAGE
+02/08/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_305;TAC_Proteção_SIP5
+02/08/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_305;TAC_Proteção_SIP5
+02/08/2023;Leonardo Montevechi Pereira;Controle/Supervisão;04:00:00;PCS_20_307;Configuração_Controle_SAGE
+02/08/2023;Leonardo Montevechi Pereira;Controle/Supervisão;05:00:00;PCS_20_307;Configuração_Controle_SAGE
+02/08/2023;RAFAEL GARCIA;Projetista;04:00:00;PCS_20_305;Documentação
+02/08/2023;RAFAEL GARCIA;Projetista;05:00:00;PCS_20_305;Documentação
+02/08/2023;RICARDO DOS SANTOS REIS;Projetista;01:30:00;PCS_20_305;Documentação
+02/08/2023;Rodrigo Cassino de Almeida;Proteção/Controle;04:00:00;PCS_20_297;TAF_Proteção_SIP5
+02/08/2023;Rodrigo Cassino de Almeida;Proteção/Controle;05:00:00;PCS_20_297;TAF_Proteção_SIP5
+03/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_305;TAC_Controle_SAGE
+03/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:15:00;PCS_20_305;TAC_Controle_SAGE
+03/08/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_305;TAC_Proteção_SIP5
+03/08/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_305;TAC_Proteção_SIP5
+03/08/2023;Leonardo Montevechi Pereira;Controle/Supervisão;03:57:00;PCS_20_307;Configuração_Controle_SAGE
+03/08/2023;Leonardo Montevechi Pereira;Controle/Supervisão;05:02:00;PCS_20_307;Configuração_Controle_SAGE
+03/08/2023;RAFAEL GARCIA;Projetista;04:00:00;PCS_20_305;Documentação
+03/08/2023;RAFAEL GARCIA;Projetista;02:30:00;PCS_20_305;Documentação
+03/08/2023;RICARDO DOS SANTOS REIS;Projetista;01:30:00;PCS_20_305;Documentação
+04/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_305;TAC_Controle_SAGE
+04/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_305;TAC_Controle_SAGE
+04/08/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_305;TAC_Proteção_SIP5
+04/08/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_305;TAC_Proteção_SIP5
+04/08/2023;Leonardo Montevechi Pereira;Controle/Supervisão;04:01:00;PCS_20_307;Configuração_Controle_SAGE
+04/08/2023;Leonardo Montevechi Pereira;Controle/Supervisão;03:58:00;PCS_20_307;Configuração_Controle_SAGE
+07/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_305;TAC_Controle_SAGE
+07/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;01:00:00;PCS_20_305;TAC_Controle_SAGE
+07/08/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_305;TAC_Proteção_SIP5
+07/08/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_305;TAC_Proteção_SIP5
+07/08/2023;Leonardo Montevechi Pereira;Controle/Supervisão;03:57:00;PCS_20_307;Configuração_Controle_SAGE
+07/08/2023;Leonardo Montevechi Pereira;Controle/Supervisão;05:01:00;PCS_20_307;Configuração_Controle_SAGE
+08/08/2023;Bruno Pereira;Projetista;00:19:00;PCS_20_304;Documentação
+08/08/2023;Bruno Pereira;Projetista;01:00:00;PCS_20_304;Documentação
+08/08/2023;Bruno Pereira;Projetista;05:10:00;PCS_20_304;Documentação
+08/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;06:00:00;PCS_20_305;TAC_Controle_SAGE
+08/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:15:00;PCS_20_305;TAC_Controle_SAGE
+08/08/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_305;TAC_Proteção_SIP5
+08/08/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_305;TAC_Proteção_SIP5
+08/08/2023;Leonardo Montevechi Pereira;Controle/Supervisão;04:01:00;PCS_20_307;Configuração_Controle_SAGE
+08/08/2023;Leonardo Montevechi Pereira;Controle/Supervisão;04:58:00;PCS_20_307;Configuração_Controle_SAGE
+09/08/2023;Bruno Pereira;Projetista;01:00:00;PCS_20_304;Documentação
+09/08/2023;Bruno Pereira;Projetista;01:30:00;PCS_20_304;Documentação
+09/08/2023;Bruno Pereira;Projetista;01:00:00;PCS_20_304;Documentação
+09/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:15:00;PCS_20_305;TAC_Controle_SAGE
+09/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_305;TAC_Controle_SAGE
+09/08/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_305;TAC_Proteção_SIP5
+09/08/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_305;TAC_Proteção_SIP5
+09/08/2023;RAFAEL GARCIA;Projetista;05:00:00;PCS_20_305;Documentação
+10/08/2023;Bruno Pereira;Projetista;01:25:00;PCS_20_304;Documentação
+10/08/2023;Bruno Pereira;Projetista;00:30:00;PCS_20_304;Documentação
+10/08/2023;Bruno Pereira;Projetista;01:00:00;PCS_20_304;Documentação
+10/08/2023;Bruno Pereira;Projetista;01:10:00;PCS_20_304;Documentação
+10/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;05:00:00;PCS_20_305;TAC_Controle_SAGE
+10/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_305;TAC_Controle_SAGE
+10/08/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:00:00;PCS_20_305;TAC_Proteção_SIP5
+10/08/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_305;TAC_Proteção_SIP5
+10/08/2023;RAFAEL GARCIA;Projetista;01:00:00;PCS_20_305;Documentação
+11/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:15:00;PCS_20_305;TAC_Controle_SAGE
+11/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;06:00:00;PCS_20_305;TAC_Controle_SAGE
+11/08/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_305;TAC_Proteção_SIP5
+11/08/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_305;TAC_Proteção_SIP5
+12/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;03:00:00;PCS_20_305;TAC_Controle_SAGE
+12/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;05:30:00;PCS_20_305;TAC_Controle_SAGE
+12/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;03:00:00;PCS_20_305;TAC_Controle_SAGE
+12/08/2023;FELIPE PEREIRA SILVA;Proteção/Controle;02:30:00;PCS_20_305;TAC_Proteção_SIP5
+12/08/2023;FELIPE PEREIRA SILVA;Proteção/Controle;06:40:00;PCS_20_305;TAC_Proteção_SIP5
+14/08/2023;Bruno Pereira;Projetista;01:00:00;PCS_20_304;Documentação
+14/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:00:00;PCS_20_305;TAC_Controle_SAGE
+14/08/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:00:00;PCS_20_305;TAC_Proteção_SIP5
+14/08/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:00:00;PCS_20_305;TAC_Proteção_SIP5
+14/08/2023;HENRIQUE TAKEMURA;Projetista;04:00:00;PCS_20_304;Documentação
+14/08/2023;RICARDO DOS SANTOS REIS;Projetista;01:30:00;PCS_20_305;Documentação
+14/08/2023;STEFANO DA CRUZ;Proteção/Controle;03:01:00;PCS_20_307;Configuração_Proteção_SIP5
+16/08/2023;BRUNO FERREIRA;Técnico Eletricista;05:00:00;PCS_20_307;Montagem_Campo
+16/08/2023;BRUNO FERREIRA;Técnico Eletricista;02:30:00;PCS_20_307;Montagem_Campo
+16/08/2023;BRUNO FERREIRA;Técnico Eletricista;02:30:00;PCS_20_307;Montagem_Campo
+16/08/2023;BRUNO FERREIRA;Técnico Eletricista;01:00:00;PCS_20_307;Montagem_Campo
+16/08/2023;Bruno Pereira;Projetista;01:00:00;PCS_20_304;Documentação
+16/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;05:30:00;PCS_20_307;TAC_Controle_SAGE
+16/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;01:00:00;PCS_20_307;TAC_Controle_SAGE
+16/08/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:00:00;PCS_20_305;TAC_Proteção_SIP5
+16/08/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:00:00;PCS_20_305;TAC_Proteção_SIP5
+16/08/2023;Leonardo Montevechi Pereira;Controle/Supervisão;03:58:00;PCS_20_307;Configuração_Controle_SAGE
+16/08/2023;Leonardo Montevechi Pereira;Controle/Supervisão;05:01:00;PCS_20_307;Configuração_Controle_SAGE
+16/08/2023;Lucas Assunção;Técnico Eletricista;04:30:00;PCS_20_307;Montagem_Campo
+16/08/2023;Lucas Assunção;Técnico Eletricista;04:30:00;PCS_20_307;Montagem_Campo
+16/08/2023;STEFANO DA CRUZ;Proteção/Controle;01:00:00;PCS_20_307;Configuração_Proteção_SIP5
+16/08/2023;STEFANO DA CRUZ;Proteção/Controle;04:01:00;PCS_20_307;Configuração_Proteção_SIP5
+17/08/2023;Bruno Pereira;Projetista;01:55:00;PCS_20_304;Documentação
+17/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:00:00;PCS_20_307;TAC_Controle_SAGE
+17/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;06:30:00;PCS_20_307;TAC_Controle_SAGE
+17/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;02:30:00;PCS_20_307;TAC_Controle_SAGE
+17/08/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:00:00;PCS_20_305;TAC_Proteção_SIP5
+17/08/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:00:00;PCS_20_305;TAC_Proteção_SIP5
+17/08/2023;STEFANO DA CRUZ;Proteção/Controle;05:00:00;PCS_20_307;Configuração_Proteção_SIP5
+17/08/2023;STEFANO DA CRUZ;Proteção/Controle;04:00:00;PCS_20_307;Configuração_Proteção_SIP5
+17/08/2023;WILLIAM GUABIRABA DE CAMPOS;Projetista;01:00:00;PCS_20_324 - SIEMENS;Documentação
+18/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;06:30:00;PCS_20_307;TAC_Controle_SAGE
+18/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:00:00;PCS_20_307;TAC_Controle_SAGE
+18/08/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:00:00;PCS_20_305;TAC_Proteção_SIP5
+18/08/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:00:00;PCS_20_305;TAC_Proteção_SIP5
+19/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_307;TAC_Controle_SAGE
+19/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;06:30:00;PCS_20_307;TAC_Controle_SAGE
+20/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;06:00:00;PCS_20_307;TAC_Controle_SAGE
+20/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:00:00;PCS_20_307;TAC_Controle_SAGE
+21/08/2023;ALVARO INACIO FERREIRA NETO;Estudo Seletividade;00:00:00;PCS_20_304;Documentação
+21/08/2023;BRUNO FERREIRA;Técnico Eletricista;00:00:00;PCS_20_307;Montagem_Campo
+21/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;00:00:00;PCS_20_305;TAC_Controle_SAGE
+21/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;06:30:00;PCS_20_307;TAC_Controle_SAGE
+21/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_307;TAC_Controle_SAGE
+21/08/2023;DANIEL SANCHES DE CARVALHO;Proteção/Controle;00:00:00;PCS_20_304;Configuração_Proteção_SIP5
+21/08/2023;FELIPE PEREIRA SILVA;Proteção/Controle;00:00:00;PCS_20_305;Configuração_Proteção_SIP5
+21/08/2023;FELIPE PEREIRA SILVA;Proteção/Controle;00:00:00;PCS_20_305;TAC_Proteção_SIP5
+21/08/2023;FELIPE PEREIRA SILVA;Proteção/Controle;00:00:00;PCS_20_307;TAC_Proteção_SIP5
+21/08/2023;GABRIEL FREITAS;Proteção/Controle;00:00:00;PCS_20_307;Outros
+21/08/2023;HENDERSON NOGUEIRA;Projetista;00:00:00;PCS_20_305;Documentação
+21/08/2023;HENDERSON NOGUEIRA;Projetista;04:40:00;PCS_20_304;Documentação
+21/08/2023;HENRIQUE TAKEMURA;Projetista;00:00:00;PCS_20_304;Documentação
+21/08/2023;Leonardo Montevechi Pereira;Controle/Supervisão;00:00:00;PCS_20_305;TAC_Controle_SAGE
+21/08/2023;Lucas Assunção;Técnico Eletricista;00:00:00;PCS_20_305;Montagem_Campo
+21/08/2023;Lucas Assunção;Técnico Eletricista;00:00:00;PCS_20_307;Montagem_Campo
+21/08/2023;Pedro Fanti;Estagiário;00:00:00;PCS_20_305;Documentação
+21/08/2023;RAFAEL GARCIA;Projetista;00:00:00;PCS_20_304;Documentação
+21/08/2023;RICARDO DOS SANTOS REIS;Projetista;02:00:00;PCS_20_305;Documentação
+21/08/2023;RICARDO DOS SANTOS REIS;Projetista;01:00:00;PCS_20_304;Documentação
+21/08/2023;ROBSON EGIDIO TEODORO;Proteção/Controle;00:00:00;PCS_20_307;Documentação
+21/08/2023;Rodrigo Cassino de Almeida;Proteção/Controle;00:00:00;PCS_20_297;PréTestes_Proteção_SIP5
+21/08/2023;Rodrigo Cassino de Almeida;Proteção/Controle;00:00:00;PCS_20_297;TAF_Proteção_SIP5
+21/08/2023;WILLIAM GUABIRABA DE CAMPOS;Projetista;02:00:00;PCS_20_324 - SIEMENS;Documentação
+22/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_307;TAC_Controle_SAGE
+22/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;06:30:00;PCS_20_307;TAC_Controle_SAGE
+22/08/2023;HENDERSON NOGUEIRA;Projetista;04:00:00;PCS_20_304;Documentação
+22/08/2023;Lucas Assunção;Técnico Eletricista;05:00:00;PCS_20_307;Montagem_Campo
+22/08/2023;Lucas Assunção;Técnico Eletricista;04:00:00;PCS_20_307;Montagem_Campo
+22/08/2023;RICARDO DOS SANTOS REIS;Projetista;01:30:00;PCS_20_304;Documentação
+23/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_307;TAC_Controle_SAGE
+23/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;06:30:00;PCS_20_307;TAC_Controle_SAGE
+23/08/2023;Lucas Assunção;Técnico Eletricista;05:00:00;PCS_20_307;Montagem_Campo
+23/08/2023;Lucas Assunção;Técnico Eletricista;04:00:00;PCS_20_307;Montagem_Campo
+23/08/2023;RICARDO DOS SANTOS REIS;Projetista;01:00:00;PCS_20_304;Documentação
+23/08/2023;RICARDO DOS SANTOS REIS;Projetista;02:00:00;PCS_20_304;Documentação
+24/08/2023;BRUNO FERREIRA;Técnico Eletricista;05:00:00;PCS_20_307;Montagem_Campo
+24/08/2023;BRUNO FERREIRA;Técnico Eletricista;04:00:00;PCS_20_307;Montagem_Campo
+24/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_307;TAC_Controle_SAGE
+24/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;06:00:00;PCS_20_307;TAC_Controle_SAGE
+24/08/2023;FELIPE PEREIRA SILVA;Proteção/Controle;07:00:00;PCS_20_307;TAC_Proteção_SIP5
+24/08/2023;FELIPE PEREIRA SILVA;Proteção/Controle;02:00:00;PCS_20_307;TAC_Proteção_SIP5
+24/08/2023;FELIPE PEREIRA SILVA;Proteção/Controle;03:00:00;PCS_20_307;TAC_Proteção_SIP5
+24/08/2023;Lucas Assunção;Técnico Eletricista;05:00:00;PCS_20_307;Montagem_Campo
+24/08/2023;Lucas Assunção;Técnico Eletricista;04:00:00;PCS_20_307;Montagem_Campo
+24/08/2023;RICARDO DOS SANTOS REIS;Projetista;01:00:00;PCS_20_304;Documentação
+24/08/2023;RICARDO DOS SANTOS REIS;Projetista;01:00:00;PCS_20_304;Documentação
+25/08/2023;BRUNO FERREIRA;Técnico Eletricista;05:00:00;PCS_20_307;Montagem_Campo
+25/08/2023;BRUNO FERREIRA;Técnico Eletricista;03:00:00;PCS_20_307;Montagem_Campo
+25/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_307;TAC_Controle_SAGE
+25/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;09:00:00;PCS_20_307;TAC_Controle_SAGE
+25/08/2023;FELIPE PEREIRA SILVA;Proteção/Controle;05:00:00;PCS_20_307;TAC_Proteção_SIP5
+25/08/2023;FELIPE PEREIRA SILVA;Proteção/Controle;09:00:00;PCS_20_307;TAC_Proteção_SIP5
+25/08/2023;Lucas Assunção;Técnico Eletricista;05:00:00;PCS_20_307;Montagem_Campo
+25/08/2023;Lucas Assunção;Técnico Eletricista;04:00:00;PCS_20_307;Montagem_Campo
+25/08/2023;RICARDO DOS SANTOS REIS;Projetista;00:30:00;PCS_20_305;Documentação
+25/08/2023;RICARDO DOS SANTOS REIS;Projetista;01:30:00;PCS_20_305;Documentação
+25/08/2023;RICARDO DOS SANTOS REIS;Projetista;00:30:00;PCS_20_305;Documentação
+25/08/2023;RICARDO DOS SANTOS REIS;Projetista;01:45:00;PCS_20_304;Documentação
+25/08/2023;Rodrigo Cassino de Almeida;Proteção/Controle;05:00:00;PCS_20_297;PréTestes_Proteção_SIP5
+25/08/2023;Rodrigo Cassino de Almeida;Proteção/Controle;04:00:00;PCS_20_297;PréTestes_Proteção_SIP5
+26/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_307;TAC_Controle_SAGE
+26/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;08:30:00;PCS_20_307;TAC_Controle_SAGE
+26/08/2023;FELIPE PEREIRA SILVA;Proteção/Controle;05:00:00;PCS_20_307;TAC_Proteção_SIP5
+26/08/2023;FELIPE PEREIRA SILVA;Proteção/Controle;08:00:00;PCS_20_307;TAC_Proteção_SIP5
+27/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_307;TAC_Controle_SAGE
+27/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;08:30:00;PCS_20_307;TAC_Controle_SAGE
+27/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;02:49:00;PCS_20_307;TAC_Controle_SAGE
+27/08/2023;FELIPE PEREIRA SILVA;Proteção/Controle;10:30:00;PCS_20_307;TAC_Proteção_SIP5
+28/08/2023;BRUNO FERREIRA;Técnico Eletricista;02:30:00;PCS_20_307;Montagem_Campo
+28/08/2023;BRUNO FERREIRA;Técnico Eletricista;04:00:00;PCS_20_307;Montagem_Campo
+28/08/2023;BRUNO FERREIRA;Técnico Eletricista;04:00:00;PCS_20_307;Montagem_Campo
+28/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;03:00:00;PCS_20_307;TAC_Controle_SAGE
+28/08/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_307;TAC_Controle_SAGE
+28/08/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:00:00;PCS_20_305;Configuração_Proteção_SIP5
+28/08/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:00:00;PCS_20_305;Configuração_Proteção_SIP5
+28/08/2023;GABRIEL FREITAS;Proteção/Controle;02:00:00;PCS_20_307;Outros
+28/08/2023;HENDERSON NOGUEIRA;Projetista;03:00:00;PCS_20_305;Documentação
+28/08/2023;Lucas Assunção;Técnico Eletricista;05:00:00;PCS_20_307;Montagem_Campo
+28/08/2023;Lucas Assunção;Técnico Eletricista;04:00:00;PCS_20_307;Montagem_Campo
+28/08/2023;RICARDO DOS SANTOS REIS;Projetista;01:00:00;PCS_20_304;Documentação
+29/08/2023;BRUNO FERREIRA;Técnico Eletricista;03:30:00;PCS_20_307;Montagem_Campo
+29/08/2023;BRUNO FERREIRA;Técnico Eletricista;05:00:00;PCS_20_307;Montagem_Campo
+29/08/2023;BRUNO FERREIRA;Técnico Eletricista;04:00:00;PCS_20_307;Montagem_Campo
+29/08/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:00:00;PCS_20_305;Configuração_Proteção_SIP5
+29/08/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:00:00;PCS_20_305;Configuração_Proteção_SIP5
+29/08/2023;GABRIEL FREITAS;Proteção/Controle;02:00:00;PCS_20_307;Outros
+29/08/2023;Lucas Assunção;Técnico Eletricista;05:00:00;PCS_20_307;Montagem_Campo
+29/08/2023;Lucas Assunção;Técnico Eletricista;04:00:00;PCS_20_307;Montagem_Campo
+30/08/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:00:00;PCS_20_305;Configuração_Proteção_SIP5
+30/08/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:00:00;PCS_20_305;Configuração_Proteção_SIP5
+30/08/2023;GABRIEL FREITAS;Proteção/Controle;02:00:00;PCS_20_307;Outros
+30/08/2023;HENDERSON NOGUEIRA;Projetista;01:00:00;PCS_20_305;Documentação
+30/08/2023;Lucas Assunção;Técnico Eletricista;05:00:00;PCS_20_307;Montagem_Campo
+30/08/2023;Lucas Assunção;Técnico Eletricista;04:00:00;PCS_20_307;Montagem_Campo
+30/08/2023;RICARDO DOS SANTOS REIS;Projetista;00:30:00;PCS_20_304;Documentação
+30/08/2023;Rodrigo Cassino de Almeida;Proteção/Controle;05:00:00;PCS_20_297;PréTestes_Proteção_SIP5
+30/08/2023;Rodrigo Cassino de Almeida;Proteção/Controle;04:00:00;PCS_20_297;PréTestes_Proteção_SIP5
+31/08/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:00:00;PCS_20_305;Configuração_Proteção_SIP5
+31/08/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:00:00;PCS_20_305;Configuração_Proteção_SIP5
+31/08/2023;GABRIEL FREITAS;Proteção/Controle;02:00:00;PCS_20_307;Outros
+31/08/2023;Rodrigo Cassino de Almeida;Proteção/Controle;05:00:00;PCS_20_297;PréTestes_Proteção_SIP5
+31/08/2023;Rodrigo Cassino de Almeida;Proteção/Controle;04:00:00;PCS_20_297;PréTestes_Proteção_SIP5
+01/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:00:00;PCS_20_307;TAC_Controle_SAGE
+01/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:00:00;PCS_20_305;Configuração_Proteção_SIP5
+01/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:00:00;PCS_20_305;Configuração_Proteção_SIP5
+01/09/2023;GABRIEL FREITAS;Proteção/Controle;02:00:00;PCS_20_307;Outros
+01/09/2023;Rodrigo Cassino de Almeida;Proteção/Controle;05:00:00;PCS_20_297;PréTestes_Proteção_SIP5
+01/09/2023;Rodrigo Cassino de Almeida;Proteção/Controle;04:00:00;PCS_20_297;PréTestes_Proteção_SIP5
+04/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;06:00:00;PCS_20_307;TAC_Controle_SAGE
+04/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_307;TAC_Controle_SAGE
+04/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;05:10:00;PCS_20_307;TAC_Proteção_SIP5
+04/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;06:19:00;PCS_20_307;TAC_Proteção_SIP5
+04/09/2023;Lucas Assunção;Técnico Eletricista;05:00:00;PCS_20_307;Montagem_Campo
+04/09/2023;Lucas Assunção;Técnico Eletricista;04:00:00;PCS_20_307;Montagem_Campo
+04/09/2023;RAFAEL GARCIA;Projetista;03:00:00;PCS_20_304;Documentação
+04/09/2023;RAFAEL GARCIA;Projetista;05:00:00;PCS_20_304;Documentação
+04/09/2023;RICARDO DOS SANTOS REIS;Projetista;01:30:00;PCS_20_305;Documentação
+04/09/2023;RICARDO DOS SANTOS REIS;Projetista;01:00:00;PCS_20_304;Documentação
+04/09/2023;Rodrigo Cassino de Almeida;Proteção/Controle;05:00:00;PCS_20_297;PréTestes_Proteção_SIP5
+04/09/2023;Rodrigo Cassino de Almeida;Proteção/Controle;04:00:00;PCS_20_297;PréTestes_Proteção_SIP5
+05/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_307;TAC_Controle_SAGE
+05/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;06:30:00;PCS_20_307;TAC_Controle_SAGE
+05/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_307;TAC_Proteção_SIP5
+05/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;06:30:00;PCS_20_307;TAC_Proteção_SIP5
+05/09/2023;Lucas Assunção;Técnico Eletricista;05:00:00;PCS_20_307;Montagem_Campo
+05/09/2023;Lucas Assunção;Técnico Eletricista;04:00:00;PCS_20_307;Montagem_Campo
+05/09/2023;RAFAEL GARCIA;Projetista;04:00:00;PCS_20_304;Documentação
+05/09/2023;RAFAEL GARCIA;Projetista;05:00:00;PCS_20_304;Documentação
+05/09/2023;RICARDO DOS SANTOS REIS;Projetista;01:00:00;PCS_20_304;Documentação
+05/09/2023;RICARDO DOS SANTOS REIS;Projetista;01:00:00;PCS_20_304;Documentação
+05/09/2023;Rodrigo Cassino de Almeida;Proteção/Controle;04:00:00;PCS_20_297;PréTestes_Proteção_SIP5
+05/09/2023;Rodrigo Cassino de Almeida;Proteção/Controle;05:00:00;PCS_20_297;PréTestes_Proteção_SIP5
+06/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_307;TAC_Controle_SAGE
+06/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;06:00:00;PCS_20_307;TAC_Controle_SAGE
+06/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_307;TAC_Proteção_SIP5
+06/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;06:00:00;PCS_20_307;TAC_Proteção_SIP5
+06/09/2023;RAFAEL GARCIA;Projetista;04:00:00;PCS_20_304;Documentação
+06/09/2023;RAFAEL GARCIA;Projetista;05:00:00;PCS_20_304;Documentação
+06/09/2023;RICARDO DOS SANTOS REIS;Projetista;01:00:00;PCS_20_305;Documentação
+06/09/2023;Rodrigo Cassino de Almeida;Proteção/Controle;05:00:00;PCS_20_297;PréTestes_Proteção_SIP5
+06/09/2023;Rodrigo Cassino de Almeida;Proteção/Controle;04:00:00;PCS_20_297;PréTestes_Proteção_SIP5
+07/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_307;TAC_Controle_SAGE
+07/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;06:00:00;PCS_20_307;TAC_Controle_SAGE
+07/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_307;TAC_Proteção_SIP5
+07/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;06:00:00;PCS_20_307;TAC_Proteção_SIP5
+08/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_307;TAC_Controle_SAGE
+08/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;07:00:00;PCS_20_307;TAC_Controle_SAGE
+08/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_307;TAC_Proteção_SIP5
+08/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;07:00:00;PCS_20_307;TAC_Proteção_SIP5
+08/09/2023;Lucas Assunção;Técnico Eletricista;05:00:00;PCS_20_307;Montagem_Campo
+08/09/2023;Lucas Assunção;Técnico Eletricista;04:00:00;PCS_20_307;Montagem_Campo
+08/09/2023;Lucas Assunção;Técnico Eletricista;01:30:00;PCS_20_307;Montagem_Campo
+08/09/2023;RAFAEL GARCIA;Projetista;04:00:00;PCS_20_304;Documentação
+08/09/2023;RAFAEL GARCIA;Projetista;04:00:00;PCS_20_304;Documentação
+08/09/2023;RICARDO DOS SANTOS REIS;Projetista;00:30:00;PCS_20_304;Documentação
+08/09/2023;RICARDO DOS SANTOS REIS;Projetista;02:00:00;PCS_20_304;Documentação
+09/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_307;TAC_Controle_SAGE
+09/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;06:00:00;PCS_20_307;TAC_Controle_SAGE
+09/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_307;TAC_Proteção_SIP5
+09/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;06:00:00;PCS_20_307;TAC_Proteção_SIP5
+09/09/2023;Lucas Assunção;Técnico Eletricista;05:00:00;PCS_20_305;Montagem_Campo
+09/09/2023;Lucas Assunção;Técnico Eletricista;04:00:00;PCS_20_305;Montagem_Campo
+10/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_307;TAC_Controle_SAGE
+10/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;09:30:00;PCS_20_307;TAC_Controle_SAGE
+10/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_307;TAC_Proteção_SIP5
+10/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;03:00:00;PCS_20_307;TAC_Proteção_SIP5
+10/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:00:00;PCS_20_307;TAC_Proteção_SIP5
+11/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_307;TAC_Controle_SAGE
+11/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;06:00:00;PCS_20_307;TAC_Controle_SAGE
+11/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:00:00;PCS_20_305;TAC_Proteção_SIP5
+11/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:00:00;PCS_20_305;TAC_Proteção_SIP5
+11/09/2023;GABRIEL FREITAS;Proteção/Controle;02:00:00;PCS_20_307;Outros
+11/09/2023;Lucas Assunção;Técnico Eletricista;05:00:00;PCS_20_305;Montagem_Campo
+11/09/2023;Lucas Assunção;Técnico Eletricista;04:00:00;PCS_20_305;Montagem_Campo
+11/09/2023;Pedro Fanti;Estagiário;00:30:00;PCS_20_305;Documentação
+11/09/2023;RAFAEL GARCIA;Projetista;00:30:00;PCS_20_304;Documentação
+11/09/2023;RAFAEL GARCIA;Projetista;02:30:00;PCS_20_304;Documentação
+11/09/2023;RAFAEL GARCIA;Projetista;02:00:00;PCS_20_304;Documentação
+11/09/2023;RAFAEL GARCIA;Projetista;03:00:00;PCS_20_304;Documentação
+11/09/2023;RICARDO DOS SANTOS REIS;Projetista;00:30:00;PCS_20_305;Documentação
+11/09/2023;RICARDO DOS SANTOS REIS;Projetista;00:30:00;PCS_20_305;Documentação
+11/09/2023;Rodrigo Cassino de Almeida;Proteção/Controle;04:00:00;PCS_20_297;TAF_Proteção_SIP5
+11/09/2023;Rodrigo Cassino de Almeida;Proteção/Controle;01:00:00;PCS_20_297;TAF_Proteção_SIP5
+11/09/2023;Rodrigo Cassino de Almeida;Proteção/Controle;00:30:00;PCS_20_297;TAF_Proteção_SIP5
+11/09/2023;Rodrigo Cassino de Almeida;Proteção/Controle;00:30:00;PCS_20_297;TAF_Proteção_SIP5
+11/09/2023;Rodrigo Cassino de Almeida;Proteção/Controle;02:00:00;PCS_20_297;TAF_Proteção_SIP5
+11/09/2023;Rodrigo Cassino de Almeida;Proteção/Controle;01:00:00;PCS_20_297;TAF_Proteção_SIP5
+12/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_307;TAC_Controle_SAGE
+12/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;06:00:00;PCS_20_307;TAC_Controle_SAGE
+12/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;06:30:00;PCS_20_305;TAC_Proteção_SIP5
+12/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;01:30:00;PCS_20_305;TAC_Proteção_SIP5
+12/09/2023;GABRIEL FREITAS;Proteção/Controle;02:00:00;PCS_20_307;Outros
+12/09/2023;Lucas Assunção;Técnico Eletricista;05:00:00;PCS_20_305;Montagem_Campo
+12/09/2023;Lucas Assunção;Técnico Eletricista;04:00:00;PCS_20_305;Montagem_Campo
+12/09/2023;RAFAEL GARCIA;Projetista;04:00:00;PCS_20_304;Documentação
+12/09/2023;RAFAEL GARCIA;Projetista;05:00:00;PCS_20_304;Documentação
+12/09/2023;Rodrigo Cassino de Almeida;Proteção/Controle;01:00:00;PCS_20_297;TAF_Proteção_SIP5
+12/09/2023;Rodrigo Cassino de Almeida;Proteção/Controle;02:30:00;PCS_20_297;TAF_Proteção_SIP5
+12/09/2023;Rodrigo Cassino de Almeida;Proteção/Controle;01:00:00;PCS_20_297;TAF_Proteção_SIP5
+12/09/2023;Rodrigo Cassino de Almeida;Proteção/Controle;02:00:00;PCS_20_297;TAF_Proteção_SIP5
+12/09/2023;Rodrigo Cassino de Almeida;Proteção/Controle;01:00:00;PCS_20_297;TAF_Proteção_SIP5
+12/09/2023;Rodrigo Cassino de Almeida;Proteção/Controle;01:00:00;PCS_20_297;TAF_Proteção_SIP5
+13/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;06:00:00;PCS_20_307;TAC_Controle_SAGE
+13/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_307;TAC_Controle_SAGE
+13/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_305;TAC_Proteção_SIP5
+13/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_305;TAC_Proteção_SIP5
+13/09/2023;Lucas Assunção;Técnico Eletricista;04:00:00;PCS_20_305;Montagem_Campo
+13/09/2023;Lucas Assunção;Técnico Eletricista;07:00:00;PCS_20_305;Montagem_Campo
+13/09/2023;RAFAEL GARCIA;Projetista;04:00:00;PCS_20_304;Documentação
+13/09/2023;RAFAEL GARCIA;Projetista;05:00:00;PCS_20_304;Documentação
+13/09/2023;Rodrigo Cassino de Almeida;Proteção/Controle;01:00:00;PCS_20_297;TAF_Proteção_SIP5
+13/09/2023;Rodrigo Cassino de Almeida;Proteção/Controle;05:00:00;PCS_20_297;TAF_Proteção_SIP5
+13/09/2023;Rodrigo Cassino de Almeida;Proteção/Controle;01:00:00;PCS_20_297;TAF_Proteção_SIP5
+13/09/2023;Rodrigo Cassino de Almeida;Proteção/Controle;02:00:00;PCS_20_297;TAF_Proteção_SIP5
+14/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_307;TAC_Controle_SAGE
+14/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;07:00:00;PCS_20_307;TAC_Controle_SAGE
+14/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_305;TAC_Proteção_SIP5
+14/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_305;TAC_Proteção_SIP5
+14/09/2023;Lucas Assunção;Técnico Eletricista;05:00:00;PCS_20_305;Montagem_Campo
+14/09/2023;Lucas Assunção;Técnico Eletricista;04:00:00;PCS_20_305;Montagem_Campo
+14/09/2023;RAFAEL GARCIA;Projetista;04:00:00;PCS_20_304;Documentação
+14/09/2023;RAFAEL GARCIA;Projetista;05:00:00;PCS_20_304;Documentação
+14/09/2023;RICARDO DOS SANTOS REIS;Projetista;02:00:00;PCS_20_304;Documentação
+14/09/2023;Rodrigo Cassino de Almeida;Proteção/Controle;02:00:00;PCS_20_297;TAF_Proteção_SIP5
+14/09/2023;Rodrigo Cassino de Almeida;Proteção/Controle;05:00:00;PCS_20_297;TAF_Proteção_SIP5
+14/09/2023;Rodrigo Cassino de Almeida;Proteção/Controle;02:00:00;PCS_20_297;TAF_Proteção_SIP5
+15/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_307;TAC_Controle_SAGE
+15/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;06:00:00;PCS_20_307;TAC_Controle_SAGE
+15/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_305;TAC_Proteção_SIP5
+15/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_305;TAC_Proteção_SIP5
+15/09/2023;GABRIEL FREITAS;Proteção/Controle;00:00:00;PCS_20_307;Outros
+15/09/2023;Lucas Assunção;Técnico Eletricista;05:00:00;PCS_20_305;Montagem_Campo
+15/09/2023;Lucas Assunção;Técnico Eletricista;04:00:00;PCS_20_305;Montagem_Campo
+15/09/2023;RAFAEL GARCIA;Projetista;03:00:00;PCS_20_304;Documentação
+15/09/2023;Rodrigo Cassino de Almeida;Proteção/Controle;05:00:00;PCS_20_297;TAF_Proteção_SIP5
+15/09/2023;Rodrigo Cassino de Almeida;Proteção/Controle;04:00:00;PCS_20_297;TAF_Proteção_SIP5
+16/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_307;TAC_Controle_SAGE
+16/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;06:00:00;PCS_20_307;TAC_Controle_SAGE
+16/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_305;TAC_Proteção_SIP5
+16/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_305;TAC_Proteção_SIP5
+16/09/2023;GABRIEL FREITAS;Proteção/Controle;04:00:00;PCS_20_307;Outros
+16/09/2023;GABRIEL FREITAS;Proteção/Controle;04:00:00;PCS_20_307;Outros
+16/09/2023;Lucas Assunção;Técnico Eletricista;05:00:00;PCS_20_305;Montagem_Campo
+16/09/2023;Lucas Assunção;Técnico Eletricista;04:00:00;PCS_20_305;Montagem_Campo
+16/09/2023;ROBSON EGIDIO TEODORO;Proteção/Controle;05:00:00;PCS_20_307;Documentação
+17/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_307;TAC_Controle_SAGE
+17/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;06:00:00;PCS_20_307;TAC_Controle_SAGE
+17/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:00:00;PCS_20_305;TAC_Proteção_SIP5
+17/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;05:00:00;PCS_20_305;TAC_Proteção_SIP5
+17/09/2023;GABRIEL FREITAS;Proteção/Controle;02:00:00;PCS_20_307;Outros
+17/09/2023;Lucas Assunção;Técnico Eletricista;05:00:00;PCS_20_305;Montagem_Campo
+17/09/2023;Lucas Assunção;Técnico Eletricista;04:00:00;PCS_20_305;Montagem_Campo
+17/09/2023;ROBSON EGIDIO TEODORO;Proteção/Controle;05:00:00;PCS_20_307;Documentação
+18/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;06:00:00;PCS_20_307;TAC_Controle_SAGE
+18/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_307;TAC_Controle_SAGE
+18/09/2023;DANIEL SANCHES DE CARVALHO;Proteção/Controle;04:00:00;PCS_20_304;Configuração_Proteção_SIP5
+18/09/2023;DANIEL SANCHES DE CARVALHO;Proteção/Controle;05:00:00;PCS_20_304;Configuração_Proteção_SIP5
+18/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_305;TAC_Proteção_SIP5
+18/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_305;TAC_Proteção_SIP5
+18/09/2023;HENRIQUE TAKEMURA;Projetista;01:00:00;PCS_20_304;Documentação
+18/09/2023;Leonardo Montevechi Pereira;Controle/Supervisão;04:00:00;PCS_20_305;TAC_Controle_SAGE
+18/09/2023;Leonardo Montevechi Pereira;Controle/Supervisão;05:00:00;PCS_20_305;TAC_Controle_SAGE
+18/09/2023;Leonardo Montevechi Pereira;Controle/Supervisão;01:00:00;PCS_20_305;TAC_Controle_SAGE
+18/09/2023;Lucas Assunção;Técnico Eletricista;05:00:00;PCS_20_305;Montagem_Campo
+18/09/2023;Lucas Assunção;Técnico Eletricista;04:00:00;PCS_20_305;Montagem_Campo
+18/09/2023;RAFAEL GARCIA;Projetista;01:00:00;PCS_20_304;Documentação
+18/09/2023;RAFAEL GARCIA;Projetista;00:30:00;PCS_20_304;Documentação
+18/09/2023;RAFAEL GARCIA;Projetista;01:00:00;PCS_20_304;Documentação
+18/09/2023;RICARDO DOS SANTOS REIS;Projetista;01:00:00;PCS_20_305;Documentação
+18/09/2023;RICARDO DOS SANTOS REIS;Projetista;00:30:00;PCS_20_304;Documentação
+18/09/2023;RICARDO DOS SANTOS REIS;Projetista;02:00:00;PCS_20_304;Documentação
+18/09/2023;ROBSON EGIDIO TEODORO;Proteção/Controle;02:00:00;PCS_20_307;Documentação
+18/09/2023;Rodrigo Cassino de Almeida;Proteção/Controle;04:00:00;PCS_20_297;TAF_Proteção_SIP5
+18/09/2023;Rodrigo Cassino de Almeida;Proteção/Controle;05:00:00;PCS_20_297;TAF_Proteção_SIP5
+19/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_307;TAC_Controle_SAGE
+19/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;06:30:00;PCS_20_307;TAC_Controle_SAGE
+19/09/2023;DANIEL SANCHES DE CARVALHO;Proteção/Controle;05:00:00;PCS_20_304;Configuração_Proteção_SIP5
+19/09/2023;DANIEL SANCHES DE CARVALHO;Proteção/Controle;04:00:00;PCS_20_304;Configuração_Proteção_SIP5
+19/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_305;TAC_Proteção_SIP5
+19/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_305;TAC_Proteção_SIP5
+19/09/2023;HENDERSON NOGUEIRA;Projetista;06:00:00;PCS_20_305;Documentação
+19/09/2023;Leonardo Montevechi Pereira;Controle/Supervisão;04:00:00;PCS_20_305;TAC_Controle_SAGE
+19/09/2023;Leonardo Montevechi Pereira;Controle/Supervisão;05:00:00;PCS_20_305;TAC_Controle_SAGE
+19/09/2023;Lucas Assunção;Técnico Eletricista;05:00:00;PCS_20_305;Montagem_Campo
+19/09/2023;Lucas Assunção;Técnico Eletricista;04:00:00;PCS_20_305;Montagem_Campo
+19/09/2023;Rodrigo Cassino de Almeida;Proteção/Controle;05:00:00;PCS_20_297;TAF_Proteção_SIP5
+19/09/2023;Rodrigo Cassino de Almeida;Proteção/Controle;04:00:00;PCS_20_297;TAF_Proteção_SIP5
+20/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;05:30:00;PCS_20_307;TAC_Controle_SAGE
+20/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;05:30:00;PCS_20_307;TAC_Controle_SAGE
+20/09/2023;DANIEL SANCHES DE CARVALHO;Proteção/Controle;04:00:00;PCS_20_304;Configuração_Proteção_SIP5
+20/09/2023;DANIEL SANCHES DE CARVALHO;Proteção/Controle;05:00:00;PCS_20_304;Configuração_Proteção_SIP5
+20/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:00:00;PCS_20_305;TAC_Proteção_SIP5
+20/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_305;TAC_Proteção_SIP5
+20/09/2023;HENDERSON NOGUEIRA;Projetista;04:34:00;PCS_20_305;Documentação
+20/09/2023;HENDERSON NOGUEIRA;Projetista;06:00:00;PCS_20_305;Documentação
+20/09/2023;Leonardo Montevechi Pereira;Controle/Supervisão;04:00:00;PCS_20_305;TAC_Controle_SAGE
+20/09/2023;Leonardo Montevechi Pereira;Controle/Supervisão;05:00:00;PCS_20_305;TAC_Controle_SAGE
+20/09/2023;Lucas Assunção;Técnico Eletricista;05:00:00;PCS_20_305;Montagem_Campo
+20/09/2023;Lucas Assunção;Técnico Eletricista;04:00:00;PCS_20_305;Montagem_Campo
+20/09/2023;RICARDO DOS SANTOS REIS;Projetista;00:30:00;PCS_20_304;Documentação
+20/09/2023;RICARDO DOS SANTOS REIS;Projetista;01:30:00;PCS_20_305;Documentação
+20/09/2023;ROBSON EGIDIO TEODORO;Proteção/Controle;04:58:00;PCS_20_307;Documentação
+20/09/2023;Rodrigo Cassino de Almeida;Proteção/Controle;04:00:00;PCS_20_297;TAF_Proteção_SIP5
+20/09/2023;Rodrigo Cassino de Almeida;Proteção/Controle;05:00:00;PCS_20_297;TAF_Proteção_SIP5
+21/09/2023;Bruno Pereira;Projetista;00:00:00;PCS_20_304;Documentação
+21/09/2023;Bruno Pereira;Projetista;00:00:00;PCS_20_305;Documentação
+21/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;00:00:00;PCS_20_305;Configuração_Controle_SAGE
+21/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;00:00:00;PCS_20_305;TAC_Controle_SAGE
+21/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;00:00:00;PCS_20_307;Configuração_Controle_SAGE
+21/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;06:00:00;PCS_20_307;TAC_Controle_SAGE
+21/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;03:40:00;PCS_20_307;TAC_Controle_SAGE
+21/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_307;TAC_Controle_SAGE
+21/09/2023;DANIEL SANCHES DE CARVALHO;Proteção/Controle;04:00:00;PCS_20_304;Configuração_Proteção_SIP5
+21/09/2023;DANIEL SANCHES DE CARVALHO;Proteção/Controle;05:00:00;PCS_20_304;Configuração_Proteção_SIP5
+21/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;00:00:00;PCS_20_307;TAC_Proteção_SIP5
+21/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:10:00;PCS_20_305;TAC_Proteção_SIP5
+21/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_305;TAC_Proteção_SIP5
+21/09/2023;HENDERSON NOGUEIRA;Projetista;00:00:00;PCS_20_304;Documentação
+21/09/2023;HENDERSON NOGUEIRA;Projetista;05:30:00;PCS_20_305;Documentação
+21/09/2023;HENDERSON NOGUEIRA;Projetista;04:00:00;PCS_20_305;Documentação
+21/09/2023;HENRIQUE CANUTO;Técnico Eletricista;00:00:00;PCS_20_307;Montagem_Campo
+21/09/2023;HENRIQUE TAKEMURA;Projetista;00:00:00;PCS_20_304;Documentação
+21/09/2023;Leonardo Montevechi Pereira;Controle/Supervisão;00:00:00;PCS_20_307;TAC_Controle_SAGE
+21/09/2023;Leonardo Montevechi Pereira;Controle/Supervisão;04:00:00;PCS_20_305;TAC_Controle_SAGE
+21/09/2023;Leonardo Montevechi Pereira;Controle/Supervisão;05:00:00;PCS_20_305;TAC_Controle_SAGE
+21/09/2023;Lucas Assunção;Técnico Eletricista;00:00:00;PCS_20_307;Montagem_Campo
+21/09/2023;Lucas Assunção;Técnico Eletricista;05:00:00;PCS_20_305;Montagem_Campo
+21/09/2023;Lucas Assunção;Técnico Eletricista;04:00:00;PCS_20_305;Montagem_Campo
+21/09/2023;RAFAEL GARCIA;Projetista;00:00:00;PCS_20_297;Documentação
+21/09/2023;RAFAEL GARCIA;Projetista;00:00:00;PCS_20_305;Documentação
+21/09/2023;RAFAEL GARCIA;Projetista;00:00:00;PCS_20_307;Documentação
+21/09/2023;RICARDO DOS SANTOS REIS;Projetista;00:00:00;PCS_20_297;Documentação
+21/09/2023;RICARDO DOS SANTOS REIS;Projetista;00:00:00;PCS_20_304;Documentação
+21/09/2023;RICARDO DOS SANTOS REIS;Projetista;00:00:00;PCS_20_307;Documentação
+21/09/2023;RICARDO DOS SANTOS REIS;Projetista;01:00:00;PCS_20_305;Documentação
+21/09/2023;RICARDO DOS SANTOS REIS;Projetista;00:30:00;PCS_20_305;Documentação
+21/09/2023;ROBSON EGIDIO TEODORO;Proteção/Controle;04:00:00;PCS_20_307;Documentação
+21/09/2023;ROBSON EGIDIO TEODORO;Proteção/Controle;05:00:00;PCS_20_307;Documentação
+21/09/2023;Rodrigo Cassino de Almeida;Proteção/Controle;05:00:00;PCS_20_297;TAF_Proteção_SIP5
+21/09/2023;Rodrigo Cassino de Almeida;Proteção/Controle;04:00:00;PCS_20_297;TAF_Proteção_SIP5
+22/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_307;TAC_Controle_SAGE
+22/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;06:00:00;PCS_20_307;TAC_Controle_SAGE
+22/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;03:40:00;PCS_20_307;TAC_Controle_SAGE
+22/09/2023;DANIEL SANCHES DE CARVALHO;Proteção/Controle;04:00:00;PCS_20_304;Configuração_Proteção_SIP5
+22/09/2023;DANIEL SANCHES DE CARVALHO;Proteção/Controle;04:00:00;PCS_20_304;Configuração_Proteção_SIP5
+22/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:10:00;PCS_20_305;TAC_Proteção_SIP5
+22/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_305;TAC_Proteção_SIP5
+22/09/2023;Leonardo Montevechi Pereira;Controle/Supervisão;04:00:00;PCS_20_305;TAC_Controle_SAGE
+22/09/2023;Leonardo Montevechi Pereira;Controle/Supervisão;05:00:00;PCS_20_305;TAC_Controle_SAGE
+22/09/2023;Lucas Assunção;Técnico Eletricista;05:00:00;PCS_20_305;Montagem_Campo
+22/09/2023;Lucas Assunção;Técnico Eletricista;04:00:00;PCS_20_305;Montagem_Campo
+22/09/2023;Rodrigo Cassino de Almeida;Proteção/Controle;04:00:00;PCS_20_297;TAF_Proteção_SIP5
+22/09/2023;Rodrigo Cassino de Almeida;Proteção/Controle;04:00:00;PCS_20_297;TAF_Proteção_SIP5
+23/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_307;TAC_Controle_SAGE
+23/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:00:00;PCS_20_307;TAC_Controle_SAGE
+23/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_305;TAC_Proteção_SIP5
+23/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_305;TAC_Proteção_SIP5
+23/09/2023;Leonardo Montevechi Pereira;Controle/Supervisão;04:00:00;PCS_20_305;TAC_Controle_SAGE
+23/09/2023;Leonardo Montevechi Pereira;Controle/Supervisão;05:00:00;PCS_20_305;TAC_Controle_SAGE
+23/09/2023;Lucas Assunção;Técnico Eletricista;08:30:00;PCS_20_305;Montagem_Campo
+24/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:00:00;PCS_20_307;TAC_Controle_SAGE
+24/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_307;TAC_Controle_SAGE
+24/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;03:00:00;PCS_20_307;TAC_Controle_SAGE
+24/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_305;TAC_Proteção_SIP5
+24/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_305;TAC_Proteção_SIP5
+24/09/2023;Leonardo Montevechi Pereira;Controle/Supervisão;04:00:00;PCS_20_305;TAC_Controle_SAGE
+24/09/2023;Leonardo Montevechi Pereira;Controle/Supervisão;05:00:00;PCS_20_305;TAC_Controle_SAGE
+25/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:00:00;PCS_20_307;TAC_Controle_SAGE
+25/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;01:30:00;PCS_20_307;TAC_Controle_SAGE
+25/09/2023;CLEBER UILIAM ALVES;Controle/Supervisão;03:00:00;PCS_20_307;TAC_Controle_SAGE
+25/09/2023;DANIEL SANCHES DE CARVALHO;Proteção/Controle;04:00:00;PCS_20_304;Configuração_Proteção_SIP5
+25/09/2023;DANIEL SANCHES DE CARVALHO;Proteção/Controle;05:00:00;PCS_20_304;Configuração_Proteção_SIP5
+25/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_305;TAC_Proteção_SIP5
+25/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_305;TAC_Proteção_SIP5
+25/09/2023;HENDERSON NOGUEIRA;Projetista;04:00:00;PCS_20_305;Documentação
+25/09/2023;HENDERSON NOGUEIRA;Projetista;05:00:00;PCS_20_305;Documentação
+25/09/2023;Leonardo Montevechi Pereira;Controle/Supervisão;04:00:00;PCS_20_305;TAC_Controle_SAGE
+25/09/2023;Leonardo Montevechi Pereira;Controle/Supervisão;05:00:00;PCS_20_305;TAC_Controle_SAGE
+25/09/2023;RICARDO DOS SANTOS REIS;Projetista;01:00:00;PCS_20_304;Documentação
+25/09/2023;RICARDO DOS SANTOS REIS;Projetista;00:30:00;PCS_20_305;Documentação
+25/09/2023;RICARDO DOS SANTOS REIS;Projetista;00:45:00;PCS_20_305;Documentação
+26/09/2023;DANIEL SANCHES DE CARVALHO;Proteção/Controle;04:00:00;PCS_20_304;Configuração_Proteção_SIP5
+26/09/2023;DANIEL SANCHES DE CARVALHO;Proteção/Controle;05:00:00;PCS_20_304;Configuração_Proteção_SIP5
+26/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;06:00:00;PCS_20_305;TAC_Proteção_SIP5
+26/09/2023;FELIPE PEREIRA SILVA;Proteção/Controle;07:30:00;PCS_20_305;TAC_Proteção_SIP5
+26/09/2023;Leonardo Montevechi Pereira;Controle/Supervisão;07:30:00;PCS_20_305;TAC_Controle_SAGE
+26/09/2023;Leonardo Montevechi Pereira;Controle/Supervisão;05:30:00;PCS_20_305;TAC_Controle_SAGE
+27/09/2023;DANIEL SANCHES DE CARVALHO;Proteção/Controle;04:00:00;PCS_20_304;Configuração_Proteção_SIP5
+27/09/2023;DANIEL SANCHES DE CARVALHO;Proteção/Controle;05:00:00;PCS_20_304;Configuração_Proteção_SIP5
+27/09/2023;HENDERSON NOGUEIRA;Projetista;04:00:00;PCS_20_305;Documentação
+27/09/2023;HENDERSON NOGUEIRA;Projetista;01:30:00;PCS_20_305;Documentação
+27/09/2023;RICARDO DOS SANTOS REIS;Projetista;01:00:00;PCS_20_305;Documentação
+28/09/2023;DANIEL SANCHES DE CARVALHO;Proteção/Controle;04:00:00;PCS_20_304;Configuração_Proteção_SIP5
+28/09/2023;DANIEL SANCHES DE CARVALHO;Proteção/Controle;05:00:00;PCS_20_304;Configuração_Proteção_SIP5
+28/09/2023;HENDERSON NOGUEIRA;Projetista;04:30:00;PCS_20_305;Documentação
+28/09/2023;HENDERSON NOGUEIRA;Projetista;05:45:00;PCS_20_304;Documentação
+28/09/2023;RICARDO DOS SANTOS REIS;Projetista;01:30:00;PCS_20_305;Documentação
+29/09/2023;DANIEL SANCHES DE CARVALHO;Proteção/Controle;04:00:00;PCS_20_304;Configuração_Proteção_SIP5
+29/09/2023;DANIEL SANCHES DE CARVALHO;Proteção/Controle;04:00:00;PCS_20_304;Configuração_Proteção_SIP5
+29/09/2023;HENDERSON NOGUEIRA;Projetista;04:30:00;PCS_20_304;Documentação
+29/09/2023;HENDERSON NOGUEIRA;Projetista;01:00:00;PCS_20_304;Documentação
+01/10/2023;DANIEL SANCHES DE CARVALHO;Proteção/Controle;00:00:00;PCS_20_304;Configuração_Proteção_SIP5
+01/10/2023;Rodrigo Cassino de Almeida;Proteção/Controle;00:00:00;PCS_20_297;PréTestes_Proteção_SIP5
+01/10/2023;Rodrigo Cassino de Almeida;Proteção/Controle;00:00:00;PCS_20_297;TAF_Proteção_SIP5
+02/10/2023;DANIEL SANCHES DE CARVALHO;Proteção/Controle;04:00:00;PCS_20_304;Configuração_Proteção_SIP5
+02/10/2023;DANIEL SANCHES DE CARVALHO;Proteção/Controle;05:00:00;PCS_20_304;Configuração_Proteção_SIP5
+02/10/2023;FELIPE PEREIRA SILVA;Proteção/Controle;03:00:00;PCS_20_307;TAC_Proteção_SIP5
+02/10/2023;FELIPE PEREIRA SILVA;Proteção/Controle;01:30:00;PCS_20_307;TAC_Proteção_SIP5
+02/10/2023;FELIPE PEREIRA SILVA;Proteção/Controle;05:00:00;PCS_20_307;TAC_Proteção_SIP5
+02/10/2023;HENDERSON NOGUEIRA;Projetista;00:30:00;PCS_20_304;Documentação
+02/10/2023;HENDERSON NOGUEIRA;Projetista;02:30:00;PCS_20_304;Documentação
+02/10/2023;HENDERSON NOGUEIRA;Projetista;05:00:00;PCS_20_304;Documentação
+02/10/2023;HENRIQUE CANUTO;Técnico Eletricista;05:00:00;PCS_20_307;Montagem_Campo
+02/10/2023;HENRIQUE CANUTO;Técnico Eletricista;04:00:00;PCS_20_307;Montagem_Campo
+02/10/2023;Lucas Assunção;Técnico Eletricista;05:00:00;PCS_20_307;Montagem_Campo
+02/10/2023;Lucas Assunção;Técnico Eletricista;04:00:00;PCS_20_307;Montagem_Campo
+02/10/2023;RICARDO DOS SANTOS REIS;Projetista;00:45:00;PCS_20_305;Documentação
+03/10/2023;DANIEL SANCHES DE CARVALHO;Proteção/Controle;04:00:00;PCS_20_304;Configuração_Proteção_SIP5
+03/10/2023;DANIEL SANCHES DE CARVALHO;Proteção/Controle;05:00:00;PCS_20_304;Configuração_Proteção_SIP5
+03/10/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_307;TAC_Proteção_SIP5
+03/10/2023;FELIPE PEREIRA SILVA;Proteção/Controle;05:45:00;PCS_20_307;TAC_Proteção_SIP5
+03/10/2023;HENDERSON NOGUEIRA;Projetista;04:40:00;PCS_20_304;Documentação
+03/10/2023;HENRIQUE CANUTO;Técnico Eletricista;05:00:00;PCS_20_307;Montagem_Campo
+03/10/2023;HENRIQUE CANUTO;Técnico Eletricista;04:00:00;PCS_20_307;Montagem_Campo
+03/10/2023;Lucas Assunção;Técnico Eletricista;05:00:00;PCS_20_307;Montagem_Campo
+03/10/2023;Lucas Assunção;Técnico Eletricista;04:00:00;PCS_20_307;Montagem_Campo
+04/10/2023;DANIEL SANCHES DE CARVALHO;Proteção/Controle;04:00:00;PCS_20_304;Configuração_Proteção_SIP5
+04/10/2023;DANIEL SANCHES DE CARVALHO;Proteção/Controle;05:00:00;PCS_20_304;Configuração_Proteção_SIP5
+04/10/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:00:00;PCS_20_307;TAC_Proteção_SIP5
+04/10/2023;FELIPE PEREIRA SILVA;Proteção/Controle;05:00:00;PCS_20_307;TAC_Proteção_SIP5
+04/10/2023;HENDERSON NOGUEIRA;Projetista;04:00:00;PCS_20_304;Documentação
+04/10/2023;HENDERSON NOGUEIRA;Projetista;05:00:00;PCS_20_304;Documentação
+05/10/2023;Bruno Pereira;Projetista;03:19:00;PCS_20_304;Documentação
+05/10/2023;DANIEL SANCHES DE CARVALHO;Proteção/Controle;04:00:00;PCS_20_304;Configuração_Proteção_SIP5
+05/10/2023;DANIEL SANCHES DE CARVALHO;Proteção/Controle;05:00:00;PCS_20_304;Configuração_Proteção_SIP5
+05/10/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:00:00;PCS_20_307;TAC_Proteção_SIP5
+05/10/2023;FELIPE PEREIRA SILVA;Proteção/Controle;05:00:00;PCS_20_307;TAC_Proteção_SIP5
+05/10/2023;HENDERSON NOGUEIRA;Projetista;04:40:00;PCS_20_304;Documentação
+05/10/2023;HENDERSON NOGUEIRA;Projetista;05:30:00;PCS_20_304;Documentação
+06/10/2023;DANIEL SANCHES DE CARVALHO;Proteção/Controle;04:00:00;PCS_20_304;Configuração_Proteção_SIP5
+06/10/2023;DANIEL SANCHES DE CARVALHO;Proteção/Controle;04:00:00;PCS_20_304;Configuração_Proteção_SIP5
+06/10/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:00:00;PCS_20_307;TAC_Proteção_SIP5
+06/10/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_307;TAC_Proteção_SIP5
+06/10/2023;FELIPE PEREIRA SILVA;Proteção/Controle;02:40:00;PCS_20_307;TAC_Proteção_SIP5
+06/10/2023;HENDERSON NOGUEIRA;Projetista;04:30:00;PCS_20_305;Documentação
+06/10/2023;RICARDO DOS SANTOS REIS;Projetista;01:30:00;PCS_20_307;Documentação
+09/10/2023;DANIEL SANCHES DE CARVALHO;Proteção/Controle;04:00:00;PCS_20_304;Configuração_Proteção_SIP5
+09/10/2023;DANIEL SANCHES DE CARVALHO;Proteção/Controle;05:00:00;PCS_20_304;Configuração_Proteção_SIP5
+09/10/2023;FELIPE PEREIRA SILVA;Proteção/Controle;03:19:00;PCS_20_307;TAC_Proteção_SIP5
+09/10/2023;FELIPE PEREIRA SILVA;Proteção/Controle;02:10:00;PCS_20_307;TAC_Proteção_SIP5
+09/10/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_307;TAC_Proteção_SIP5
+09/10/2023;HENDERSON NOGUEIRA;Projetista;03:45:00;PCS_20_305;Documentação
+09/10/2023;Leonardo Montevechi Pereira;Controle/Supervisão;04:00:00;PCS_20_307;TAC_Controle_SAGE
+09/10/2023;Leonardo Montevechi Pereira;Controle/Supervisão;05:00:00;PCS_20_307;TAC_Controle_SAGE
+09/10/2023;RICARDO DOS SANTOS REIS;Projetista;00:30:00;PCS_20_305;Documentação
+10/10/2023;Bruno Pereira;Projetista;04:19:00;PCS_20_305;Documentação
+10/10/2023;DANIEL SANCHES DE CARVALHO;Proteção/Controle;04:00:00;PCS_20_304;Configuração_Proteção_SIP5
+10/10/2023;DANIEL SANCHES DE CARVALHO;Proteção/Controle;05:00:00;PCS_20_304;Configuração_Proteção_SIP5
+10/10/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_307;TAC_Proteção_SIP5
+10/10/2023;FELIPE PEREIRA SILVA;Proteção/Controle;05:30:00;PCS_20_307;TAC_Proteção_SIP5
+10/10/2023;HENDERSON NOGUEIRA;Projetista;06:10:00;PCS_20_304;Documentação
+10/10/2023;HENDERSON NOGUEIRA;Projetista;05:00:00;PCS_20_305;Documentação
+10/10/2023;Leonardo Montevechi Pereira;Controle/Supervisão;04:00:00;PCS_20_307;TAC_Controle_SAGE
+10/10/2023;Leonardo Montevechi Pereira;Controle/Supervisão;05:00:00;PCS_20_307;TAC_Controle_SAGE
+10/10/2023;RAFAEL GARCIA;Projetista;01:00:00;PCS_20_307;Documentação
+10/10/2023;RICARDO DOS SANTOS REIS;Projetista;01:00:00;PCS_20_305;Documentação
+11/10/2023;FELIPE PEREIRA SILVA;Proteção/Controle;04:30:00;PCS_20_307;TAC_Proteção_SIP5
+11/10/2023;FELIPE PEREIRA SILVA;Proteção/Controle;03:00:00;PCS_20_307;TAC_Proteção_SIP5
+11/10/2023;HENDERSON NOGUEIRA;Projetista;05:00:00;PCS_20_304;Documentação
+11/10/2023;Leonardo Montevechi Pereira;Controle/Supervisão;04:00:00;PCS_20_307;TAC_Controle_SAGE
+11/10/2023;Leonardo Montevechi Pereira;Controle/Supervisão;05:00:00;PCS_20_307;TAC_Controle_SAGE
+11/10/2023;RAFAEL GARCIA;Projetista;01:00:00;PCS_20_307;Documentação
+11/10/2023;RICARDO DOS SANTOS REIS;Projetista;04:00:00;PCS_20_305;Documentação
+13/10/2023;Leonardo Montevechi Pereira;Controle/Supervisão;04:00:00;PCS_20_307;TAC_Controle_SAGE
+13/10/2023;Leonardo Montevechi Pereira;Controle/Supervisão;05:18:00;PCS_20_307;TAC_Controle_SAGE
+13/10/2023;RAFAEL GARCIA;Projetista;03:00:00;PCS_20_307;Documentação
+13/10/2023;RAFAEL GARCIA;Projetista;04:00:00;PCS_20_307;Documentação
+14/10/2023;Leonardo Montevechi Pereira;Controle/Supervisão;04:00:00;PCS_20_307;TAC_Controle_SAGE
+14/10/2023;Leonardo Montevechi Pereira;Controle/Supervisão;05:00:00;PCS_20_307;TAC_Controle_SAGE
+15/10/2023;Leonardo Montevechi Pereira;Controle/Supervisão;04:00:00;PCS_20_307;TAC_Controle_SAGE
+15/10/2023;Leonardo Montevechi Pereira;Controle/Supervisão;05:00:00;PCS_20_307;TAC_Controle_SAGE
+16/10/2023;HENDERSON NOGUEIRA;Projetista;01:30:00;PCS_20_305;Documentação
+16/10/2023;HENDERSON NOGUEIRA;Projetista;01:40:00;PCS_20_304;Documentação
+16/10/2023;HENDERSON NOGUEIRA;Projetista;03:00:00;PCS_20_304;Documentação
+16/10/2023;HENDERSON NOGUEIRA;Projetista;00:30:00;PCS_20_304;Documentação
+16/10/2023;HENDERSON NOGUEIRA;Projetista;01:30:00;PCS_20_304;Documentação
+16/10/2023;Leonardo Montevechi Pereira;Controle/Supervisão;04:00:00;PCS_20_307;TAC_Controle_SAGE
+16/10/2023;Leonardo Montevechi Pereira;Controle/Supervisão;05:00:00;PCS_20_307;TAC_Controle_SAGE
+16/10/2023;RAFAEL GARCIA;Projetista;00:30:00;PCS_20_307;Documentação
+16/10/2023;RAFAEL GARCIA;Projetista;03:00:00;PCS_20_307;Documentação
+16/10/2023;RAFAEL GARCIA;Projetista;05:00:00;PCS_20_307;Documentação
+16/10/2023;RICARDO DOS SANTOS REIS;Projetista;01:00:00;PCS_20_305;Documentação
+16/10/2023;RICARDO DOS SANTOS REIS;Projetista;00:30:00;PCS_20_305;Documentação
+16/10/2023;RICARDO DOS SANTOS REIS;Projetista;02:00:00;PCS_20_307;Documentação
+17/10/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_305;Configuração_Controle_SAGE
+17/10/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_305;Configuração_Controle_SAGE
+17/10/2023;Leonardo Montevechi Pereira;Controle/Supervisão;04:00:00;PCS_20_307;TAC_Controle_SAGE
+17/10/2023;Leonardo Montevechi Pereira;Controle/Supervisão;07:00:00;PCS_20_307;TAC_Controle_SAGE
+17/10/2023;RAFAEL GARCIA;Projetista;02:30:00;PCS_20_307;Documentação
+17/10/2023;RAFAEL GARCIA;Projetista;01:30:00;PCS_20_297;Documentação
+17/10/2023;RAFAEL GARCIA;Projetista;05:00:00;PCS_20_297;Documentação
+17/10/2023;RICARDO DOS SANTOS REIS;Projetista;01:00:00;PCS_20_307;Documentação
+17/10/2023;RICARDO DOS SANTOS REIS;Projetista;01:00:00;PCS_20_307;Documentação
+18/10/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_305;Configuração_Controle_SAGE
+18/10/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_305;Configuração_Controle_SAGE
+18/10/2023;HENDERSON NOGUEIRA;Projetista;03:00:00;PCS_20_305;Documentação
+18/10/2023;HENDERSON NOGUEIRA;Projetista;01:40:00;PCS_20_305;Documentação
+18/10/2023;HENDERSON NOGUEIRA;Projetista;02:00:00;PCS_20_305;Documentação
+18/10/2023;Leonardo Montevechi Pereira;Controle/Supervisão;04:00:00;PCS_20_307;TAC_Controle_SAGE
+18/10/2023;Leonardo Montevechi Pereira;Controle/Supervisão;05:30:00;PCS_20_307;TAC_Controle_SAGE
+18/10/2023;RAFAEL GARCIA;Projetista;01:00:00;PCS_20_297;Documentação
+18/10/2023;RAFAEL GARCIA;Projetista;03:00:00;PCS_20_297;Documentação
+18/10/2023;RICARDO DOS SANTOS REIS;Projetista;00:30:00;PCS_20_297;Documentação
+18/10/2023;RICARDO DOS SANTOS REIS;Projetista;01:30:00;PCS_20_297;Documentação
+19/10/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_305;Configuração_Controle_SAGE
+19/10/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:30:00;PCS_20_305;Configuração_Controle_SAGE
+19/10/2023;Leonardo Montevechi Pereira;Controle/Supervisão;04:00:00;PCS_20_307;TAC_Controle_SAGE
+19/10/2023;Leonardo Montevechi Pereira;Controle/Supervisão;05:00:00;PCS_20_307;TAC_Controle_SAGE
+20/10/2023;CLEBER UILIAM ALVES;Controle/Supervisão;03:30:00;PCS_20_305;Configuração_Controle_SAGE
+20/10/2023;CLEBER UILIAM ALVES;Controle/Supervisão;04:00:00;PCS_20_305;Configuração_Controle_SAGE
+20/10/2023;HENDERSON NOGUEIRA;Projetista;04:00:00;PCS_20_305;Documentação
+20/10/2023;Leonardo Montevechi Pereira;Controle/Supervisão;04:00:00;PCS_20_307;TAC_Controle_SAGE
+20/10/2023;Leonardo Montevechi Pereira;Controle/Supervisão;05:00:00;PCS_20_307;TAC_Controle_SAGE
+20/10/2023;Leonardo Montevechi Pereira;Controle/Supervisão;01:57:00;PCS_20_307;TAC_Controle_SAGE
+20/10/2023;RICARDO DOS SANTOS REIS;Projetista;01:30:00;PCS_20_305;Documentação
+21/11/2023;RICARDO DOS SANTOS REIS;Projetista;00:00:00;PCS_20_297;Outros
+21/11/2023;RICARDO DOS SANTOS REIS;Projetista;00:00:00;PCS_20_305;Documentação
+21/11/2023;RICARDO DOS SANTOS REIS;Projetista;00:00:00;PCS_20_305;Outros
+21/11/2023;RICARDO DOS SANTOS REIS;Projetista;00:00:00;PCS_20_307;Documentação
+21/11/2023;RICARDO DOS SANTOS REIS;Projetista;00:00:00;PCS_20_307;Outros

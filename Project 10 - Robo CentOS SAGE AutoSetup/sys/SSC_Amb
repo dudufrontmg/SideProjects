@@ -1,0 +1,148 @@
+#!/bin/csh
+##
+##  Definicao de Variaveis de Ambiente para o SSC e o SCD
+##
+
+##
+##  Opcoes de criacao do grupo de difusao
+##
+
+    ##  Este trecho de script tambem se encontra no .cssagerc
+
+    if (!( -e $BD/sites_ALL)) then
+
+       if ($?prompt) then
+
+          # Se sites_ALL nao encontrado, loga erro no terminal e no syslog do sistema.
+
+          echo "   ATENCAO: Arquivo sites_ALL nao encontrado em /config/$BASE/bd."
+          echo "            A configuracao $BASE, nao funcionara corretamente."
+          echo "            Execute o comando habilita_base."
+          echo ""
+
+          #$SAGE/bin/$SAGE_SO/$MODELO/sagelog SSC_Amb "ATENCAO: Arquivo sites_ALL nao encontrado em /config/$BASE/bd."
+          #$SAGE/bin/$SAGE_SO/$MODELO/sagelog SSC_Amb "A configuracao $BASE, nao funcionara corretamente."
+          #$SAGE/bin/$SAGE_SO/$MODELO/sagelog SSC_Amb "Execute o comando habilita_base."
+
+       endif
+    else
+
+       if (`grep -c $HOST $BD/sites_ALL` == "1" ) then
+
+          # Se o host esta em sites_ALL habilita a rede de difusao.
+
+          setenv NOH  ALL          # configuracao para trabalhar em rede
+
+          ##
+          ##  Opcoes de difusao da base tempo-real
+          ##
+          #   setenv METODO_DIFUSAO     "isis" # Indica que sera usado para difusao isis
+          #    setenv METODO_DIFUSAO     "null" # Indica que sera usada a difusao nula
+              setenv METODO_DIFUSAO     "dc"   # Indica que sera usada a difusao confiavel
+
+       else
+
+          if (!( -e $BD/sites_$HOST)) then
+
+             if ($?prompt) then
+                # Se sites_$HOST nao encontrado, loga erro no terminal e no syslog
+
+                echo "   ATENCAO: Arquivo sites_$HOST nao encontrado em /config/$BASE/bd."
+                echo "            A configuracao $BASE, nao funcionara corretamente."
+                echo "            Execute o comando habilita_base."
+                echo ""
+
+                #$SAGE/bin/$SAGE_SO/$MODELO/sagelog SSC_Amb "ATENCAO: Arquivo sites_$HOST nao encontrado em /config/$BASE/bd."
+                #$SAGE/bin/$SAGE_SO/$MODELO/sagelog SSC_Amb "A configuracao $BASE, nao funcionara corretamente."
+                #$SAGE/bin/$SAGE_SO/$MODELO/sagelog SSC_Amb "Execute o comando habilita_base."
+
+             endif
+          else
+
+             # habilita a rede de difusao para trabalho isolado
+
+             setenv NOH  $HOST                # configuracao para trabalhar isolado
+             setenv METODO_DIFUSAO     "dc" # Indica que sera usada a difusao nula
+             setenv LOCAL "`grep $HOST $BD/sites_$HOST |  tr -s ' ' ' ' | tr -s '\t' ' ' | cut -f4 -d ' '`"
+
+             # Se tambem desejar isolar a comunicacao, habilite a variavel REMOTO
+             # que esta definida logo abaixo com o valor 0.
+
+          endif
+
+       endif
+
+    endif
+    ##   Fim do trecho
+##
+##  Opcoes gerais de contexto e local de gravacao de logs
+##
+
+    setenv MODO auto            # modo default de monitoracao do GCD
+    if($?AMBIENTE) then
+       if (($AMBIENTE == "ots") && (! $?CONTEXTO)) then
+          setenv CONTEXTO ots
+       endif
+    endif
+    if (! $?CONTEXTO) then
+       setenv CONTEXTO tr          # contexto de base de dados default
+    endif
+    setenv LOG  /tmp/$USER/log  # subdiretorio para logs dos processos
+    setenv ARQS /tmp/$USER/arqs # subdiretorio para arqs historicos em geral
+    setenv PARQS $ARQS/paralelo # subdiretorio para arqs historicos paralelos (base quente)
+    setenv BHARQS $ARQS
+    setenv NDIAS 360
+    setenv TMP_AGRUP 30
+##
+##  Opcoes de uso em protocolos de comunicacao
+##
+
+    setenv ALRINV off             # habilitacao de alarmes de invalidade do sac
+    setenv PORTA_DNP_FISICA 20000 # 1 porta tcp para o DNP3  (default nportas 9000-9032)
+    setenv PORTA_IEC_FISICA  9300 # 1 porta tcp para o IEC1T (default nportas 9100-9132)
+    setenv PORTA_104_FISICA  2404 # 1 porta tcp para o IEC4T
+    setenv PORTA_IEU_FISICA  9200 # 1 porta tcp para o IEC1U
+    setenv PORTA_MDB_FISICA   502 # 1 porta tcp para o TMBUS
+    setenv TTY00 "ctty1a"         # 1ra tty p/comunic via terminal-server
+#   setenv TTY00 "term/y1a"       # idem via Cyclom-Y
+#   setenv TTY00 "ttyS0"          # idem via porta COM
+    setenv UTR C3200              # seleciona CONITEL C3000, C3200 ou C3300
+    setenv PLOOP off              # desabilita loop de protocolo
+    setenv TRACE off              # desabilita trace de protocolo
+    setenv NUM_REP_IEC2 3         # parametro de 3 tentativas de repeticao para 2y
+    setenv TIM_OUT_IEC2 3         # parametro de 3 segundos de time-out para 2y
+    setenv NUM_REP_IEC3 nao       # iec3y nao define parametro em ENU.TRANS
+    setenv TIM_OUT_IEC3 nao       # iec3y nao define parametro em ENU.TDESC
+#   setenv WDT_IDLE 12            # tmp p/desab link-level sem trafego de appl-level
+    setenv REMOTO 3               # conecta transportador principal (1),
+                                  # reserva (2) ambos (3) ou nenhum (0)
+    setenv SAC_HOST1 localhost    # Indica onde reside o CNUL...
+    setenv SAC_HOST2 localhost    # ..e sua copia reserva
+
+##
+##  Opcoes para gravacoes do modulo hist em arquivos historicos
+##
+
+    setenv TMP_PLAN    10  # segundos p/gravar registro em planilha EXCEL
+#    setenv TMP_HIST     1  # minutos p/gravar analogicos e muda formato PAS para PAH
+    setenv TMP_ADAT    60  # segundos p/gravar arquivos DAT-ELETROBRAS
+
+##
+##  Definicoes de ambiente de operacao
+##
+    setenv SGBD postgres
+    setenv PROFILE_ALR  2  # customizacao de colunas para o Visor de Alarmes
+    setenv TMP_FAIL_GSD  30  # customizacao para deteccao de quada na aquisicao de dados
+
+##
+##  Definicoes para acesso a API do PI
+##
+   if (  -e /opt/piapi  ) then
+      setenv OSIPI   SIM
+   endif
+       
+   ##
+   ##  Definicoes de acesso ao banco de dados
+   ##
+   setenv SGBD postgres
+   #              --------- fim -------- 

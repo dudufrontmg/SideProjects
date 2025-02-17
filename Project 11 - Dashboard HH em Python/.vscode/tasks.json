@@ -1,0 +1,29 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "run python and open browser",
+            "type": "shell",
+            "command": "start cmd /c \"python ${file} && echo Done\"",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "open browser",
+            "type": "shell",
+            "command": "start http://localhost:8501",
+            "dependsOn": "run python and open browser",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

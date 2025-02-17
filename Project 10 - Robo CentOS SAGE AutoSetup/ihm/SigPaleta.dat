@@ -1,0 +1,445 @@
+
+COR_FUNDO_TELA          0   0   0
+;COR_FUNDO_TELA         0   0  28
+
+FUNDO_TELA_FASOR        4  26  32
+;FUNDO_TELA_FASOR       0   0  28
+
+VERDE_FASOR             0  92   0
+
+; Cores de níveis de tensão da base demo_ems
+
+COR_18_KV              99  70   0
+COR_20_KV              60  70 100
+COR_345_KV            100   0 100
+COR_500_KV            100  50   0
+COR_600_KV              0   0   0
+COR_700_KV              0  60 100
+
+; Cores de níveis de tensão do CNOS
+; NAO UTILIZADAS PELA CTEEP
+;<138KV                100  50   0
+;138KV                  99  99   0
+;230KV                   0  81   0
+;345KV                   0 100 100
+;440KV                 100   0 100
+;500KV                 100   0   0
+;600KV                   1   1   1
+;750KV                   1   1   1
+
+;===================================
+; CORES DE NIVEIS DE TENSAO DA CTEEP
+;===================================
+13.8KV                100 100   0
+22KV                   55  60   0
+34.5KV                  0  61   0
+69KV                   64  64  64
+88KV                  100   0   0
+138KV                   0  91   0
+230KV                   0  80 100
+345KV                   0   0 100
+440KV                  90  41   0
+500KV                 100   0 100
+600KV                   0  30 100
+750KV                 100 100 100 
+
+
+PRETO                   0   0   0
+GRAFITE                19  19  19
+CARBONO                18  18  18
+CINZA_PROFUNDO         28  28  28
+CINZA_ESCURO           35  35  35
+CINZA_MEDIO            52  52  52
+CINZA                  63  63  63
+CINZA_CLARO            71  71  71
+GELO                   79  76  72
+BEGE                   86  77  70
+AREIA                  86  86  86
+GESSO                  94  94  94
+BRANCO                 99  99  99
+
+AZUL_PROFUNDO           0   0  28
+AZUL_ESCURO             0   0  42
+AZUL_MEDIO              0   0  60
+AZUL_MARINHO            0   0  80
+AZUL                    0   0  99
+AZUL_CELESTE            0  25  99
+AZUL_ROYAL              0  40  99
+AZUL_MEDIO2             0  60  99
+AZUL_CLARO              0  80  99
+AZUL_PALIDO            40  86 100
+
+
+AZUL_STEEL_BLACK        1   6   8
+AZUL_STEEL_DARK         2  12  16
+AZUL_STEEL_PROFUNDO     3  17  24
+AZUL_CADET_PROFUNDO     4  25  32
+AZUL_STEEL_ESCURO       6  34  48
+AZUL_STEEL             14  42  56
+AZUL_CADET_ESCURO      25  50  60
+AZUL_CADET             37  62  70
+AZUL_STEEL_CLARO       35  63  77
+AZUL_CADET_CLARO       53  89 100
+
+OCEANO_DARK             0  15  15
+OCEANO_PROFUNDO         0  28  28
+OCEANO_ESCURO           0  45  45
+OCEANO                  0  66  66
+OCEANO_CLARO            0  80  80
+CIANO                   0  99  99
+CIANO_CLARO            60  99  99
+AGUA                   80  99  99
+
+ROXO_DARK               7   5  12
+ROXO_ESCURO            15  10  25
+ROXO                   30  20  50
+VIOLETA_ESCURO         45  35  65
+VIOLETA                60  40  99
+VIOLETA_CLARO          60  60  99
+LAVANDA                60  75  99
+
+MAGENTA_DARK           30   0  30
+MAGENTA_PROFUNDO       50   0  50
+MAGENTA_ESCURO         70   0  70
+MAGENTA_MEDIO          85   0  85
+MAGENTA                99   0  99
+MAGENTA_CLARO          99  50  99
+LILAS                  99  70  99
+
+VERMELHO_DARK          20   0   0
+VERMELHO_PROFUNDO      40   0   0
+VERMELHO_ESCURO        60   0   0
+VINHO                  80   0   0
+VERMELHO               99   0   0
+VERMELHO_CLARO         99  30  30
+SALMON                 99  40  40
+ROSA                   99   0  50
+ROSA_CLARO             99  50  99
+
+MARROM_PROFUNDO        10   5   2
+MARROM_ESCURO          20  10   4
+MARROM                 60  10  20
+MARROM_SELA            40  20   7
+MARROM_SELA2           54  27   7
+TELHA                  80  40   0
+ABOBORA                99  50   0
+LARANJA_ESCURO         99  60   0
+OURO                   99  70   0
+LARANJA                99  80   0
+OURO_CLARO             99  90   0
+
+AMBAR                  15  15   0
+AZEITE                 30  30   0
+VERDE_OLIVA            50  55   0
+OURO_VELHO             65  65   0
+AMARELO_ESCURO         80  80   0
+AMARELO_MEDIO          90  90   0
+AMARELO                99  99   0
+AMARELO_CLARO          99  99  46
+PALHA                  99  99  66
+
+VERDE_BLACK             0   8   0
+VERDE_DARK              0  16   0
+VERDE_PROFUNDO          0  28   0
+VERDE_LIMO              0  40  20
+VERDE_MUSGO             0  45   0
+VERDE_ESCURO            0  60   0
+VERDE_MEDIO             0  80   0
+VERDE                   0  99   0
+VERDE_CLARO            60  99  50
+LIMA                   70 100  70
+VERDE_PALIDO           85 100  85
+
+LARANJA_SAGE           90  47  10
+AZUL_SAGE               1  32  59
+
+COR_MANUA              CIANO
+COR_FOVAR              AZUL_MARINHO
+COR_FALHA              VERDE_MUSGO
+COR_NINCI              VERDE_MUSGO
+COR_FVORG              AZUL_MARINHO
+COR_MAORG              CIANO
+COR_IVORG              VERDE_MUSGO
+COR_NOSUP              BEGE
+COR_NOSUP_ABERTO       BEGE
+COR_NOSUP_ANORM        BEGE
+COR_NOSUP_FECHADO      BEGE
+COR_NOSUP_NORM         BEGE
+COR_SACOK              VERDE_MUSGO
+;COR_AINIB              AMARELO - Conforme solicitacao do COR em 14/05/2010
+COR_AINIB              AZUL_MARINHO
+COR_ERREE              OURO
+COR_ESC                VERMELHO
+COR_URG                VERMELHO
+COR_ADV                VERMELHO
+COR_NORM               BRANCO
+COR_NORM_ANA           VERDE_CLARO
+COR_NORM_DIG           VERDE_CLARO
+COR_ANORM              VERMELHO
+COR_ANREC_ANA          CINZA_CLARO
+COR_ANREC_DIG          VERMELHO       BLINK
+COR_AUREC              TELHA
+COR_INTERTRAV          OURO_VELHO
+
+COR_CONF_NORM_ABERTO   VERDE
+COR_CONF_NORM_FECHADO  VERMELHO
+COR_CONF_NORM          CINZA
+COR_CONF_ANORM         ABOBORA        BLINK  AMARELO
+
+COR_CTRL_ATIVO         VERDE          BLINK  PALHA
+COR_CTRL_SELECIONADO   AZUL           BLINK  AGUA
+COR_CTRL_INIBIDO       PRETO
+COR_CTRL_ERRO          VERMELHO
+COR_CTRL_INTERTRAVADO  CINZA_ESCURO
+
+COR_MIG_OFFLINE        BRANCO         BLINK  CINZA_ESCURO
+COR_MIG_PARALELO       OURO           BLINK  CINZA_ESCURO
+COR_MIG_TRANSICAO      VERMELHO       BLINK  CINZA_ESCURO
+
+COR_ESTUDO             AGUA
+
+; Cores especificas para Anotacoes
+
+COR_ANOT_NORM          VERDE
+COR_ANOT_ADV           AMARELO
+COR_ANOT_URG           VERMELHO
+COR_ANOT_FAT           VERMELHO
+COR_ANOT_RESTRICAO     AMARELO
+COR_ANOT_TRAB_LT_ENER  MAGENTA        BLINK
+COR_ANOT_NAO_OPERE     MAGENTA
+COR_ANOT_LT_RISCO      MAGENTA
+
+COR_TEND_FUNDO_PRINC   CINZA
+COR_TEND_FUNDO_ATENC   VERMELHO
+COR_TEND_LETRAS_ATENC  BRANCO
+COR_TEND_EIXO_X        PRETO
+COR_TEND_EIXO_Y        PRETO
+COR_TEND_MARCADOR      AZUL
+COR_TEND_INFO          AMARELO
+COR_TEND_DATA          PRETO
+COR_TEND_VAL_DENTRO_Y  VERDE_MUSGO
+COR_TEND_VAL_FORA_Y    VERMELHO
+COR_TEND_CURVA1        AZUL_ESCURO
+COR_TEND_CURVA2        AMARELO
+COR_TEND_CURVA3        MARROM
+COR_TEND_CURVA4        VERDE_ESCURO
+COR_TEND_CURVA5        ROSA
+COR_TEND_CURVA6        BRANCO
+
+COR_ENTRADA_DADOS      LILAS
+COR_DLG_TRIPCLOSE      BEGE
+COR_DLG_RAISELOWER     BEGE
+
+COR_TITULO_PRINCIPAL   PALHA
+COR_TITULO_GERAL       OURO
+COR_FUNDO_BOTAO        CINZA
+COR_LABEL_BOTAO        PRETO
+COR_BOTAO_LABEL        PRETO
+COR_BOTAO_FACE         CINZA
+COR_BOTAO_REFLEXO      AREIA
+COR_BOTAO_SOMBRA       CINZA_ESCURO
+COR_CONTROLE           OURO
+COR_IDENT_TRAFO        OCEANO_CLARO
+
+COR_ANUNC_CEL          CINZA
+COR_ANUNC_URG          VERMELHO       BLINK    COR_ANUNC_CEL
+COR_ANUNC_ADV          OURO_CLARO     BLINK    AMARELO_CLARO
+COR_ANUNC_NOR          VERDE_MEDIO
+COR_ANUNC_NOR1         VERDE          BLINK    COR_ANUNC_CEL
+
+COR_ESC_BLINK_FG       COR_FUNDO_TELA BLINK    VIOLETA
+COR_URG_BLINK_FG       COR_FUNDO_TELA BLINK    VERMELHO
+COR_ADV_BLINK_FG       COR_FUNDO_TELA BLINK    AMARELO
+COR_ESC_BLINK_BG       VIOLETA        BLINK
+COR_URG_BLINK_BG       VERMELHO       BLINK
+COR_ADV_BLINK_BG       AMARELO        BLINK
+
+; Cores especificas para o Visor de Alarmes
+
+;VISOR_ALR_REC          AZUL_STEEL_PROFUNDO
+;VISOR_ALR_NREC         AZUL_ESCURO
+;VISOR_ALR_TODOS_REC    AZUL_STEEL_PROFUNDO
+;VISOR_ALR_ALGUM_NREC   AZUL_ESCURO
+;VISOR_ALR_NULA         BRANCO
+;VISOR_ALR_NORM         CIANO
+
+;VISOR_ALR_NULA         BRANCO
+;VISOR_ALR_NORM         AZUL_CLARO
+;VISOR_ALR_ADV          COR_ADV
+;VISOR_ALR_URG          COR_URG
+;VISOR_ALR_FATAL        MAGENTA
+;VISOR_ALR_PANIC        LARANJA
+;VISOR_ALR_REC          PRETO
+;VISOR_ALR_NREC         CINZA_PROFUNDO
+;VISOR_ALR_TODOS_REC    CINZA_MEDIO
+;VISOR_ALR_ALGUM_NREC   AZUL_PROFUNDO
+;VISOR_ALR_LISTA_CONG   PALHA
+;VISOR_ALR_TEXTO_SELEC  LARANJA
+;VISOR_ALR_FUNDO_SELEC  CINZA_ESCURO
+
+;VISOR_ALR_NULA         BRANCO
+;VISOR_ALR_NORM         COR_NORM
+;VISOR_ALR_ADV          COR_ADV
+;VISOR_ALR_URG          COR_URG
+;VISOR_ALR_FATAL        MAGENTA
+;VISOR_ALR_PANIC        LARANJA
+;VISOR_ALR_REC          CINZA_MEDIO
+;VISOR_ALR_NREC         AZUL_PROFUNDO
+;VISOR_ALR_TODOS_REC    CINZA_MEDIO
+;VISOR_ALR_ALGUM_NREC   AZUL_PROFUNDO
+;VISOR_ALR_LISTA_CONG   PALHA
+
+;VISOR_ALR_NULA         88  100  100
+;VISOR_ALR_NORM          0  100    0
+;VISOR_ALR_ADV         100  100    0
+;VISOR_ALR_URG         100   27    0
+;VISOR_ALR_FATAL        88   40  100
+;VISOR_ALR_PANIC       100   50    0
+;VISOR_ALR_REC          28   28   28
+;VISOR_ALR_REC           0    0    0
+;VISOR_ALR_NREC         10   10   44
+;VISOR_ALR_TODOS_REC    45   45   45
+;VISOR_ALR_ALGUM_NREC    6   31   55
+;VISOR_ALR_LISTA_CONG   69   77   87
+
+; Cores especificas para o SAR
+
+COR_LABEL_BOTAO_SAGE      PRETO
+COR_LOGO_CEPEL            VERMELHO
+COR_TITULO_GERAL_SAGE     OURO
+COR_TITULO_PRINCIPAL_SAGE PALHA
+COR_CONF_NORM             CINZA
+COR_CONF_ANORM            LARANJA      BLINK  COR_CONF_NORM
+ILHA_BG                   AZUL_PROFUNDO
+ILHA_FG                   AZUL_PROFUNDO
+ILHA_00                   CINZA
+ILHA_01                   BRANCO
+ILHA_02                   MAGENTA
+ILHA_03                   OURO
+ILHA_04                   MARROM
+ILHA_05                   ROSA
+ILHA_06                   AMARELO_CLARO
+ILHA_07                   VERDE_CLARO
+ILHA_08                   OCEANO
+ILHA_09                   LARANJA
+ILHA_10                   AZUL_CADET
+ILHA_11                   VERMELHO
+ILHA_12                   BEGE
+ILHA_13                   VIOLETA
+ILHA_14                   AZUL_STEEL
+ILHA_15                   VERDE_ESCURO
+ILHA_16                   AZUL_CLARO
+
+;==========================
+;CORES ESPECIFICAS DA CTEEP
+;==========================
+;COR_ANOT_INFO		    BRANCO
+;COR_ANOT_LTE		    LARANJA
+;COR_ANOT_ICTRL		    MAGENTA	BLINK
+;COR_ANOT_IOPER		    99   0  99
+;COR_ANOT_ANOMALIA	    BRANCO
+LEGENDA_FALHA	       99   0   0
+LEGENDA_NORMAL		   0   99   0	
+LEG_FALHA_TABULAR      80  10  20	
+LEG_NORMAL_TABULAR	   0   60	0
+U_MEDIDA               0   60  99
+COR_FUNDO_TELA_SAR      4  26  32
+COR_UNID_GER          100 100   0
+VERDE_FOSCO             0  40  20
+R79_VERDE				VERDE
+NUM_EQP_BLK            BRANCO         BLINK
+FUNDO_TELA             COR_FUNDO_TELA
+COR_BLOQ_SIMBOLO_TEXTO VERMELHO
+COR_BLOQ_SIMBOLO_FUNDO CINZA
+;COR_BLOQ_ESTADO_BLOQ   ABOBORA
+;COR_BLOQ_ESTADO_DESB   VERDE_MEDIO
+COR_BLOQ_ESTADO_FUNDO  CINZA_ESCURO
+COR_BLOQ_ESTADO_BLOQ   COR_ANORM
+COR_BLOQ_ESTADO_DESB   COR_NORM_DIG
+MOLDURA                CINZA_CLARO
+INSTALACAO             BRANCO
+COR_NOME               AZUL
+BORDA_LEGENDA          CINZA_ESCURO
+UNID_LEGENDA           AZUL_CLARO
+TITU_LEGENDA           BRANCO
+IDENT_EQPTO            AREIA
+FUNDO_BOTAO            VERDE_FOSCO
+SAIDA_LINHA            BRANCO
+CAG_LIGADO             AREIA
+MEDIDA                 BRANCO
+BARRA_CAPD_VERIF       VERDE
+BARRA_GER_VERIF        VERMELHO
+BARRA_CONS_VERIF       MARROM
+BARRA_CAPE_PROG        BARRA_CAPD_VERIF
+BARRA_CAPD_PROG        VERDE
+BARRA_MW               VERMELHO
+BARRA_INT_VERIF        AZUL_CLARO
+BARRA_INT_CAG          AREIA
+BARRA_RPO              AMARELO_CLARO
+BARRA_SALDO            VERDE
+BARRA_GERACAO          VERMELHO
+BRANCO_EB              BRANCO
+
+
+;========================================================
+;CORES DA BASE DEMO COM DEFINIÇÕES DIFERENTES DA BASE BOJ
+;========================================================
+;GRAFITE                10  10  10
+;CINZA_ESCURO           38  38  38
+;BRANCO                100 100 100
+;AZUL                    0   0 100
+;AZUL_CLARO              0  78  99
+;AZUL_STEEL_CLARO       44  74  88
+;OCEANO_CLARO            0  84  84
+;VIOLETA_CLARO          65  60  99
+;LAVANDA                75  70  99
+;ROSA                   99  40  70
+;ROSA_CLARO             99  55  85
+;MARROM                 30  15   5
+;MARROM_SELA2           60  30  10
+;AMARELO               100 100   0
+;AMARELO_CLARO         100 100  46
+;VERDE_CLARO            48 100  48
+;COR_FOVAR              BRANCO
+;COR_FALHA              BRANCO
+;COR_NINCI              BRANCO
+;COR_FVORG              PALHA
+;COR_IVORG              AMARELO_ESCURO
+;COR_NOSUP              BRANCO
+;COR_NOSUP_ABERTO       VERDE_CLARO
+;COR_NOSUP_FECHADO      VERMELHO_CLARO
+;COR_SACOK              BRANCO
+;COR_AINIB              MARROM_SELA2
+;COR_ESC                VIOLETA
+;COR_ADV                AMARELO
+;COR_NORM               VERDE_FASOR
+;COR_NORM_ANA           VERDE_FASOR
+;COR_NORM_DIG           VERDE
+;COR_ANREC_ANA          CINZA_MEDIO
+;COR_AUREC              ABOBORA
+;COR_ANOT_NORM          VERDE_CLARO
+;COR_ANOT_URG           VERMELHO       BLINK  IGN
+;COR_ANOT_FAT           VIOLETA        BLINK  ROXO_ESCURO
+;COR_ANOT_TRAB_LT_ENER  LARANJA        BLINK  TELHA
+;COR_ANOT_NAO_OPERE     VERMELHO       BLINK  MARROM
+;COR_ANOT_LT_RISCO      LILAS          BLINK  VIOLETA
+;COR_TEND_INFO          VERMELHO
+;COR_TEND_CURVA1        AZUL_MEDIO
+;COR_TEND_CURVA2        AMARELO
+;COR_TEND_CURVA4        VERDE_MUSGO
+;COR_TEND_CURVA5        TELHA
+;COR_ENTRADA_DADOS      MAGENTA
+;COR_DLG_TRIPCLOSE      LARANJA_ESCURO
+;COR_CONF_ANORM            ABOBORA      BLINK  AMARELO
+;ILHA_BG                   MARROM
+;ILHA_FG                   MARROM
+;ILHA_01                   BRANCO BLINK CINZA
+;ILHA_02                   CINZA_CLARO
+;ILHA_03                   AMARELO_MEDIO
+;ILHA_04                   OCEANO
+;ILHA_05                   VERDE_CLARO
+;ILHA_06                   CINZA_CLARO
+;ILHA_07                   AZUL_STEEL
+;ILHA_08                   VERMELHO
+;ILHA_09                   ABOBORA
+;ILHA_12                   CINZA_CLARO

@@ -1,0 +1,112 @@
+;
+TELA BRANCO COR_FUNDO_TELA LIC_Default 18 nzoom 1.0 xc 907.0 yc 361.5 gridx 4.0 gridy 4.0 manual * alr_inib * normal * inv_orig *
+
+VERSAO 1.18 
+
+
+LOCK_INICIO SIM
+UNLOCK_FINAL SIM
+
+CAMADA Camada1 NAO_BLOQUEADA PRETO 0
+CAMADA Fundo3D NAO_BLOQUEADA CINZA_PROFUNDO 0
+CAMADA Sombra NAO_BLOQUEADA PRETO 0
+CAMADA BaixoRelevo NAO_BLOQUEADA AREIA 0
+CAMADA Medidas NAO_BLOQUEADA PRETO 0
+
+FILTRO BotaoFiltroNormal
+
+
+
+
+SigBotao Filtro_manual 1872 Medidas 0 { } IGN 0 1 { ( $manual != 1 ) ? ( SETVAR manual 1 ) : ( SETVAR manual * ) } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 309.5 101.0 370.1 101.0 370.1 127.0 309.5 127.0 } 4 { PRETO CINZA BRANCO CINZA_ESCURO } 0.0 {Pontos \nManuais} %16s FONTE_NOME_COMUM
+ 0 1 TOGGLE ESTATICO
+SigBotao Filtro_alr_inib 1868 Medidas 0 { } IGN 0 1 { ( $alr_inib != 1 ) ? ( SETVAR alr_inib 1 ) : ( SETVAR alr_inib * ) } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 257.4 129.0 306.0 129.0 306.0 155.0 257.4 155.0 } 4 { PRETO CINZA BRANCO CINZA_ESCURO } 0.0 {Alr \nInib} %10s FONTE_NOME_COMUM
+ 0 1 TOGGLE ESTATICO
+SigBotao Filtro_inv_orig 1870 Medidas 0 { } IGN 0 1 { ( $inv_orig != 1 ) ? ( SETVAR inv_orig 1 ) : ( SETVAR inv_orig * ) } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 309.3 129.0 370.5 129.0 370.5 155.0 309.3 155.0 } 4 { PRETO CINZA BRANCO CINZA_ESCURO } 0.0 {Invalido \nna origem} %20s FONTE_NOME_COMUM
+ 0 1 TOGGLE ESTATICO
+SigTexto titulo_princ1 394 Sombra 0 { } IGN 0 3 { } { } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 28.0 101.5 186.0 101.5 186.0 126.5 28.0 126.5 } 2 { OURO PRETO } 0.0 {Pontos Digitais} %15s FONTE_TITULO_NEGRITO
+SigTabular tabu2 1826 Sombra 0 { } IGN 0 7 { } { } <OFFSET> NAO_ENTRAVEL { } { } NE 0 2 { 19.5 175.5 1754.3 903.5 } 7 { BRANCO CINZA CINZA_MEDIO CINZA_ESCURO IGN CINZA_ESCURO CINZA_ESCURO } 35 9 1 6 1 24 10 5 S S N 
+   SigColuna * VISIVEL ENTRAVEL IGN 
+            SigTexto texto91 -1 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 38.5 195.5 76.5 195.5 76.5 209.5 38.5 209.5 } 2 { PALHA CINZA_PROFUNDO } 0.0 { Ponto} %6s FONTE_IDENT_3
+
+            SigFlagDigital flagdig2 -1 Sombra 0 { } IGN 0 2 { } { SELECT a1_flags.a_pds FROM pdd } 00000000 ENTRAVEL { } { } NE 0 2 { 50.1 873.5 64.9 889.5 } 2 { BRANCO BRANCO } INDQ_MEIO 
+
+   SigColuna TLOR* VISIVEL NAO_ENTRAVEL IGN 
+            SigTexto texto93 -1 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 196.1 196.5 313.1 196.5 313.1 208.5 196.1 208.5 } 2 { PALHA CINZA_PROFUNDO } 0.0 {                  Id                  } %38s FONTE_IDENT_4
+
+            SigTexto texto7 -1 Sombra 0 { } IGN 0 1 { } { SELECT id.a_pds FROM pdd } 00000000 NAO_ENTRAVEL { } { } NE 0 4 { 100.5 874.5 408.7 874.5 408.7 888.5 100.5 888.5 } 2 { BRANCO GRAFITE } 0.0 {MMMMMMMMMMMMMMMMMMMMMMMMMMMM} %-28s FONTE_IDENT_3
+
+   SigColuna $nome VISIVEL NAO_ENTRAVEL IGN 
+            SigTexto texto95 -1 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 638.3 196.5 667.3 196.5 667.3 208.5 638.3 208.5 } 2 { PALHA CINZA_PROFUNDO } 0.0 {Nome} %4s FONTE_IDENT_4
+
+            SigTexto texto27 -1 Sombra 0 { } IGN 0 1 { } { SELECT nome.a_pds FROM pdd } 00000000 NAO_ENTRAVEL { } { } NE 0 4 { 432.7 874.5 872.9 874.5 872.9 888.5 432.7 888.5 } 2 { BRANCO GRAFITE } 0.0 {MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM} %-40s FONTE_IDENT_3
+
+   SigColuna * VISIVEL NAO_ENTRAVEL IGN 
+            SigTexto texto97 -1 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 969.5 196.5 1044.5 196.5 1044.5 208.5 969.5 208.5 } 2 { PALHA CINZA_PROFUNDO } 0.0 {Endereço MMS} %12s FONTE_IDENT_4
+
+            SigTexto texto20 -1 Sombra 0 { } IGN 0 1 { } { SELECT id.a_pdf.a_pds FROM pdd } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 896.9 874.5 1117.1 874.5 1117.1 888.5 896.9 888.5 } 2 { BRANCO IGN } 0.0 {MMMMMMMMMMMMMMMMMMMM} %-20s FONTE_IDENT_3
+
+   SigColuna * VISIVEL ENTRAVEL IGN 
+            SigTexto texto99 -1 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 1212.1 195.5 1312.1 195.5 1312.1 209.5 1212.1 209.5 } 2 { PALHA CINZA_PROFUNDO } 0.0 {Endereço IEC104} %15s FONTE_IDENT_3
+
+            SigTexto texto143 -1 Sombra 0 { } IGN 0 1 { } { SELECT id.a_pdf FROM pdd } <OFFSET> ENTRAVEL { } { } NE 0 4 { 1141.1 874.5 1383.2 874.5 1383.2 888.5 1141.1 888.5 } 2 { BRANCO IGN } 0.0 {MMMMMMMMMMMMMMMMMMMMMM} %22s FONTE_IDENT_3
+
+   SigColuna $tac VISIVEL ENTRAVEL IGN 
+            SigTexto texto101 -1 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 1441.2 194.5 1494.2 194.5 1494.2 210.5 1441.2 210.5 } 2 { PALHA CINZA_PROFUNDO } 0.0 {   TAC   } %9s FONTE_IDENT_2
+
+            SigTexto texto160 -1 Sombra 0 { } IGN 0 1 { } { SELECT idtac.a_pds FROM pdd } 00000000 ENTRAVEL { } { } NE 0 4 { 1407.2 874.5 1528.3 874.5 1528.3 888.5 1407.2 888.5 } 2 { BRANCO GRAFITE } 0.0 {MMMMMMMMMMM} %-11s FONTE_IDENT_3
+
+   SigColuna $manual VISIVEL ENTRAVEL IGN 
+            SigTexto texto103 -1 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 1552.3 195.5 1594.3 195.5 1594.3 209.5 1552.3 209.5 } 2 { PALHA CINZA_PROFUNDO } 0.0 {Manual} %6s FONTE_IDENT_3
+
+            SigInteiro numero3 -1 Sombra 0 { } IGN 0 1 { [ctrl AUTOREC HABILITA] [shift AUTOREC INIBE] } { SELECT a1_flags.a_pds FROM pdd } 00000000 ENTRAVEL { } { } NE 0 4 { 1561.8 874.5 1584.8 874.5 1584.8 888.5 1561.8 888.5 } 4 { BRANCO GRAFITE CINZA AMARELO_CLARO } 0.0 { Não Sim } %3s FONTE_IDENT_3 0 SETA_IGN 
+
+   SigColuna $alr_inib VISIVEL ENTRAVEL IGN 
+            SigTexto texto105 -1 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 1618.3 188.5 1659.3 188.5 1659.3 216.5 1618.3 216.5 } 2 { PALHA CINZA_PROFUNDO } 0.0 {Alarme\nInibido} %15s FONTE_IDENT_3
+
+            SigInteiro numero4 -1 Sombra 0 { } IGN 0 1 { } { SELECT a1_flags.a_pds FROM pdd } 00000000 ENTRAVEL { } { } NE 0 4 { 1627.3 874.5 1650.3 874.5 1650.3 888.5 1627.3 888.5 } 4 { BRANCO GRAFITE CINZA AMARELO_CLARO } 0.0 { Não Sim } %3s FONTE_IDENT_3 9 SETA_IGN 
+
+   SigColuna $inv_orig VISIVEL ENTRAVEL IGN 
+            SigTexto texto107 -1 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 1683.3 188.5 1741.3 188.5 1741.3 216.5 1683.3 216.5 } 2 { PALHA CINZA_PROFUNDO } 0.0 {Inválido\nna origem} %19s FONTE_IDENT_3
+
+            SigInteiro numero3 -1 Sombra 0 { } IGN 0 1 { } { SELECT a1_flags.a_pds FROM pdd } 00000000 ENTRAVEL { } { } NE 0 4 { 1700.8 874.5 1723.8 874.5 1723.8 888.5 1700.8 888.5 } 4 { BRANCO GRAFITE CINZA AMARELO_CLARO } 0.0 { Não Sim } %3s FONTE_IDENT_3 3 SETA_IGN 
+
+SigTexto texto19 1877 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 94.5 148.0 151.5 148.0 151.5 162.0 94.5 162.0 } 2 { BRANCO PRETO } 0.0 {$vt_linhas} %-10s FONTE_BOT_TAB
+SigTexto texto19 1881 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 32.9 130.0 71.0 130.0 71.0 144.0 32.9 144.0 } 2 { BRANCO PRETO } 0.0 {página} %-6s FONTE_BOT_TAB
+SigTexto texto19 1883 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 89.5 130.0 191.5 130.0 191.5 144.0 89.5 144.0 } 2 { BRANCO PRETO } 0.0 {$vt_pag_numpags} %-15s FONTE_BOT_TAB
+SigTexto texto19 1885 Sombra 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 35.4 148.0 68.5 148.0 68.5 162.0 35.4 162.0 } 2 { BRANCO PRETO } 0.0 {linhas} %-6s FONTE_BOT_TAB
+SigRetangulo BARRA_SUPERIOR 1937 Camada1 0 { } IGN 0 4 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 8.0 9.0 1884.5 9.0 1884.5 79.0 8.0 79.0 } 2 { CINZA_CLARO CINZA_ESCURO } CHEIO ENUM_FG 
+SigTexto texto9 1938 Camada1 0 { } IGN 0 1 { } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 363.3 24.5 1256.7 24.5 1256.7 59.5 363.3 59.5 } 2 { GELO IGN } 0.0 {LOR - SE LORENA - TABULAR DIGITAIS (DISTRIBUIÇÃO)} %49s FONTE_TITULO_SAGE
+SigRetangulo retangulo 1942 Camada1 0 { } IGN 0 1 { CONTROLE TLOR_00E.SIST_______UTR.SS07 } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 1655.5 32.5 1810.5 32.5 1810.5 57.5 1655.5 57.5 } 2 { BRANCO CINZA_MEDIO } CHEIO ENUM_FG 
+SigTexto texto7 1943 Camada1 0 { } IGN 0 1 { CONTROLE TLOR_00E.SIST_______UTR.SS07 } { } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 1670.0 37.0 1743.0 37.0 1743.0 53.0 1670.0 53.0 } 2 { AZUL_MEDIO IGN } 0.0 {Operação } %9s FONTE_POTENCIA
+SigInteiro TLOR_00E.SIST_______UTR.SS07 1944 Camada1 0 { } IGN 0 1 { CONTROLE TLOR_00E.SIST_______UTR.SS07 } { SELECT a1_flags FROM pds WHERE id = TLOR_00E.SIST_______UTR.SS07 } <OFFSET> NAO_ENTRAVEL { } { } NE 0 4 { 1756.0 37.0 1787.0 37.0 1787.0 53.0 1756.0 53.0 } 4 { PRETO IGN VERDE VERMELHO } 0.0 { SE COT } %3s FONTE_POTENCIA 0 SETA_IGN 
+SigBotao Filtro_inv_orig 1922 Camada1 0 { } IGN 0 1 { ( $nome != *.TR-3.* ) ? ( SETVAR nome *.TR-3.* ) : ( SETVAR nome * ) } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 386.0 129.5 435.2 129.5 435.2 155.5 386.0 155.5 } 4 { PRETO CINZA BRANCO CINZA_ESCURO } 0.0 {TR-3} %4s FONTE_NOME_COMUM
+ 0 1 TOGGLE ESTATICO
+SigBotao Filtro_inv_orig 1927 Camada1 0 { } IGN 0 1 { ( $nome != *.SCA-2.* ) ? ( SETVAR nome *.SCA-2.* ) : ( SETVAR nome * ) } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 386.0 101.5 435.2 101.5 435.2 127.5 386.0 127.5 } 4 { PRETO CINZA BRANCO CINZA_ESCURO } 0.0 {SCA-2} %5s FONTE_NOME_COMUM
+ 0 1 TOGGLE ESTATICO
+SigBotao Filtro_inv_orig 1947 Camada1 0 { } IGN 0 1 { ( $nome != *.DM-14.* ) ? ( SETVAR nome *.DM-14.* ) : ( SETVAR nome * ) } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 438.0 129.5 487.2 129.5 487.2 155.5 438.0 155.5 } 4 { PRETO CINZA BRANCO CINZA_ESCURO } 0.0 {DM-14} %5s FONTE_NOME_COMUM
+ 0 1 TOGGLE ESTATICO
+SigBotao Filtro_inv_orig 1948 Camada1 0 { } IGN 0 1 { ( $nome != *.SCA-1.* ) ? ( SETVAR nome *.SCA-1.* ) : ( SETVAR nome * ) } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 438.0 101.5 487.2 101.5 487.2 127.5 438.0 127.5 } 4 { PRETO CINZA BRANCO CINZA_ESCURO } 0.0 {SCA-1} %5s FONTE_NOME_COMUM
+ 0 1 TOGGLE ESTATICO
+SigBotao Filtro_inv_orig 1951 Camada1 0 { } IGN 0 1 { ( $nome != *.DM-17.* ) ? ( SETVAR nome *.DM-17.* ) : ( SETVAR nome * ) } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 490.0 129.5 539.2 129.5 539.2 155.5 490.0 155.5 } 4 { PRETO CINZA BRANCO CINZA_ESCURO } 0.0 {DM-17} %5s FONTE_NOME_COMUM
+ 0 1 TOGGLE ESTATICO
+SigBotao Filtro_inv_orig 1952 Camada1 0 { } IGN 0 1 { ( $nome != *.APA-1.* ) ? ( SETVAR nome *.APA-1.* ) : ( SETVAR nome * ) } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 490.0 101.5 539.2 101.5 539.2 127.5 490.0 127.5 } 4 { PRETO CINZA BRANCO CINZA_ESCURO } 0.0 {APA-1} %5s FONTE_NOME_COMUM
+ 0 1 TOGGLE ESTATICO
+SigBotao Filtro_inv_orig 1955 Camada1 0 { } IGN 0 1 { ( $nome != *.STTP.* ) ? ( SETVAR nome *.STTP.* ) : ( SETVAR nome * ) } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 542.0 129.5 591.2 129.5 591.2 155.5 542.0 155.5 } 4 { PRETO CINZA BRANCO CINZA_ESCURO } 0.0 {STTP} %4s FONTE_NOME_COMUM
+ 0 1 TOGGLE ESTATICO
+SigBotao Filtro_inv_orig 1956 Camada1 0 { } IGN 0 1 { ( $nome != *.APA-2.* ) ? ( SETVAR nome *.APA-2.* ) : ( SETVAR nome * ) } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 542.0 101.5 591.2 101.5 591.2 127.5 542.0 127.5 } 4 { PRETO CINZA BRANCO CINZA_ESCURO } 0.0 {APA-2} %5s FONTE_NOME_COMUM
+ 0 1 TOGGLE ESTATICO
+SigBotao Filtro_inv_orig 1959 Camada1 0 { } IGN 0 1 { ( $nome != *.STCH.* ) ? ( SETVAR nome *.STCH.* ) : ( SETVAR nome * ) } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 594.0 129.5 643.2 129.5 643.2 155.5 594.0 155.5 } 4 { PRETO CINZA BRANCO CINZA_ESCURO } 0.0 {STCH} %4s FONTE_NOME_COMUM
+ 0 1 TOGGLE ESTATICO
+SigBotao Filtro_inv_orig 1960 Camada1 0 { } IGN 0 1 { ( $nome != *.PAR-1.* ) ? ( SETVAR nome *.PAR-1.* ) : ( SETVAR nome * ) } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 594.0 101.5 643.2 101.5 643.2 127.5 594.0 127.5 } 4 { PRETO CINZA BRANCO CINZA_ESCURO } 0.0 {PAR-1} %5s FONTE_NOME_COMUM
+ 0 1 TOGGLE ESTATICO
+SigBotao Filtro_inv_orig 1963 Camada1 0 { } IGN 0 1 { ( $nome != *.500.BR* ) ? ( SETVAR nome *.500.BR* ) : ( SETVAR nome * ) } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 646.0 129.5 695.2 129.5 695.2 155.5 646.0 155.5 } 4 { PRETO CINZA BRANCO CINZA_ESCURO } 0.0 {BR-1/2} %6s FONTE_NOME_COMUM
+ 0 1 TOGGLE ESTATICO
+SigBotao Filtro_inv_orig 1964 Camada1 0 { } IGN 0 1 { ( $nome != *.230.BR* ) ? ( SETVAR nome *.230.BR* ) : ( SETVAR nome * ) } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 646.0 101.5 695.2 101.5 695.2 127.5 646.0 127.5 } 4 { PRETO CINZA BRANCO CINZA_ESCURO } 0.0 {BR-3/4} %6s FONTE_NOME_COMUM
+ 0 1 TOGGLE ESTATICO
+SigBotao Filtro_inv_orig 1967 Camada1 0 { } IGN 0 1 { ( $nome != *.SA.* ) ? ( SETVAR nome *.SA.* ) : ( SETVAR nome * ) } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 698.0 129.5 747.2 129.5 747.2 155.5 698.0 155.5 } 4 { PRETO CINZA BRANCO CINZA_ESCURO } 0.0 {SA} %2s FONTE_NOME_COMUM
+ 0 1 TOGGLE ESTATICO
+SigBotao Filtro_inv_orig 1968 Camada1 0 { } IGN 0 1 { ( $nome != *.SIST* ) ? ( SETVAR nome *.SIST* ) : ( SETVAR nome * ) } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 698.0 101.5 747.2 101.5 747.2 127.5 698.0 127.5 } 4 { PRETO CINZA BRANCO CINZA_ESCURO } 0.0 {SIST} %4s FONTE_NOME_COMUM
+ 0 1 TOGGLE ESTATICO
+SigBotao Tabular_aq 1969 Camada1 0 { } IGN 0 1 { TELA $TELAS/tab_dig } { } <OFFSET> ENTRAVEL { } { } NE 0 4 { 782.0 113.5 959.2 113.5 959.2 139.5 782.0 139.5 } 4 { PRETO CINZA BRANCO CINZA_ESCURO } 0.0 {TABULAR DE AQUISICAO} %20s FONTE_NOME_COMUM
+ 0 1 TOGGLE ESTATICO

@@ -1,0 +1,209 @@
+
+
+TITULO_TELA_P             ESCALAVEL  -*-courier-bold-i-*--20-*-*-*-*-*-iso8859-1
+TITULO_TELA_M             ESCALAVEL  -*-courier-bold-i-*--26-*-*-*-*-*-iso8859-1
+TITULO_TELA_G             ESCALAVEL  -*-courier-bold-i-*--32-*-*-*-*-*-iso8859-1
+SUBTITULO_TELA_P          ESCALAVEL  -*-courier-bold-i-*--12-*-*-*-*-*-iso8859-1
+SUBTITULO_TELA_M          ESCALAVEL  -*-courier-bold-i-*--16-*-*-*-*-*-iso8859-1
+SUBTITULO_TELA_G          ESCALAVEL  -*-courier-bold-i-*--20-*-*-*-*-*-iso8859-1
+
+U_INFRA                   ESCALAVEL  -*-courier-medium-r-*--16-*-*-*-*-*-iso8859-1
+TEXTO_INFRA               ESCALAVEL  -*-courier-medium-r-*--12-*-*-*-*-*-iso8859-1
+
+U_MEDIDA                  ESCALAVEL  -*-courier-medium-r-*--12-*-*-*-*-*-iso8859-1
+MEDIDA                    ESCALAVEL  -*-courier-medium-r-*--12-*-*-*-*-*-iso8859-1
+MED_RESUMO                ESCALAVEL  -*-courier-medium-r-*--14-*-*-*-*-*-iso8859-1
+MEDIDA_KV_HZ              ESCALAVEL  -*-courier-medium-r-*--12-*-*-*-*-*-iso8859-1
+MED_KV_HZ                 ESCALAVEL  -*-courier-bold-r-*--14-*-*-*-*-*-iso8859-1
+RL_79                     ESCALAVEL  -*-courier-medium-r-*--15-*-*-*-*-*-iso8859-1
+
+ID_SC         ESCALAVEL  -*-courier-medium-r-*--10-*-*-*-*-*-iso8859-1
+ID_DJ                     ESCALAVEL  -*-courier-medium-r-*--12-*-*-*-*-*-iso8859-1
+ID_SAIDA_LT            ESCALAVEL  -*-courier-medium-r-*--18-*-*-*-*-*-iso8859-1
+ID_BA                     ESCALAVEL  -*-courier-medium-r-*--16-*-*-*-*-*-iso8859-1
+ID_TR                     ESCALAVEL  -*-courier-medium-r-*--16-*-*-*-*-*-iso8859-1
+CP_TR         ESCALAVEL  -*-courier-medium-r-*--10-*-*-*-*-*-iso8859-1
+ID_UG                     ESCALAVEL  -*-courier-medium-r-*--12-*-*-*-*-*-iso8859-1
+ID_79                     ESCALAVEL  -*-courier-medium-r-*--8-*-*-*-*-*-iso8859-1
+
+ID_EQP               ESCALAVEL  -*-courier-bold-r-*--10-*-*-*-*-*-iso8859-1
+ID_LT_gde            ESCALAVEL  -*-courier-medium-r-*--14-*-*-*-*-*-iso8859-1
+ID_LT_med            ESCALAVEL  -*-courier-medium-r-*--10-*-*-*-*-*-iso8859-1
+ID_LT_peq            ESCALAVEL  -*-courier-medium-r-*--6-*-*-*-*-*-iso8859-1
+
+ID_SE_gde            ESCALAVEL  -*-courier-medium-r-*--18-*-*-*-*-*-iso8859-1
+ID_SE_med            ESCALAVEL  -*-courier-medium-r-*--14-*-*-*-*-*-iso8859-1
+ID_SE_peq            ESCALAVEL  -*-courier-medium-r-*--10-*-*-*-*-*-iso8859-1
+ID_SE                ESCALAVEL  -*-courier-medium-r-*--18-*-*-*-*-*-iso8859-1
+
+MEDIDA_P       ESCALAVEL  -*-courier-medium-i-*--5-*-*-*-*-*-iso8859-1
+MEDIDA_M       ESCALAVEL  -*-courier-medium-r-*--10-*-*-*-*-*-iso8859-1
+MEDIDA_G       ESCALAVEL  -*-courier-medium-r-*--15-*-*-*-*-*-iso8859-1
+DESCR_P        ESCALAVEL  -*-courier-medium-i-*--5-*-*-*-*-*-iso8859-1
+DESCR_M        ESCALAVEL  -*-courier-medium-i-*--10-*-*-*-*-*-iso8859-1
+DESCR_G        ESCALAVEL  -*-courier-medium-i-*--15-*-*-*-*-*-iso8859-1
+
+txtMENU     ESCALAVEL  -*-courier-medium-r-*--16-*-*-*-*-*-iso8859-1
+btnMENU     ESCALAVEL  -*-courier-bold-r-*--16-*-*-*-*-*-iso8859-1
+
+FONTE_MEDIDA_PEQ       ESCALAVEL  -*-courier-medium-i-*--5-*-*-*-*-*-iso8859-1
+FONTE_MEDIDA_MED       ESCALAVEL  -*-courier-medium-r-*--10-*-*-*-*-*-iso8859-1
+FONTE_MEDIDA_GRD       ESCALAVEL  -*-courier-medium-r-*--15-*-*-*-*-*-iso8859-1
+FONTE_DESCR_PEQ        ESCALAVEL  -*-courier-medium-i-*--5-*-*-*-*-*-iso8859-1
+FONTE_DESCR_MED        ESCALAVEL  -*-courier-medium-i-*--10-*-*-*-*-*-iso8859-1
+FONTE_DESCR_GRD        ESCALAVEL  -*-courier-medium-i-*--15-*-*-*-*-*-iso8859-1
+FONTE_BOTAO_TEXTO      ESCALAVEL  -*-courier-bold-r-*--10-*-*-*-*-*-iso8859-1
+FONTE_BOTAO_TEXT4      ESCALAVEL  -*-courier-bold-r-*--10-*-*-*-*-*-iso8859-1
+FONTE_BOTAO_TEXT3      ESCALAVEL  -*-courier-bold-r-*--10-*-*-*-*-*-iso8859-1
+FONTE_BOTAO_ZOOM       ESCALAVEL  -*-courier-bold-r-*--10-*-*-*-*-*-iso8859-1
+FONTE_UNID_MED         ESCALAVEL  -*-courier-bold-r-*--10-*-*-*-*-*-iso8859-1
+FONTE_IDENT_PEQ        ESCALAVEL  -*-courier-medium-r-*--5-*-*-*-*-*-iso8859-1
+FONTE_IDENT_MED        ESCALAVEL  -*-courier-medium-r-*--10-*-*-*-*-*-iso8859-1
+
+HELV                 ESCALAVEL  -*-courier-medium-o-*--20-*-*-*-*-*-iso8859-1
+
+COURIER10               ESCALAVEL  -*-courier-medium-r-*--10-*-*-*-*-*-iso8859-1
+COURIER15               ESCALAVEL  -*-courier-medium-r-*--15-*-*-*-*-*-iso8859-1
+COURIER18               ESCALAVEL  -*-courier-medium-r-*--18-*-*-*-*-*-iso8859-1
+COURIER20               ESCALAVEL  -*-courier-medium-r-*--20-*-*-*-*-*-iso8859-1
+COURIER24               ESCALAVEL  -*-courier-medium-r-*--24-*-*-*-*-*-iso8859-1
+COURIER28               ESCALAVEL  -*-courier-medium-r-*--28-*-*-*-*-*-iso8859-1
+COURIER32               ESCALAVEL  -*-courier-medium-r-*--32-*-*-*-*-*-iso8859-1
+HELV22                  ESCALAVEL  -*-courier-medium-o-*--22-*-*-*-*-*-iso8859-1
+HELV24                  ESCALAVEL  -*-courier-medium-o-*--24-*-*-*-*-*-iso8859-1
+HELV26                  ESCALAVEL  -*-courier-medium-o-*--26-*-*-*-*-*-iso8859-1
+HELV28                  ESCALAVEL  -*-courier-medium-o-*--28-*-*-*-*-*-iso8859-1
+HELV30                  ESCALAVEL  -*-courier-medium-o-*--30-*-*-*-*-*-iso8859-1
+HELV40                  ESCALAVEL  -*-courier-bold-o-*--40-*-*-*-*-*-iso8859-1
+HELVETICA              ESCALAVEL  -*-courier-bold-r-*--20-*-*-*-*-*-iso8859-1
+STANDARD               ESCALAVEL  -*-courier-medium-r-*--18-*-*-*-*-*-iso8859-1
+TEXTO_ESCALAVEL        ESCALAVEL  -*-courier-medium-r-*--14-*-*-*-*-*-iso8859-1
+
+FONTE_BLOQ_SIMBOLO     ESCALAVEL  -*-courier-bold-r-*--10-*-*-*-*-*-iso8859-1
+FONTE_BLOQ_ESTADO      ESCALAVEL  -*-courier-medium-r-*--15-*-*-*-*-*-iso8859-1
+
+LEGENDA                ESCALAVEL  -*-courier-bold-r-*--18-*-*-*-*-*-iso8859-1
+NOME_EB                ESCALAVEL  -*-courier-bold-r-*--40-*-*-*-*-*-iso8859-1
+FONTE_LIG_ERRADA       ESCALAVEL  -*-courier-bold-r-*--14-*-*-*-*-*-iso8859-1
+FONTE_INDIC_QUALID     ESCALAVEL  -*-courier-bold-r-*--8-*-*-*-*-*-iso8859-1
+FONTE_COMPENSADOR      ESCALAVEL  -*-courier-bold-r-*--14-*-*-*-*-*-iso8859-1
+SINCRONO               ESCALAVEL  -*-courier-bold-r-*--14-*-*-*-*-*-iso8859-1
+TITU_LEGENDA           ESCALAVEL  -*-courier-bold-r-*--16-*-*-*-*-*-iso8859-1
+IDENT_EQPTO            ESCALAVEL  -*-courier-bold-r-*--18-*-*-*-*-*-iso8859-1
+IDENT_CH_DJ            ESCALAVEL  -*-courier-medium-r-*--16-*-*-*-*-*-iso8859-1
+IDENT_INSTAL           ESCALAVEL  -*-courier-bold-r-*--25-*-*-*-*-*-iso8859-1
+TEXTO_BOTAO            ESCALAVEL  -*-courier-bold-r-*--20-*-*-*-*-*-iso8859-1
+ID_LADO_OPOSTO_LT      ESCALAVEL  -*-courier-bold-r-*--20-*-*-*-*-*-iso8859-1
+
+AREA_IDENT_INSTAL      ESCALAVEL  -*-courier-medium-r-*--28-*-*-*-*-*-iso8859-1
+AREA_IDENT_INSTAL_PEQ  ESCALAVEL  -*-courier-bold-r-*--14-*-*-*-*-*-iso8859-1
+AREA_IDENT_LINHA       ESCALAVEL  -*-courier-bold-r-*--12-*-*-*-*-*-iso8859-1
+AREA_IDENT_TRAFO       ESCALAVEL  -*-courier-bold-r-*--12-*-*-*-*-*-iso8859-1
+AREA_IDENT_UNID_GER    ESCALAVEL  -*-courier-bold-r-*--12-*-*-*-*-*-iso8859-1
+AREA_KV                ESCALAVEL  -*-courier-medium-r-*--20-*-*-*-*-*-iso8859-1
+AREA_MW                ESCALAVEL  -*-courier-medium-r-*--12-*-*-*-*-*-iso8859-1
+AREA_MVAR              ESCALAVEL  -*-courier-medium-r-*--12-*-*-*-*-*-iso8859-1
+AREA_MVA               ESCALAVEL  -*-courier-medium-r-*--12-*-*-*-*-*-iso8859-1
+AREA_TAP               ESCALAVEL  -*-courier-medium-r-*--12-*-*-*-*-*-iso8859-1
+
+MEDIDA_KV              ESCALAVEL  -*-courier-medium-r-*--14-*-*-*-*-*-iso8859-1
+MEDIDA_MW              ESCALAVEL  -*-courier-medium-r-*--22-*-*-*-*-*-iso8859-1
+MEDIDA_MVAR            ESCALAVEL  -*-courier-medium-r-*--22-*-*-*-*-*-iso8859-1
+MEDIDA_AMP             ESCALAVEL  -*-courier-medium-r-*--22-*-*-*-*-*-iso8859-1
+MEDIDA_TAP             ESCALAVEL  -*-courier-medium-r-*--22-*-*-*-*-*-iso8859-1
+MEDIDA_KV_EAR          ESCALAVEL  -*-courier-medium-r-*--22-*-*-*-*-*-iso8859-1
+MEDIDA_MW_EAR          ESCALAVEL  -*-courier-medium-r-*--16-*-*-*-*-*-iso8859-1
+MEDIDA_MVAR_EAR        ESCALAVEL  -*-courier-medium-r-*--16-*-*-*-*-*-iso8859-1
+UNIDADE_MEDIDA         ESCALAVEL  -*-courier-bold-r-*--14-*-*-*-*-*-iso8859-1
+FONTE_TAB_MED          ESCALAVEL  -*-courier-medium-r-*--14-*-*-*-*-*-iso8859-1
+FONTE_TAB_MED_GR       ESCALAVEL  -*-courier-medium-r-*--16-*-*-*-*-*-iso8859-1
+FONTE_TAB_BOLD_GR      ESCALAVEL  -*-courier-bold-r-*--16-*-*-*-*-*-iso8859-1
+CAG_LIGADO             ESCALAVEL  -*-courier-medium-r-*--16-*-*-*-*-*-iso8859-1
+NOME_INS_EAR           ESCALAVEL  -*-courier-bold-r-*--18-*-*-*-*-*-iso8859-1
+COD_INS_EAR            ESCALAVEL  -*-courier-bold-r-*--14-*-*-*-*-*-iso8859-1
+TABDIN                 ESCALAVEL  -*-courier-medium-r-*--16-*-*-*-*-*-iso8859-1
+TABTITU                ESCALAVEL  -*-courier-bold-r-*--25-*-*-*-*-*-iso8859-1
+TABTEXTO               ESCALAVEL  -*-courier-medium-r-*--16-*-*-*-*-*-iso8859-1
+teste1                 ESCALAVEL  -*-courier-bold-r-*--16-*-*-*-*-*-iso8859-1
+NOME_GR_TENSAO         ESCALAVEL  -*-courier-bold-r-*--14-*-*-*-*-*-iso8859-1
+teste                  VETORIAL   std.txf
+FONTE_VETORIAL         VETORIAL   std.txf
+FONTE_INCLINAVEL       VETORIAL   std.txf
+STANDA               VETORIAL   std.txf
+X                      ESCALAVEL  -*-courier-bold-r-*--10-*-*-*-*-*-iso8859-1
+
+SARTAB                     ESCALAVEL  -*-courier-bold-r-*--18-*-*-*-*-*-iso8859-1
+FONTE_TARJA                VETORIAL   std.txf
+FONTE_BOTAO_SAR            ESCALAVEL  -*-courier-bold-r-*--14-*-*-*-*-*-iso8859-1
+FONTE_BOTAO_INDICE_SAR     ESCALAVEL  -*-courier-bold-r-*--16-*-*-*-*-*-iso8859-1
+FONTE_BOT_TAB_SAR          ESCALAVEL  -*-courier-medium-r-*--12-*-*-*-*-*-iso8859-1
+FONTE_MEDIDA_SAR           ESCALAVEL  -*-courier-bold-r-*--12-*-*-*-*-*-iso8859-1
+FONTE_TITULO_SAGE          ESCALAVEL  -*-courier-bold-r-*--34-*-*-*-*-*-iso8859-1
+FONTE_TITULO_GERAL_SAR     ESCALAVEL  -*-times-bold-i-*--20-*-*-*-*-*-iso8859-1
+FONTE_TITULO_COMUM_SAR     ESCALAVEL  -*-times-bold-r-*--14-*-*-*-*-*-iso8859-1
+FONTE_TITULO_NEGRITO_SAR   ESCALAVEL  -*-times-bold-i-*--24-*-*-*-*-*-iso8859-1
+FONTE_TAB_MED_SAR          ESCALAVEL  -*-courier-medium-r-*--14-*-*-*-*-*-iso8859-1
+FONTE_MEDIDA_35BARRAS      ESCALAVEL  -*-courier-bold-r-*--14-*-*-*-*-*-iso8859-1
+FONTE_IDENT_0              ESCALAVEL  -*-courier-bold-r-*--20-*-*-*-*-*-iso8859-1
+FONTE_IDENT_1              ESCALAVEL  -*-courier-bold-r-*--18-*-*-*-*-*-iso8859-1
+FONTE_IDENT_2              ESCALAVEL  -*-courier-bold-r-*--14-*-*-*-*-*-iso8859-1
+FONTE_IDENT_3              ESCALAVEL  -*-courier-bold-r-*--12-*-*-*-*-*-iso8859-1
+FONTE_IDENT_4              ESCALAVEL  -*-courier-bold-r-*--10-*-*-*-*-*-iso8859-1
+FONTE_LOGO_CEPEL           ESCALAVEL  -*-times-bold-i-*--20-*-*-*-*-*-iso8859-1
+
+FONTE_DEFAULT          ESCALAVEL  -*-courier-medium-r-*--12-*-*-*-*-*-iso8859-1
+
+HELV_FASOR             ESCALAVEL  -*-courier-bold-r-*--20-*-*-*-*-*-iso8859-1
+SARTAB_FASOR           ESCALAVEL  -*-courier-medium-r-*--18-*-*-*-*-iso8859-1
+IDENT_FASOR            ESCALAVEL  -*-courier-medium-r-*--16-*-*-*-*-*-iso8859-1
+FONTE_TITULO_FASOR     ESCALAVEL  -*-courier-medium-i-*--25-*-*-*-*-*-iso8859-1
+
+FONTE_LOGO_SAGE        ESCALAVEL  -*-lucida-medium-r-*-*-34-*-*-*-*-*-iso8859-1
+FONTE_SUB_TITULO_SAGE  ESCALAVEL  -*-courier-medium-r-*--34-*-*-*-*-*-iso8859-1
+
+FONTE_TITULO_NEGRITO   ESCALAVEL  -*-times-bold-i-*--24-*-*-*-*-*-iso8859-1
+FONTE_TITULO_GERAL     ESCALAVEL  -*-times-bold-i-*--20-*-*-*-*-*-iso8859-1
+FONTE_TITULO_COMUM     ESCALAVEL  -*-times-bold-r-*--14-*-*-*-*-*-iso8859-1
+FONTE_TITULO           ESCALAVEL  -*-courier-bold-r-*--25-*-*-*-*-*-iso8859-1
+FONTE_TEXTO            ESCALAVEL  -*-courier-medium-r-*--14-*-*-*-*-*-iso8859-1
+FONTE_TEXTO_PEQUENO    ESCALAVEL  -*-courier-medium-r-*--10-*-*-*-*-*-iso8859-1
+FONTE_TEXTO_NORMAL     ESCALAVEL  -*-courier-medium-r-*--12-*-*-*-*-*-iso8859-1
+FONTE_TEXTO_MEDIO      ESCALAVEL  -*-courier-medium-r-*--14-*-*-*-*-*-iso8859-1
+FONTE_TEXTO_GRANDE     ESCALAVEL  -*-courier-medium-r-*--18-*-*-*-*-*-iso8859-1
+FONTE_TEXTO_35BARRAS   ESCALAVEL  -*-courier-medium-r-*--14-*-*-*-*-*-iso8859-1
+FONTE_MEDIDA           ESCALAVEL  -*-courier-bold-r-*--12-*-*-*-*-*-iso8859-1
+FONTE_MEDIDA0          ESCALAVEL  -*-courier-bold-r-*--10-*-*-*-*-*-iso8859-1
+FONTE_MEDIDA1          ESCALAVEL  -*-courier-bold-r-*--14-*-*-*-*-*-iso8859-1
+FONTE_MEDIDA2          ESCALAVEL  -*-courier-bold-r-*--18-*-*-*-*-*-iso8859-1
+FONTE_MEDIDA3          ESCALAVEL  -*-courier-bold-r-*--18-*-*-*-*-*-iso8859-1
+FONTE_BOTAO            ESCALAVEL  -*-courier-bold-r-*--14-*-*-*-*-*-iso8859-1
+FONTE_BOTAO_INDICE     ESCALAVEL  -*-courier-bold-r-*--16-*-*-*-*-*-iso8859-1
+FONTE_POTENCIA         ESCALAVEL  -*-courier-bold-r-*--14-*-*-*-*-*-iso8859-1
+FONTE_LABEL_BOTAO      ESCALAVEL  -*-courier-bold-r-*--12-*-*-*-*-*-iso8859-1
+FONTE_TABULAR          ESCALAVEL  -*-courier-medium-r-*--14-*-*-*-*-*-iso8859-1
+FONTE_LABEL            ESCALAVEL  -*-courier-medium-r-*--12-*-*-*-*-*-iso8859-1
+FONTE_LABEL_EST        ESCALAVEL  -*-courier-medium-r-*--14-*-*-*-*-*-iso8859-1
+
+FONTE_STATUS           ESCALAVEL  -*-courier-medium-r-*--10-*-*-*-*-*-iso8859-1
+FONTE_RET_CTL          ESCALAVEL  -*-courier-medium-r-*--10-*-*-*-*-*-iso8859-1
+FONTE_ATLV             ESCALAVEL  -*-courier-bold-r-*--14-*-*-*-*-*-iso8859-1
+FONTE_CONTROLE         ESCALAVEL  -*-courier-medium-r-*--10-*-*-*-*-*-iso8859-1
+FONTE_NOME_NEGRITO     ESCALAVEL  -*-courier-bold-r-*--10-*-*-*-*-*-iso8859-1
+FONTE_NOME_COMUM       ESCALAVEL  -*-courier-medium-r-*--10-*-*-*-*-*-iso8859-1
+
+FONTE_TIT_NEGRITO      ESCALAVEL  -*-courier-bold-r-*--20-*-*-*-*-*-iso8859-1
+FONTE_TIT_INDICE       ESCALAVEL  -*-courier-medium-r-*--18-*-*-*-*-*-iso8859-1
+FONTE_TIT_IND_NEGRITO  ESCALAVEL  -*-courier-bold-r-*--16-*-*-*-*-*-iso8859-1
+FONTE_TIT_TAB          ESCALAVEL  -*-courier-bold-r-*--20-*-*-*-*-*-iso8859-1
+FONTE_TIT_COL_TAB      ESCALAVEL  -*-courier-bold-r-*--12-*-*-*-*-*-iso8859-1
+FONTE_DESCR_BOT_INDICE ESCALAVEL  -*-courier-medium-r-*--14-*-*-*-*-*-iso8859-1
+FONTE_BOTAO_NOVO       ESCALAVEL  -*-courier-medium-r-*--12-*-*-*-*-*-iso8859-1
+FONTE_BOT_TAB          ESCALAVEL  -*-courier-medium-r-*--12-*-*-*-*-*-iso8859-1
+FONTE_DET_TAB_GRD      ESCALAVEL  -*-courier-medium-r-*--12-*-*-*-*-*-iso8859-1
+FONTE_IDENT_GRD        ESCALAVEL  -*-courier-medium-r-*--12-*-*-*-*-*-iso8859-1
+FONTE_IDENT_EST        ESCALAVEL  -*-courier-medium-r-*--8-*-*-*-*-*-iso8859-1
+FONTE_IDENT_MAQUETE    ESCALAVEL  -*-courier-bold-r-*--12-*-*-*-*-*-iso8859-1
+FONTE_IDENT_CIRC_MAQ   ESCALAVEL  -*-courier-bold-r-*--12-*-*-*-*-*-iso8859-1
+FONTE_POKEPOINT_MAQ    ESCALAVEL  -*-courier-bold-o-*--14-*-*-*-*-*-iso8859-1
+
+

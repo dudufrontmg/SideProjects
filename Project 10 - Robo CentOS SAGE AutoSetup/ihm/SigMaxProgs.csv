@@ -1,0 +1,16 @@
+prog,          max
+VisorTelas,    3
+VisorHist,     2
+VisorCalc,     2
+VisorLog,      2
+VisorBase,     1
+VisorChart,    4
+VisorAlarme,   2
+VisorProc,     2
+SigDraw,       2
+Ligador,       2
+VisorCap,      3
+WallTrend,     2
+sash,          0
+VisorReplay,   2
+ReplayService, 2

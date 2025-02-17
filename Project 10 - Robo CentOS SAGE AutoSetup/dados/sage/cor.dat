@@ -1,0 +1,1900 @@
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 0
+             ID = COR_FUNDO_TELA
+          ORDEM = 0
+
+COR
+  COR_PERCENT_B = 32
+  COR_PERCENT_G = 26
+  COR_PERCENT_R = 4
+             ID = FUNDO_TELA_FASOR
+          ORDEM = 1
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 92
+  COR_PERCENT_R = 0
+             ID = VERDE_FASOR
+          ORDEM = 2
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 70
+  COR_PERCENT_R = 99
+             ID = COR_18_KV
+          ORDEM = 3
+
+COR
+  COR_PERCENT_B = 100
+  COR_PERCENT_G = 70
+  COR_PERCENT_R = 60
+             ID = COR_20_KV
+          ORDEM = 4
+
+COR
+  COR_PERCENT_B = 100
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 100
+             ID = COR_345_KV
+          ORDEM = 5
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 50
+  COR_PERCENT_R = 100
+             ID = COR_500_KV
+          ORDEM = 6
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 0
+             ID = COR_600_KV
+          ORDEM = 7
+
+COR
+  COR_PERCENT_B = 100
+  COR_PERCENT_G = 60
+  COR_PERCENT_R = 0
+             ID = COR_700_KV
+          ORDEM = 8
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 100
+  COR_PERCENT_R = 100
+             ID = 13.8KV
+          ORDEM = 9
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 60
+  COR_PERCENT_R = 55
+             ID = 22KV
+          ORDEM = 10
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 61
+  COR_PERCENT_R = 0
+             ID = 34.5KV
+          ORDEM = 11
+
+COR
+  COR_PERCENT_B = 64
+  COR_PERCENT_G = 64
+  COR_PERCENT_R = 64
+             ID = 69KV
+          ORDEM = 12
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 100
+             ID = 88KV
+          ORDEM = 13
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 91
+  COR_PERCENT_R = 0
+             ID = 138KV
+          ORDEM = 14
+
+COR
+  COR_PERCENT_B = 100
+  COR_PERCENT_G = 80
+  COR_PERCENT_R = 0
+             ID = 230KV
+          ORDEM = 15
+
+COR
+  COR_PERCENT_B = 100
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 0
+             ID = 345KV
+          ORDEM = 16
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 41
+  COR_PERCENT_R = 90
+             ID = 440KV
+          ORDEM = 17
+
+COR
+  COR_PERCENT_B = 100
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 100
+             ID = 500KV
+          ORDEM = 18
+
+COR
+  COR_PERCENT_B = 100
+  COR_PERCENT_G = 30
+  COR_PERCENT_R = 0
+             ID = 600KV
+          ORDEM = 19
+
+COR
+  COR_PERCENT_B = 100
+  COR_PERCENT_G = 100
+  COR_PERCENT_R = 100
+             ID = 750KV
+          ORDEM = 20
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 0
+             ID = PRETO
+          ORDEM = 21
+
+COR
+  COR_PERCENT_B = 19
+  COR_PERCENT_G = 19
+  COR_PERCENT_R = 19
+             ID = GRAFITE
+          ORDEM = 22
+
+COR
+  COR_PERCENT_B = 18
+  COR_PERCENT_G = 18
+  COR_PERCENT_R = 18
+             ID = CARBONO
+          ORDEM = 23
+
+COR
+  COR_PERCENT_B = 28
+  COR_PERCENT_G = 28
+  COR_PERCENT_R = 28
+             ID = CINZA_PROFUNDO
+          ORDEM = 24
+
+COR
+  COR_PERCENT_B = 35
+  COR_PERCENT_G = 35
+  COR_PERCENT_R = 35
+             ID = CINZA_ESCURO
+          ORDEM = 25
+
+COR
+  COR_PERCENT_B = 52
+  COR_PERCENT_G = 52
+  COR_PERCENT_R = 52
+             ID = CINZA_MEDIO
+          ORDEM = 26
+
+COR
+  COR_PERCENT_B = 63
+  COR_PERCENT_G = 63
+  COR_PERCENT_R = 63
+             ID = CINZA
+          ORDEM = 27
+
+COR
+  COR_PERCENT_B = 71
+  COR_PERCENT_G = 71
+  COR_PERCENT_R = 71
+             ID = CINZA_CLARO
+          ORDEM = 28
+
+COR
+  COR_PERCENT_B = 72
+  COR_PERCENT_G = 76
+  COR_PERCENT_R = 79
+             ID = GELO
+          ORDEM = 29
+
+COR
+  COR_PERCENT_B = 70
+  COR_PERCENT_G = 77
+  COR_PERCENT_R = 86
+             ID = BEGE
+          ORDEM = 30
+
+COR
+  COR_PERCENT_B = 86
+  COR_PERCENT_G = 86
+  COR_PERCENT_R = 86
+             ID = AREIA
+          ORDEM = 31
+
+COR
+  COR_PERCENT_B = 94
+  COR_PERCENT_G = 94
+  COR_PERCENT_R = 94
+             ID = GESSO
+          ORDEM = 32
+
+COR
+  COR_PERCENT_B = 99
+  COR_PERCENT_G = 99
+  COR_PERCENT_R = 99
+             ID = BRANCO
+          ORDEM = 33
+
+COR
+  COR_PERCENT_B = 28
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 0
+             ID = AZUL_PROFUNDO
+          ORDEM = 34
+
+COR
+  COR_PERCENT_B = 42
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 0
+             ID = AZUL_ESCURO
+          ORDEM = 35
+
+COR
+  COR_PERCENT_B = 60
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 0
+             ID = AZUL_MEDIO
+          ORDEM = 36
+
+COR
+  COR_PERCENT_B = 80
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 0
+             ID = AZUL_MARINHO
+          ORDEM = 37
+
+COR
+  COR_PERCENT_B = 99
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 0
+             ID = AZUL
+          ORDEM = 38
+
+COR
+  COR_PERCENT_B = 99
+  COR_PERCENT_G = 25
+  COR_PERCENT_R = 0
+             ID = AZUL_CELESTE
+          ORDEM = 39
+
+COR
+  COR_PERCENT_B = 99
+  COR_PERCENT_G = 40
+  COR_PERCENT_R = 0
+             ID = AZUL_ROYAL
+          ORDEM = 40
+
+COR
+  COR_PERCENT_B = 99
+  COR_PERCENT_G = 60
+  COR_PERCENT_R = 0
+             ID = AZUL_MEDIO2
+          ORDEM = 41
+
+COR
+  COR_PERCENT_B = 99
+  COR_PERCENT_G = 80
+  COR_PERCENT_R = 0
+             ID = AZUL_CLARO
+          ORDEM = 42
+
+COR
+  COR_PERCENT_B = 100
+  COR_PERCENT_G = 86
+  COR_PERCENT_R = 40
+             ID = AZUL_PALIDO
+          ORDEM = 43
+
+COR
+  COR_PERCENT_B = 8
+  COR_PERCENT_G = 6
+  COR_PERCENT_R = 1
+             ID = AZUL_STEEL_BLACK
+          ORDEM = 44
+
+COR
+  COR_PERCENT_B = 16
+  COR_PERCENT_G = 12
+  COR_PERCENT_R = 2
+             ID = AZUL_STEEL_DARK
+          ORDEM = 45
+
+COR
+  COR_PERCENT_B = 24
+  COR_PERCENT_G = 17
+  COR_PERCENT_R = 3
+             ID = AZUL_STEEL_PROFUNDO
+          ORDEM = 46
+
+COR
+  COR_PERCENT_B = 32
+  COR_PERCENT_G = 25
+  COR_PERCENT_R = 4
+             ID = AZUL_CADET_PROFUNDO
+          ORDEM = 47
+
+COR
+  COR_PERCENT_B = 48
+  COR_PERCENT_G = 34
+  COR_PERCENT_R = 6
+             ID = AZUL_STEEL_ESCURO
+          ORDEM = 48
+
+COR
+  COR_PERCENT_B = 56
+  COR_PERCENT_G = 42
+  COR_PERCENT_R = 14
+             ID = AZUL_STEEL
+          ORDEM = 49
+
+COR
+  COR_PERCENT_B = 60
+  COR_PERCENT_G = 50
+  COR_PERCENT_R = 25
+             ID = AZUL_CADET_ESCURO
+          ORDEM = 50
+
+COR
+  COR_PERCENT_B = 70
+  COR_PERCENT_G = 62
+  COR_PERCENT_R = 37
+             ID = AZUL_CADET
+          ORDEM = 51
+
+COR
+  COR_PERCENT_B = 77
+  COR_PERCENT_G = 63
+  COR_PERCENT_R = 35
+             ID = AZUL_STEEL_CLARO
+          ORDEM = 52
+
+COR
+  COR_PERCENT_B = 100
+  COR_PERCENT_G = 89
+  COR_PERCENT_R = 53
+             ID = AZUL_CADET_CLARO
+          ORDEM = 53
+
+COR
+  COR_PERCENT_B = 15
+  COR_PERCENT_G = 15
+  COR_PERCENT_R = 0
+             ID = OCEANO_DARK
+          ORDEM = 54
+
+COR
+  COR_PERCENT_B = 28
+  COR_PERCENT_G = 28
+  COR_PERCENT_R = 0
+             ID = OCEANO_PROFUNDO
+          ORDEM = 55
+
+COR
+  COR_PERCENT_B = 45
+  COR_PERCENT_G = 45
+  COR_PERCENT_R = 0
+             ID = OCEANO_ESCURO
+          ORDEM = 56
+
+COR
+  COR_PERCENT_B = 66
+  COR_PERCENT_G = 66
+  COR_PERCENT_R = 0
+             ID = OCEANO
+          ORDEM = 57
+
+COR
+  COR_PERCENT_B = 80
+  COR_PERCENT_G = 80
+  COR_PERCENT_R = 0
+             ID = OCEANO_CLARO
+          ORDEM = 58
+
+COR
+  COR_PERCENT_B = 99
+  COR_PERCENT_G = 99
+  COR_PERCENT_R = 0
+             ID = CIANO
+          ORDEM = 59
+
+COR
+  COR_PERCENT_B = 99
+  COR_PERCENT_G = 99
+  COR_PERCENT_R = 60
+             ID = CIANO_CLARO
+          ORDEM = 60
+
+COR
+  COR_PERCENT_B = 99
+  COR_PERCENT_G = 99
+  COR_PERCENT_R = 80
+             ID = AGUA
+          ORDEM = 61
+
+COR
+  COR_PERCENT_B = 12
+  COR_PERCENT_G = 5
+  COR_PERCENT_R = 7
+             ID = ROXO_DARK
+          ORDEM = 62
+
+COR
+  COR_PERCENT_B = 25
+  COR_PERCENT_G = 10
+  COR_PERCENT_R = 15
+             ID = ROXO_ESCURO
+          ORDEM = 63
+
+COR
+  COR_PERCENT_B = 50
+  COR_PERCENT_G = 20
+  COR_PERCENT_R = 30
+             ID = ROXO
+          ORDEM = 64
+
+COR
+  COR_PERCENT_B = 65
+  COR_PERCENT_G = 35
+  COR_PERCENT_R = 45
+             ID = VIOLETA_ESCURO
+          ORDEM = 65
+
+COR
+  COR_PERCENT_B = 99
+  COR_PERCENT_G = 40
+  COR_PERCENT_R = 60
+             ID = VIOLETA
+          ORDEM = 66
+
+COR
+  COR_PERCENT_B = 99
+  COR_PERCENT_G = 60
+  COR_PERCENT_R = 60
+             ID = VIOLETA_CLARO
+          ORDEM = 67
+
+COR
+  COR_PERCENT_B = 99
+  COR_PERCENT_G = 75
+  COR_PERCENT_R = 60
+             ID = LAVANDA
+          ORDEM = 68
+
+COR
+  COR_PERCENT_B = 30
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 30
+             ID = MAGENTA_DARK
+          ORDEM = 69
+
+COR
+  COR_PERCENT_B = 50
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 50
+             ID = MAGENTA_PROFUNDO
+          ORDEM = 70
+
+COR
+  COR_PERCENT_B = 70
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 70
+             ID = MAGENTA_ESCURO
+          ORDEM = 71
+
+COR
+  COR_PERCENT_B = 85
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 85
+             ID = MAGENTA_MEDIO
+          ORDEM = 72
+
+COR
+  COR_PERCENT_B = 99
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 99
+             ID = MAGENTA
+          ORDEM = 73
+
+COR
+  COR_PERCENT_B = 99
+  COR_PERCENT_G = 50
+  COR_PERCENT_R = 99
+             ID = MAGENTA_CLARO
+          ORDEM = 74
+
+COR
+  COR_PERCENT_B = 99
+  COR_PERCENT_G = 70
+  COR_PERCENT_R = 99
+             ID = LILAS
+          ORDEM = 75
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 20
+             ID = VERMELHO_DARK
+          ORDEM = 76
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 40
+             ID = VERMELHO_PROFUNDO
+          ORDEM = 77
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 60
+             ID = VERMELHO_ESCURO
+          ORDEM = 78
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 80
+             ID = VINHO
+          ORDEM = 79
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 99
+             ID = VERMELHO
+          ORDEM = 80
+
+COR
+  COR_PERCENT_B = 30
+  COR_PERCENT_G = 30
+  COR_PERCENT_R = 99
+             ID = VERMELHO_CLARO
+          ORDEM = 81
+
+COR
+  COR_PERCENT_B = 40
+  COR_PERCENT_G = 40
+  COR_PERCENT_R = 99
+             ID = SALMON
+          ORDEM = 82
+
+COR
+  COR_PERCENT_B = 50
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 99
+             ID = ROSA
+          ORDEM = 83
+
+COR
+  COR_PERCENT_B = 99
+  COR_PERCENT_G = 50
+  COR_PERCENT_R = 99
+             ID = ROSA_CLARO
+          ORDEM = 84
+
+COR
+  COR_PERCENT_B = 2
+  COR_PERCENT_G = 5
+  COR_PERCENT_R = 10
+             ID = MARROM_PROFUNDO
+          ORDEM = 85
+
+COR
+  COR_PERCENT_B = 4
+  COR_PERCENT_G = 10
+  COR_PERCENT_R = 20
+             ID = MARROM_ESCURO
+          ORDEM = 86
+
+COR
+  COR_PERCENT_B = 20
+  COR_PERCENT_G = 10
+  COR_PERCENT_R = 60
+             ID = MARROM
+          ORDEM = 87
+
+COR
+  COR_PERCENT_B = 7
+  COR_PERCENT_G = 20
+  COR_PERCENT_R = 40
+             ID = MARROM_SELA
+          ORDEM = 88
+
+COR
+  COR_PERCENT_B = 7
+  COR_PERCENT_G = 27
+  COR_PERCENT_R = 54
+             ID = MARROM_SELA2
+          ORDEM = 89
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 40
+  COR_PERCENT_R = 80
+             ID = TELHA
+          ORDEM = 90
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 50
+  COR_PERCENT_R = 99
+             ID = ABOBORA
+          ORDEM = 91
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 60
+  COR_PERCENT_R = 99
+             ID = LARANJA_ESCURO
+          ORDEM = 92
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 70
+  COR_PERCENT_R = 99
+             ID = OURO
+          ORDEM = 93
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 80
+  COR_PERCENT_R = 99
+             ID = LARANJA
+          ORDEM = 94
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 90
+  COR_PERCENT_R = 99
+             ID = OURO_CLARO
+          ORDEM = 95
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 15
+  COR_PERCENT_R = 15
+             ID = AMBAR
+          ORDEM = 96
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 30
+  COR_PERCENT_R = 30
+             ID = AZEITE
+          ORDEM = 97
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 55
+  COR_PERCENT_R = 50
+             ID = VERDE_OLIVA
+          ORDEM = 98
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 65
+  COR_PERCENT_R = 65
+             ID = OURO_VELHO
+          ORDEM = 99
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 80
+  COR_PERCENT_R = 80
+             ID = AMARELO_ESCURO
+          ORDEM = 100
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 90
+  COR_PERCENT_R = 90
+             ID = AMARELO_MEDIO
+          ORDEM = 101
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 99
+  COR_PERCENT_R = 99
+             ID = AMARELO
+          ORDEM = 102
+
+COR
+  COR_PERCENT_B = 46
+  COR_PERCENT_G = 99
+  COR_PERCENT_R = 99
+             ID = AMARELO_CLARO
+          ORDEM = 103
+
+COR
+  COR_PERCENT_B = 66
+  COR_PERCENT_G = 99
+  COR_PERCENT_R = 99
+             ID = PALHA
+          ORDEM = 104
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 8
+  COR_PERCENT_R = 0
+             ID = VERDE_BLACK
+          ORDEM = 105
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 16
+  COR_PERCENT_R = 0
+             ID = VERDE_DARK
+          ORDEM = 106
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 28
+  COR_PERCENT_R = 0
+             ID = VERDE_PROFUNDO
+          ORDEM = 107
+
+COR
+  COR_PERCENT_B = 20
+  COR_PERCENT_G = 40
+  COR_PERCENT_R = 0
+             ID = VERDE_LIMO
+          ORDEM = 108
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 45
+  COR_PERCENT_R = 0
+             ID = VERDE_MUSGO
+          ORDEM = 109
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 60
+  COR_PERCENT_R = 0
+             ID = VERDE_ESCURO
+          ORDEM = 110
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 80
+  COR_PERCENT_R = 0
+             ID = VERDE_MEDIO
+          ORDEM = 111
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 99
+  COR_PERCENT_R = 0
+             ID = VERDE
+          ORDEM = 112
+
+COR
+  COR_PERCENT_B = 50
+  COR_PERCENT_G = 99
+  COR_PERCENT_R = 60
+             ID = VERDE_CLARO
+          ORDEM = 113
+
+COR
+  COR_PERCENT_B = 70
+  COR_PERCENT_G = 100
+  COR_PERCENT_R = 70
+             ID = LIMA
+          ORDEM = 114
+
+COR
+  COR_PERCENT_B = 85
+  COR_PERCENT_G = 100
+  COR_PERCENT_R = 85
+             ID = VERDE_PALIDO
+          ORDEM = 115
+
+COR
+  COR_PERCENT_B = 10
+  COR_PERCENT_G = 47
+  COR_PERCENT_R = 90
+             ID = LARANJA_SAGE
+          ORDEM = 116
+
+COR
+  COR_PERCENT_B = 59
+  COR_PERCENT_G = 32
+  COR_PERCENT_R = 1
+             ID = AZUL_SAGE
+          ORDEM = 117
+
+COR
+  COR_PERCENT_B = 99
+  COR_PERCENT_G = 99
+  COR_PERCENT_R = 0
+             ID = COR_MANUA
+          ORDEM = 118
+
+COR
+  COR_PERCENT_B = 80
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 0
+             ID = COR_FOVAR
+          ORDEM = 119
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 45
+  COR_PERCENT_R = 0
+             ID = COR_FALHA
+          ORDEM = 120
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 45
+  COR_PERCENT_R = 0
+             ID = COR_NINCI
+          ORDEM = 121
+
+COR
+  COR_PERCENT_B = 80
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 0
+             ID = COR_FVORG
+          ORDEM = 122
+
+COR
+  COR_PERCENT_B = 99
+  COR_PERCENT_G = 99
+  COR_PERCENT_R = 0
+             ID = COR_MAORG
+          ORDEM = 123
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 45
+  COR_PERCENT_R = 0
+             ID = COR_IVORG
+          ORDEM = 124
+
+COR
+  COR_PERCENT_B = 70
+  COR_PERCENT_G = 77
+  COR_PERCENT_R = 86
+             ID = COR_NOSUP
+          ORDEM = 125
+
+COR
+  COR_PERCENT_B = 70
+  COR_PERCENT_G = 77
+  COR_PERCENT_R = 86
+             ID = COR_NOSUP_ABERTO
+          ORDEM = 126
+
+COR
+  COR_PERCENT_B = 70
+  COR_PERCENT_G = 77
+  COR_PERCENT_R = 86
+             ID = COR_NOSUP_ANORM
+          ORDEM = 127
+
+COR
+  COR_PERCENT_B = 70
+  COR_PERCENT_G = 77
+  COR_PERCENT_R = 86
+             ID = COR_NOSUP_FECHADO
+          ORDEM = 128
+
+COR
+  COR_PERCENT_B = 70
+  COR_PERCENT_G = 77
+  COR_PERCENT_R = 86
+             ID = COR_NOSUP_NORM
+          ORDEM = 129
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 45
+  COR_PERCENT_R = 0
+             ID = COR_SACOK
+          ORDEM = 130
+
+COR
+  COR_PERCENT_B = 80
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 0
+             ID = COR_AINIB
+          ORDEM = 131
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 70
+  COR_PERCENT_R = 99
+             ID = COR_ERREE
+          ORDEM = 132
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 99
+             ID = COR_ESC
+          ORDEM = 133
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 99
+             ID = COR_URG
+          ORDEM = 134
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 99
+             ID = COR_ADV
+          ORDEM = 135
+
+COR
+  COR_PERCENT_B = 99
+  COR_PERCENT_G = 99
+  COR_PERCENT_R = 99
+             ID = COR_NORM
+          ORDEM = 136
+
+COR
+  COR_PERCENT_B = 50
+  COR_PERCENT_G = 99
+  COR_PERCENT_R = 60
+             ID = COR_NORM_ANA
+          ORDEM = 137
+
+COR
+  COR_PERCENT_B = 50
+  COR_PERCENT_G = 99
+  COR_PERCENT_R = 60
+             ID = COR_NORM_DIG
+          ORDEM = 138
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 99
+             ID = COR_ANORM
+          ORDEM = 139
+
+COR
+  COR_PERCENT_B = 71
+  COR_PERCENT_G = 71
+  COR_PERCENT_R = 71
+             ID = COR_ANREC_ANA
+          ORDEM = 140
+
+COR
+          BLINK = SIM
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 99
+             ID = COR_ANREC_DIG
+          ORDEM = 141
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 40
+  COR_PERCENT_R = 80
+             ID = COR_AUREC
+          ORDEM = 142
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 65
+  COR_PERCENT_R = 65
+             ID = COR_INTERTRAV
+          ORDEM = 143
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 99
+  COR_PERCENT_R = 0
+             ID = COR_CONF_NORM_ABERTO
+          ORDEM = 144
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 99
+             ID = COR_CONF_NORM_FECHADO
+          ORDEM = 145
+
+COR
+  COR_PERCENT_B = 63
+  COR_PERCENT_G = 63
+  COR_PERCENT_R = 63
+             ID = COR_CONF_NORM
+          ORDEM = 146
+
+COR
+          BLINK = SIM
+      COR_BLINK = AMARELO
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 50
+  COR_PERCENT_R = 99
+             ID = COR_CONF_ANORM
+          ORDEM = 147
+
+COR
+          BLINK = SIM
+      COR_BLINK = PALHA
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 99
+  COR_PERCENT_R = 0
+             ID = COR_CTRL_ATIVO
+          ORDEM = 148
+
+COR
+          BLINK = SIM
+      COR_BLINK = AGUA
+  COR_PERCENT_B = 99
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 0
+             ID = COR_CTRL_SELECIONADO
+          ORDEM = 149
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 0
+             ID = COR_CTRL_INIBIDO
+          ORDEM = 150
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 99
+             ID = COR_CTRL_ERRO
+          ORDEM = 151
+
+COR
+  COR_PERCENT_B = 35
+  COR_PERCENT_G = 35
+  COR_PERCENT_R = 35
+             ID = COR_CTRL_INTERTRAVADO
+          ORDEM = 152
+
+COR
+          BLINK = SIM
+      COR_BLINK = CINZA_ESCURO
+  COR_PERCENT_B = 99
+  COR_PERCENT_G = 99
+  COR_PERCENT_R = 99
+             ID = COR_MIG_OFFLINE
+          ORDEM = 153
+
+COR
+          BLINK = SIM
+      COR_BLINK = CINZA_ESCURO
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 70
+  COR_PERCENT_R = 99
+             ID = COR_MIG_PARALELO
+          ORDEM = 154
+
+COR
+          BLINK = SIM
+      COR_BLINK = CINZA_ESCURO
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 99
+             ID = COR_MIG_TRANSICAO
+          ORDEM = 155
+
+COR
+  COR_PERCENT_B = 99
+  COR_PERCENT_G = 99
+  COR_PERCENT_R = 80
+             ID = COR_ESTUDO
+          ORDEM = 156
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 99
+  COR_PERCENT_R = 0
+             ID = COR_ANOT_NORM
+          ORDEM = 157
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 99
+  COR_PERCENT_R = 99
+             ID = COR_ANOT_ADV
+          ORDEM = 158
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 99
+             ID = COR_ANOT_URG
+          ORDEM = 159
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 99
+             ID = COR_ANOT_FAT
+          ORDEM = 160
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 99
+  COR_PERCENT_R = 99
+             ID = COR_ANOT_RESTRICAO
+          ORDEM = 161
+
+COR
+          BLINK = SIM
+  COR_PERCENT_B = 99
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 99
+             ID = COR_ANOT_TRAB_LT_ENER
+          ORDEM = 162
+
+COR
+  COR_PERCENT_B = 99
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 99
+             ID = COR_ANOT_NAO_OPERE
+          ORDEM = 163
+
+COR
+  COR_PERCENT_B = 99
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 99
+             ID = COR_ANOT_LT_RISCO
+          ORDEM = 164
+
+COR
+  COR_PERCENT_B = 63
+  COR_PERCENT_G = 63
+  COR_PERCENT_R = 63
+             ID = COR_TEND_FUNDO_PRINC
+          ORDEM = 165
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 99
+             ID = COR_TEND_FUNDO_ATENC
+          ORDEM = 166
+
+COR
+  COR_PERCENT_B = 99
+  COR_PERCENT_G = 99
+  COR_PERCENT_R = 99
+             ID = COR_TEND_LETRAS_ATENC
+          ORDEM = 167
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 0
+             ID = COR_TEND_EIXO_X
+          ORDEM = 168
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 0
+             ID = COR_TEND_EIXO_Y
+          ORDEM = 169
+
+COR
+  COR_PERCENT_B = 99
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 0
+             ID = COR_TEND_MARCADOR
+          ORDEM = 170
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 99
+  COR_PERCENT_R = 99
+             ID = COR_TEND_INFO
+          ORDEM = 171
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 0
+             ID = COR_TEND_DATA
+          ORDEM = 172
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 45
+  COR_PERCENT_R = 0
+             ID = COR_TEND_VAL_DENTRO_Y
+          ORDEM = 173
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 99
+             ID = COR_TEND_VAL_FORA_Y
+          ORDEM = 174
+
+COR
+  COR_PERCENT_B = 42
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 0
+             ID = COR_TEND_CURVA1
+          ORDEM = 175
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 99
+  COR_PERCENT_R = 99
+             ID = COR_TEND_CURVA2
+          ORDEM = 176
+
+COR
+  COR_PERCENT_B = 20
+  COR_PERCENT_G = 10
+  COR_PERCENT_R = 60
+             ID = COR_TEND_CURVA3
+          ORDEM = 177
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 60
+  COR_PERCENT_R = 0
+             ID = COR_TEND_CURVA4
+          ORDEM = 178
+
+COR
+  COR_PERCENT_B = 50
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 99
+             ID = COR_TEND_CURVA5
+          ORDEM = 179
+
+COR
+  COR_PERCENT_B = 99
+  COR_PERCENT_G = 99
+  COR_PERCENT_R = 99
+             ID = COR_TEND_CURVA6
+          ORDEM = 180
+
+COR
+  COR_PERCENT_B = 99
+  COR_PERCENT_G = 70
+  COR_PERCENT_R = 99
+             ID = COR_ENTRADA_DADOS
+          ORDEM = 181
+
+COR
+  COR_PERCENT_B = 70
+  COR_PERCENT_G = 77
+  COR_PERCENT_R = 86
+             ID = COR_DLG_TRIPCLOSE
+          ORDEM = 182
+
+COR
+  COR_PERCENT_B = 70
+  COR_PERCENT_G = 77
+  COR_PERCENT_R = 86
+             ID = COR_DLG_RAISELOWER
+          ORDEM = 183
+
+COR
+  COR_PERCENT_B = 66
+  COR_PERCENT_G = 99
+  COR_PERCENT_R = 99
+             ID = COR_TITULO_PRINCIPAL
+          ORDEM = 184
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 70
+  COR_PERCENT_R = 99
+             ID = COR_TITULO_GERAL
+          ORDEM = 185
+
+COR
+  COR_PERCENT_B = 63
+  COR_PERCENT_G = 63
+  COR_PERCENT_R = 63
+             ID = COR_FUNDO_BOTAO
+          ORDEM = 186
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 0
+             ID = COR_LABEL_BOTAO
+          ORDEM = 187
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 0
+             ID = COR_BOTAO_LABEL
+          ORDEM = 188
+
+COR
+  COR_PERCENT_B = 63
+  COR_PERCENT_G = 63
+  COR_PERCENT_R = 63
+             ID = COR_BOTAO_FACE
+          ORDEM = 189
+
+COR
+  COR_PERCENT_B = 86
+  COR_PERCENT_G = 86
+  COR_PERCENT_R = 86
+             ID = COR_BOTAO_REFLEXO
+          ORDEM = 190
+
+COR
+  COR_PERCENT_B = 35
+  COR_PERCENT_G = 35
+  COR_PERCENT_R = 35
+             ID = COR_BOTAO_SOMBRA
+          ORDEM = 191
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 70
+  COR_PERCENT_R = 99
+             ID = COR_CONTROLE
+          ORDEM = 192
+
+COR
+  COR_PERCENT_B = 80
+  COR_PERCENT_G = 80
+  COR_PERCENT_R = 0
+             ID = COR_IDENT_TRAFO
+          ORDEM = 193
+
+COR
+  COR_PERCENT_B = 63
+  COR_PERCENT_G = 63
+  COR_PERCENT_R = 63
+             ID = COR_ANUNC_CEL
+          ORDEM = 194
+
+COR
+          BLINK = SIM
+      COR_BLINK = COR_ANUNC_CEL
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 99
+             ID = COR_ANUNC_URG
+          ORDEM = 195
+
+COR
+          BLINK = SIM
+      COR_BLINK = AMARELO_CLARO
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 90
+  COR_PERCENT_R = 99
+             ID = COR_ANUNC_ADV
+          ORDEM = 196
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 80
+  COR_PERCENT_R = 0
+             ID = COR_ANUNC_NOR
+          ORDEM = 197
+
+COR
+          BLINK = SIM
+      COR_BLINK = COR_ANUNC_CEL
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 99
+  COR_PERCENT_R = 0
+             ID = COR_ANUNC_NOR1
+          ORDEM = 198
+
+COR
+          BLINK = SIM
+      COR_BLINK = VIOLETA
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 0
+             ID = COR_ESC_BLINK_FG
+          ORDEM = 199
+
+COR
+          BLINK = SIM
+      COR_BLINK = VERMELHO
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 0
+             ID = COR_URG_BLINK_FG
+          ORDEM = 200
+
+COR
+          BLINK = SIM
+      COR_BLINK = AMARELO
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 0
+             ID = COR_ADV_BLINK_FG
+          ORDEM = 201
+
+COR
+          BLINK = SIM
+  COR_PERCENT_B = 99
+  COR_PERCENT_G = 40
+  COR_PERCENT_R = 60
+             ID = COR_ESC_BLINK_BG
+          ORDEM = 202
+
+COR
+          BLINK = SIM
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 99
+             ID = COR_URG_BLINK_BG
+          ORDEM = 203
+
+COR
+          BLINK = SIM
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 99
+  COR_PERCENT_R = 99
+             ID = COR_ADV_BLINK_BG
+          ORDEM = 204
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 0
+             ID = COR_LABEL_BOTAO_SAGE
+          ORDEM = 205
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 99
+             ID = COR_LOGO_CEPEL
+          ORDEM = 206
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 70
+  COR_PERCENT_R = 99
+             ID = COR_TITULO_GERAL_SAGE
+          ORDEM = 207
+
+COR
+  COR_PERCENT_B = 66
+  COR_PERCENT_G = 99
+  COR_PERCENT_R = 99
+             ID = COR_TITULO_PRINCIPAL_SAGE
+          ORDEM = 208
+
+COR
+  COR_PERCENT_B = 28
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 0
+             ID = ILHA_BG
+          ORDEM = 211
+
+COR
+  COR_PERCENT_B = 28
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 0
+             ID = ILHA_FG
+          ORDEM = 212
+
+COR
+  COR_PERCENT_B = 63
+  COR_PERCENT_G = 63
+  COR_PERCENT_R = 63
+             ID = ILHA_00
+          ORDEM = 213
+
+COR
+  COR_PERCENT_B = 99
+  COR_PERCENT_G = 99
+  COR_PERCENT_R = 99
+             ID = ILHA_01
+          ORDEM = 214
+
+COR
+  COR_PERCENT_B = 99
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 99
+             ID = ILHA_02
+          ORDEM = 215
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 70
+  COR_PERCENT_R = 99
+             ID = ILHA_03
+          ORDEM = 216
+
+COR
+  COR_PERCENT_B = 20
+  COR_PERCENT_G = 10
+  COR_PERCENT_R = 60
+             ID = ILHA_04
+          ORDEM = 217
+
+COR
+  COR_PERCENT_B = 50
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 99
+             ID = ILHA_05
+          ORDEM = 218
+
+COR
+  COR_PERCENT_B = 46
+  COR_PERCENT_G = 99
+  COR_PERCENT_R = 99
+             ID = ILHA_06
+          ORDEM = 219
+
+COR
+  COR_PERCENT_B = 50
+  COR_PERCENT_G = 99
+  COR_PERCENT_R = 60
+             ID = ILHA_07
+          ORDEM = 220
+
+COR
+  COR_PERCENT_B = 66
+  COR_PERCENT_G = 66
+  COR_PERCENT_R = 0
+             ID = ILHA_08
+          ORDEM = 221
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 80
+  COR_PERCENT_R = 99
+             ID = ILHA_09
+          ORDEM = 222
+
+COR
+  COR_PERCENT_B = 70
+  COR_PERCENT_G = 62
+  COR_PERCENT_R = 37
+             ID = ILHA_10
+          ORDEM = 223
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 99
+             ID = ILHA_11
+          ORDEM = 224
+
+COR
+  COR_PERCENT_B = 70
+  COR_PERCENT_G = 77
+  COR_PERCENT_R = 86
+             ID = ILHA_12
+          ORDEM = 225
+
+COR
+  COR_PERCENT_B = 99
+  COR_PERCENT_G = 40
+  COR_PERCENT_R = 60
+             ID = ILHA_13
+          ORDEM = 226
+
+COR
+  COR_PERCENT_B = 56
+  COR_PERCENT_G = 42
+  COR_PERCENT_R = 14
+             ID = ILHA_14
+          ORDEM = 227
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 60
+  COR_PERCENT_R = 0
+             ID = ILHA_15
+          ORDEM = 228
+
+COR
+  COR_PERCENT_B = 99
+  COR_PERCENT_G = 80
+  COR_PERCENT_R = 0
+             ID = ILHA_16
+          ORDEM = 229
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 99
+             ID = LEGENDA_FALHA
+          ORDEM = 230
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 99
+  COR_PERCENT_R = 0
+             ID = LEGENDA_NORMAL
+          ORDEM = 231
+
+COR
+  COR_PERCENT_B = 20
+  COR_PERCENT_G = 10
+  COR_PERCENT_R = 80
+             ID = LEG_FALHA_TABULAR
+          ORDEM = 232
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 60
+  COR_PERCENT_R = 0
+             ID = LEG_NORMAL_TABULAR
+          ORDEM = 233
+
+COR
+  COR_PERCENT_B = 99
+  COR_PERCENT_G = 60
+  COR_PERCENT_R = 0
+             ID = U_MEDIDA
+          ORDEM = 234
+
+COR
+  COR_PERCENT_B = 32
+  COR_PERCENT_G = 26
+  COR_PERCENT_R = 4
+             ID = COR_FUNDO_TELA_SAR
+          ORDEM = 235
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 100
+  COR_PERCENT_R = 100
+             ID = COR_UNID_GER
+          ORDEM = 236
+
+COR
+  COR_PERCENT_B = 20
+  COR_PERCENT_G = 40
+  COR_PERCENT_R = 0
+             ID = VERDE_FOSCO
+          ORDEM = 237
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 99
+  COR_PERCENT_R = 0
+             ID = R79_VERDE
+          ORDEM = 238
+
+COR
+          BLINK = SIM
+  COR_PERCENT_B = 99
+  COR_PERCENT_G = 99
+  COR_PERCENT_R = 99
+             ID = NUM_EQP_BLK
+          ORDEM = 239
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 0
+             ID = FUNDO_TELA
+          ORDEM = 240
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 99
+             ID = COR_BLOQ_SIMBOLO_TEXTO
+          ORDEM = 241
+
+COR
+  COR_PERCENT_B = 63
+  COR_PERCENT_G = 63
+  COR_PERCENT_R = 63
+             ID = COR_BLOQ_SIMBOLO_FUNDO
+          ORDEM = 242
+
+COR
+  COR_PERCENT_B = 35
+  COR_PERCENT_G = 35
+  COR_PERCENT_R = 35
+             ID = COR_BLOQ_ESTADO_FUNDO
+          ORDEM = 243
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 99
+             ID = COR_BLOQ_ESTADO_BLOQ
+          ORDEM = 244
+
+COR
+  COR_PERCENT_B = 50
+  COR_PERCENT_G = 99
+  COR_PERCENT_R = 60
+             ID = COR_BLOQ_ESTADO_DESB
+          ORDEM = 245
+
+COR
+  COR_PERCENT_B = 71
+  COR_PERCENT_G = 71
+  COR_PERCENT_R = 71
+             ID = MOLDURA
+          ORDEM = 246
+
+COR
+  COR_PERCENT_B = 99
+  COR_PERCENT_G = 99
+  COR_PERCENT_R = 99
+             ID = INSTALACAO
+          ORDEM = 247
+
+COR
+  COR_PERCENT_B = 99
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 0
+             ID = COR_NOME
+          ORDEM = 248
+
+COR
+  COR_PERCENT_B = 35
+  COR_PERCENT_G = 35
+  COR_PERCENT_R = 35
+             ID = BORDA_LEGENDA
+          ORDEM = 249
+
+COR
+  COR_PERCENT_B = 99
+  COR_PERCENT_G = 80
+  COR_PERCENT_R = 0
+             ID = UNID_LEGENDA
+          ORDEM = 250
+
+COR
+  COR_PERCENT_B = 99
+  COR_PERCENT_G = 99
+  COR_PERCENT_R = 99
+             ID = TITU_LEGENDA
+          ORDEM = 251
+
+COR
+  COR_PERCENT_B = 86
+  COR_PERCENT_G = 86
+  COR_PERCENT_R = 86
+             ID = IDENT_EQPTO
+          ORDEM = 252
+
+COR
+  COR_PERCENT_B = 20
+  COR_PERCENT_G = 40
+  COR_PERCENT_R = 0
+             ID = FUNDO_BOTAO
+          ORDEM = 253
+
+COR
+  COR_PERCENT_B = 99
+  COR_PERCENT_G = 99
+  COR_PERCENT_R = 99
+             ID = SAIDA_LINHA
+          ORDEM = 254
+
+COR
+  COR_PERCENT_B = 86
+  COR_PERCENT_G = 86
+  COR_PERCENT_R = 86
+             ID = CAG_LIGADO
+          ORDEM = 255
+
+COR
+  COR_PERCENT_B = 99
+  COR_PERCENT_G = 99
+  COR_PERCENT_R = 99
+             ID = MEDIDA
+          ORDEM = 256
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 99
+  COR_PERCENT_R = 0
+             ID = BARRA_CAPD_VERIF
+          ORDEM = 257
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 99
+             ID = BARRA_GER_VERIF
+          ORDEM = 258
+
+COR
+  COR_PERCENT_B = 20
+  COR_PERCENT_G = 10
+  COR_PERCENT_R = 60
+             ID = BARRA_CONS_VERIF
+          ORDEM = 259
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 99
+  COR_PERCENT_R = 0
+             ID = BARRA_CAPE_PROG
+          ORDEM = 260
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 99
+  COR_PERCENT_R = 0
+             ID = BARRA_CAPD_PROG
+          ORDEM = 261
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 99
+             ID = BARRA_MW
+          ORDEM = 262
+
+COR
+  COR_PERCENT_B = 99
+  COR_PERCENT_G = 80
+  COR_PERCENT_R = 0
+             ID = BARRA_INT_VERIF
+          ORDEM = 263
+
+COR
+  COR_PERCENT_B = 86
+  COR_PERCENT_G = 86
+  COR_PERCENT_R = 86
+             ID = BARRA_INT_CAG
+          ORDEM = 264
+
+COR
+  COR_PERCENT_B = 46
+  COR_PERCENT_G = 99
+  COR_PERCENT_R = 99
+             ID = BARRA_RPO
+          ORDEM = 265
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 99
+  COR_PERCENT_R = 0
+             ID = BARRA_SALDO
+          ORDEM = 266
+
+COR
+  COR_PERCENT_B = 0
+  COR_PERCENT_G = 0
+  COR_PERCENT_R = 99
+             ID = BARRA_GERACAO
+          ORDEM = 267
+
+COR
+  COR_PERCENT_B = 99
+  COR_PERCENT_G = 99
+  COR_PERCENT_R = 99
+             ID = BRANCO_EB
+          ORDEM = 268
+

@@ -1,0 +1,471 @@
+;===============================================================================
+;               Base: cteep
+; Ultima atualizacao: 06/dez/2005
+;===============================================================================
+; Logotipo do Cliente, a ser exibido na barra de ferramentas do Visor de Telas
+;
+;LOGOTIPO_CLIENTE              $IHM/cteep_sage.gif
+;TIP_LOGO_CLIENTE              CTEEP\nGrupo ISA
+;
+;_______________________________________________________________________________
+;
+; Geometria do Visor de Telas
+;
+VISOR_TAMANHO     FULLxFULL    ; Tamanho do visor em pixels (largura x altura)
+                               ; Largura e/ou altura podem ser substituidos por
+                               ;  FULL   : largura/altura igual a da tela
+                               ;  HALF   : largura/altura igual a metade da tela
+                               ;  THIRD  : largura/altura igual a 1/3 da tela
+                               ;  QUARTER: largura/altura igual a 1/4 da tela
+                               ;  EIGHTH : largura/altura igual a 1/8 da tela
+;
+VISOR_POSICAO_X   LEFT         ; LEFT  : posiciona `a esquerda do monitor
+                               ; CENTER: centraliza horizontalmente no monitor
+                               ; RIGHT : posiciona `a direita do monitor
+                               ; num.  : posicao da lateral esquerda, em pixels
+;
+VISOR_POSICAO_Y   TOP          ; TOP   : posiciona no topo do monitor
+                               ; CENTER: centraliza verticalmente no monitor
+                               ; BOTTOM: posiciona na base do monitor
+                               ; num.  : posicao do topo do visor, em pixels
+;_______________________________________________________________________________
+;
+; Layout aplicado ao abrir o Visor de Telas
+;
+LAYOUT_MENU                SIM         ; Exibe a barra de menu
+LAYOUT_TOOLBAR             SIM         ; Exibe a barra de ferramentas
+LAYOUT_PAINEL              SIM         ; Exibe os painéis de botões configuráveis
+LAYOUT_RODAPE              SIM         ; Exibe o rodapé
+;_______________________________________________________________________________
+;
+; Configuracao basica
+;
+COMPORTAMENTO_VERSAO       ANTIGO      ; ANTIGO/NOVO (depois trocar pela versao)
+OCULTAR_TARJA_OFFLINE      NAO         ; Oculta a tarja "offline"/"desconectado"
+EXIBIR_NOME_USUARIO        SIM         ; Exibe o nome do usuario logado (SIM/NAO)
+EXIBIR_DATA                SIM         ; Exibe a data (SIM/NAO)
+EXIBIR_ERROS_LIGACAO       SIM         ; Exibicao do dialogo com relacao de
+                                       ; objetos com erros de ligacao (SIM/NAO)
+ENQUADRAR_TELAS_AO_ABRIR   SIM         ; Modo de enquadramento automatico
+                                       ; de telas ao serem abertas (SIM/NAO)
+ATUALIZAR_TELAS            SIM         ; Atualização de telas alteradas
+                                       ;    NAO: Não atualizar
+                                       ;    SIM: Perguntar ao usuário
+                                       ;   AUTO: Atualizar automaticamente
+INICIA_COM_IMPORTACAO      SIM         ; Ativa importacao de comandos no
+                                       ; ultimo Visor de Telas aberto (SIM/NAO)
+ACENTUA_TELAS              SIM         ; Acentuação automática de textos em telas
+AJUSTAR_FONTES             SIM         ; Ajusta o escalonamento de fontes escalaveis
+MOUSE_WHEEL                SCROLL      ; Acionamento feito pela roda do mouse
+                                       ;   SCROLL: Desloca a tela verticalmente
+                                       ;     ZOOM: Altera o nível de zoom da tela
+CURSOR_MOUSE_TAMANHO       1           ; Tamanho do cursor do mouse
+                                       ;   0: Pequeno (apenas formato opaco)
+                                       ;   1: Medio
+                                       ;   2: Grande
+CURSOR_MOUSE_FORMATO       3           ; Formato do cursor do mouse
+                                       ;   0: Transparente
+                                       ;   1: Translucido
+                                       ;   2: Sombreado
+                                       ;   3: Opaco
+;_______________________________________________________________________________
+;
+EXIBIR_TIP                 NAO         ; Exibe tip em objetos de tela          (SIM/NAO)
+TIP_EXIBE_NOME             NAO         ; Exibe a narrativa do ponto            (SIM/NAO)
+TIP_EXIBE_ID               NAO         ; Exibe o identificador do ponto        (SIM/NAO)
+TIP_EXIBE_AOR              NAO         ; Exibe a AOR do ponto                  (SIM/NAO)
+TIP_EXIBE_STATUS           NAO         ; Exibe os status do ponto              (SIM/NAO)
+TIP_EXIBE_FORMULA          NAO         ; Exibe fórmula de cálculo              (SIM/NAO)
+TIP_EXIBE_ANOTACAO         NAO         ; Exibe ocorrencia e motivo da anotacao (SIM/NAO)
+TIP_EXIBE_ALARME           NAO         ; Exibe o ultimo alarme do ponto        (SIM/NAO)
+TIP_TRANSLUCIDO            NAO         ; Permite ver o que esta atras do tip   (SIM/NAO)
+TIP_SOMBRA_NO_TEXTO        NAO         ; Exibe sombra sob o texto do tip       (SIM/NAO)
+;_______________________________________________________________________________
+;
+; Posicionamento de dialogos
+; Valores possiveis:
+;   CANTOS_DO_VISOR  : Em um dos cantos do Visor,   o mais longe do cursor do mouse
+;   CANTOS_DO_DISPLAY: Em um dos cantos do display, o mais longe do cursor do mouse
+;   CENTRO_DO_VISOR  : No centro do proprio Visor
+;   CENTRO_DO_DISPLAY: No centro do display
+;
+POSICAO_DIALOGOS_CONTROLE  CANTOS_DO_VISOR   ; Posicao onde serao abertos os dialogos de controle
+POSICAO_DIALOGOS_GRUPO     CENTRO_DO_VISOR   ; Posicao onde serao abertos os dialogos de grupo
+;_______________________________________________________________________________
+;
+GERA_LOG_ALR_SILENCIADO      SIM
+FORMATO_LOG_ANOT             CSV       ; Formato do log de anotações
+                                       ;   FORM - Registro de log separado em várias linhas
+                                       ;   CSV  - Registro de log em uma única linha
+;_______________________________________________________________________________
+;
+; Indicador de Intertravamento
+;
+INDIC_INTERTRAV_DISJUNTORES  SIM       ; Exibe indicador de intertravamento em disjuntores
+INDIC_INTERTRAV_CHAVES       SIM       ; Exibe indicador de intertravamento em chaves
+INDIC_INTERTRAV_OUTROS_DIG   SIM       ; Exibe indicador de intertravamento em outros digitais
+INDIC_INTERTRAV_DX          -0.7       ; Distancia horizontal entre o objeto
+                                       ; e o indicador de intertravamento
+INDIC_INTERTRAV_DY          -0.5       ; Distancia vertical entre o objeto
+                                       ; e o indicador de intertravamento
+INDIC_INTERTRAV_TAMANHO      1.0       ; Fator de mudança do tamanho de indicador de intertravamento
+;_______________________________________________________________________________
+;
+GRUPO_TITULO_DIALOGO       NOME        ; Exibe informacao na barra de titulo de grupo
+                                       ;   NOME: Nome do grupo
+                                       ;   ID:   Identificador do grupo
+GRUPO_MOSTRA_NOME          NAO         ; Exibe o nome do grupo acima dos componentes
+                                       ;   SIM: Exibe o nome do grupo
+                                       ;   NAO: Nao exibe o nome do grupo
+GRUPO_MOSTRA_BOTAO_OK      SIM         ; Exibe o botao OK abaixo dos componentes
+                                       ;   SIM: Exibe o botao
+                                       ;   NAO: Nao exibe o botao
+GRUPO_FORMATO_MEDIDA       %.2f        ; Formato de medidas em dialogos de grupo
+;_______________________________________________________________________________
+;
+TAMANHO_DISJUNTOR          0.5         ; Fator de escala do tamanho dos disjuntores:
+                                       ;   default: 0.8
+                                       ;    antigo: 0.5
+DESENHO_SECCIONADORA       0           ; Formato das chaves seccionadoras
+                                       ;   0: Desenho padrao
+                                       ;   1: Desenho circular
+DESENHO_CHAVE_DISTRIB      0           ; Formato das chaves de distribuicao
+                                       ;   0: Desenho padrao
+                                       ;   1: Desenho de chave fusivel
+                                       ;   2: Desenho antigo
+                                       ;   3: Desenho sem destaque de terminais
+DESENHO_CAPACITOR          1           ; Formato dos capacitores
+                                       ;   0: Nao polarizado
+                                       ;   1: Polarizado
+;_______________________________________________________________________________
+;
+ANOTACAO_SIMBOLO           0           ; Simbolo que indica a presenca de uma
+                                       ; anotacao para um objeto
+                                       ;   0: Ficha em torno do objeto
+                                       ;   1: Ponteiro acima `a esquerda
+ANOTACAO_INTERTRAV         PONTO       ; Seleção inicial de intertravamento no diálogo de anotações:
+                                       ;   NENHUM : Sem intertravamento
+                                       ;   PONTO  : Intertravamento de controles para o ponto
+;_______________________________________________________________________________
+;
+; String que nao aparece em enumeracoes (IGN desativa esta opcao)
+;
+STRING_ENUM_INVISIVEL      .           ; Ponto
+;_______________________________________________________________________________
+;
+; Identificador de objetos com ligacao incorreta
+;
+MOSTRA_IDENT_LIG_ERR       SIM           ; Exibe os indicadores de ligacao
+                                         ; incorreta (SIM/NAO)
+IDENT_LIGACAO_ERRADA       ?  PALHA      ; Simbolo e cor do identificador
+                                         ; de ligacao incorreta
+;_______________________________________________________________________________
+;
+; Configuracao de dialogos de controle
+;
+CLICK_ABRE_DLG_CONTROLE      SIM    ; Define que tipo de dialogo sera' aberto
+                                    ; ao clicar sobre um objeto analogico ou digital
+                                    ;   SIM: Dialogo de controle
+                                    ;   NAO: Dialogo de tempo-real
+TIMEOUT_DIALOGO_CONTROLE     15     ; Timeout em segundos dos dialogos de controle
+PEDE_CONFIRMACAO_CONTROLE    SIM    ; Pedido de confirmacao nos dialogos de controle
+CONFIRMA_CONTROLE_INVERTIDO  SIM    ; Pedido de confirmacao adicional de controle invertido
+FORMATO_DIALOGOS_CONTROLE    NORMAL ; Formato dos diálogos de controle:
+                                    ;   NORMAL   - Formato padrao
+                                    ;   REDUZIDO - Tamanho reduzido
+;_______________________________________________________________________________
+;
+; Indicadores de Qualidade
+;
+MOSTRA_INDICADORES_QUALID  SIM
+MOSTRA_INDIC_QUALID_EM_LT  NAO
+INDIC_QUALID_DISTANCIA_LT  50   ; Distancia entre indicadores de qualidade
+                                ; e as extremidades das Linhas de Transmissao
+INDIC_QUALID_DESCONG_ZOOM  0.5
+INDIC_QUALID_FONTE         FONTE_INDIC_QUALID  ; Fonte definida em SigFontes.dat
+;
+; Estados dos Indicadores de Qualidade (simbolo e cor)
+;
+INDIC_QUALID_NOSUP         n  BEGE         ; Nao supervisionado
+INDIC_QUALID_NAOINIC       n  VERDE_MUSGO  ; Nao inicializado
+INDIC_QUALID_MANUA_LOCAL   M  CIANO        ; Manual local
+INDIC_QUALID_FOVAR_LOCAL   D  AZUL_MARINHO ; Fora de varredura local
+INDIC_QUALID_INVAL_LOCAL   E  VERDE_MUSGO  ; Nao atualizado/invalido local
+INDIC_QUALID_RESTR         r  OURO         ; Grandeza calculada com restricao
+INDIC_QUALID_MANUA_ORIG    M  CIANO        ; Manual na origem
+INDIC_QUALID_FOVAR_ORIG    D  AZUL_MARINHO ; Fora de varredura na origem
+INDIC_QUALID_INVAL_ORIG    E  VERDE_MUSGO  ; Nao atualizado/invalido na origem
+INDIC_QUALID_SUBST         e  AMARELO      ; Substituido pelo valor estimado
+INDIC_QUALID_ERREE         g  AMARELO      ; Erro grosseiro de estimacao
+INDIC_QUALID_RAZOA         z  BRANCO     ; Razoabilidade
+INDIC_QUALID_INVERTIDO     i  COR_MANUA  ; Sinal analogico ou estado digital invertido
+;_______________________________________________________________________________
+;
+; Indicadores de qualidade de valores estimados
+;
+INDIC_QUALID_EST_NORM      .  IGN        ; Estimado normalmente
+INDIC_QUALID_EST_ERREE     g  VERDE      ; Erro grosseiro de estimacao
+INDIC_QUALID_EST_NAOEST    n  VERDE      ; Nao faz parte do escopo do estimador
+INDIC_QUALID_EST_EXCL      x  VERDE      ; Excluido do processo de estimacao
+INDIC_QUALID_EST_RLOC      l  VERDE      ; Redundancia local
+INDIC_QUALID_EST_REST      r  VERDE      ; Resultado de calculo com restricao
+INDIC_QUALID_EST_ANORM     a  VERDE      ; Estimacao anormal
+INDIC_QUALID_EST_EXTERNO   e  VERDE      ; Ponto do sistema externo
+;_______________________________________________________________________________
+;
+; Indicadores de qualidade do estimador de topologia
+;
+INDIC_QUALID_ETP_DIFER     t  OURO       ; Ponto digital com status alterado
+;_______________________________________________________________________________
+;
+; Indicadores de qualidade do resultado da contingencia
+;
+INDIC_QUALID_CTG_DIFER     c  OURO       ; Ponto digital com status alterado na contingencia
+INDIC_QUALID_ACR_DIFER     a  OURO       ; Ponto digital com status alterado no acor
+INDIC_QUALID_FPO_DIFER     f  OURO       ; Ponto digital com status alterado no fpo
+;_______________________________________________________________________________
+;
+; Indicadores de qualidade de valores otimizados
+;
+INDIC_QUALID_OTM_NORM      .  IGN     ; Nao ocorreu nada de especial com o ponto
+INDIC_QUALID_OTM_RELAX     r  ABOBORA ; O limite do ponto foi relaxado
+INDIC_QUALID_OTM_NAOOT     n  ABOBORA ; Não participou do processo de otimização
+INDIC_QUALID_OTM_CATIVO    l  ABOBORA ; Atingiu o limite ao final da otimização
+INDIC_QUALID_OTM_CONTALT   c  ABOBORA ; Variável de controle
+                                      ;   alterada durante otimização
+;_______________________________________________________________________________
+;
+; Comportamento das Linhas de Transmissao
+;
+LT_REGRA_CORES   LIMITES                ; (          NIVEIS / LIMITES         )
+LT_COR_LINHA     DEFINIDA_EDITOR        ; ( MESMA_COR_REGRA / DEFINIDA_EDITOR )
+LT_MOLDURA_SETA  MESMA_COR_SETA         ; ( MESMA_COR_LINHA / MESMA_COR_SETA  )
+;
+; (se LT_REGRA_CORES = NIVEIS e LT_MOLDURA_SETA = MESMA_COR_SETA,
+;  algumas setas podem sumir devido a combinacao de cores)
+;
+; Niveis de Carregamento das Linhas de Transmissao
+;   em relacao ao Limite Operativo (Limite de Advertencia)
+;   (so' e' utilizado se LT_REGRA_CORES for NIVEIS)
+;   (cor, nivel inicial (inclusive) e nivel final (exclusive))
+;   (uma cor de seta pode ser definida como MESMA_COR_LINHA)
+;
+NIVEIS_CARGA_LT   1                             ; Num. de niveis de carregamento
+NIVEL_CARGA_LT_1  MESMA_COR_LINHA     0  99999  ; 1o. nivel, de  0% a  1.9%
+NIVEL_CARGA_LT_2  VERDE_CLARO         2     75  ; 2o. nivel, de  2% a 74.9%
+NIVEL_CARGA_LT_3  AMARELO            75    100  ; 3o. nivel, de 75% a 99.9%
+NIVEL_CARGA_LT_4  VERMELHO          100  99999  ; 4o. nivel, a partir de 100%
+;_______________________________________________________________________________
+;
+; Indicacao piscando (blink) de alarme nao reconhecido
+;
+BLINK_ANREC_MEDIDA       SIM    ; Medida com alarme nao reconhecido
+MEDIDA_INVERTE_COR_FUNDO ANREC  ; Regra de inversão de cor de fundo de medidas:
+                                :  ANREC: Invertido se estiver com alarme não reconhecido
+                                ; LIMITE: Invertido se estiver fora da região normal
+;_______________________________________________________________________________
+;
+; Desenho de objetos associados a pontos digitais
+;
+DIGITAL_COR_NORM_IGUAL   NAO    ; Cor de objetos associados a pontos digitais
+                                ; que estiverem no estado Normal:
+                                ;   SIM: Como definido no SigDraw
+                                ;   NAO: COR_NORM_DIG
+DIGITAL_INDICA_TRANSICAO SIM    ; Exibicao de transicao de estado
+                                ; de pontos digitais
+                                ;   SIM: Exibe indicador de transicao
+                                ;   NAO: Nao exibe indicador de transicao
+DIGITAL_INDICA_ALRINIB   INIB   ; Exibicao de indicador de alarme inibido
+                                ; em pontos digitais:
+                                ;  INIB: Exibe se alarme estiver inibido
+                                ;   HAB: Exibe se alarme estiver habilitado
+DIGITAL_INDICA_AUTOREC   HAB    ; Exibicao de indicador de auto-reconhecimento
+                                ; de alarmes em pontos digitais:
+                                ;   HAB: Exibe se estiver habilitado
+                                ;  INIB: Exibe se estiver inibido
+;_______________________________________________________________________________
+;
+;
+ESCOLHE_CONF_NORM            SIM
+;
+; Cores de objetos digitais, independente da condicao normal
+;
+CONF_NORM_DIG_COR_ABERTO     VERDE   	; Cor de objetos digitais abertos
+CONF_NORM_DIG_COR_FECHADO    VERMELHO	; Cor de objetos digitais fechados
+;
+; Cores de objetos digitais durante a exibicao de "Configuracao Normal"
+;
+CONF_NORM_DIG_COR_NORMAL     COR_CONF_NORM  ; Cor de objetos digitais no estado normal
+CONF_NORM_DIG_COR_ANORMAL    COR_CONF_ANORM ; Cor de objetos digitais no estado anormal
+;_______________________________________________________________________________
+;
+; Desenho dos Nos Eletricos
+;
+NOH_MOSTRA_SETA          NAO    ; Seta de tendencia no interior do No (SIM/NAO)
+NOH_COR_NORM_IGUAL       SIM    ; Cor dos Nos na regiao Normal:
+                                ;   SIM: Como definido no SigDraw
+                                ;   NAO: COR_NORM_ANA
+;_______________________________________________________________________________
+;
+; Desenho das Medidas
+;
+MEDIDA_ANREC_COR_TEXTO  COR_FUNDO_TELA ; Cor de texto de medidas
+                                       ;   com alarme nao reconhecido
+MEDIDA_COR_NORM_IGUAL   NAO            ; Cor das Medidas na regiao Normal:
+                                       ;   SIM: Como definido no SigDraw
+                                       ;   NAO: COR_NORM_ANA
+;_______________________________________________________________________________
+;
+; Permissoes e confirmacoes de entrada manual
+;
+ENTR_MAN_FORA_LIM_ESCALA  SIM       ; Permissao para entrada manual
+                                    ;   fora dos limites de escala
+                                    ;   SIM: Permite
+                                    ;   NAO: Nao permite
+CONFIRMA_ENTRADA_MANUAL   SIM       ; Pedido de confirmação de entrada manual
+                                    ;   de valor próximo ou superior aos limites de escala
+                                    ;   SIM: Pede confirmação
+                                    ;   NAO: Nao pede confirmação
+;_______________________________________________________________________________
+;
+; Desenho de objetos com entrada manual
+;
+OBJS_USAM_CORES_STATUS    SIM       ; Cores de objetos com flags de status
+                                    ; (manua, fovar, falha, etc)
+                                    ;   SIM: Cor correspondente ao status
+                                    ;   NAO: Cor da logica do objeto
+                                    ;        (estados dig ou regioes ana)
+OBJS_USAM_COR_MANUAL      SIM       ; Cor de objetos com entrada manual:
+                                    ;   SIM: COR_MANUA
+                                    ;   NAO: Cor da logica do objeto
+;_______________________________________________________________________________
+;
+; Desenho de graficos de barra
+;
+GRAF_BARRA_CORES_STATUS   NAO       ; Exibe cores de status (manua, fovar, falha, etc)
+                                    ; em graficos de barra ligados a valores analogicos
+                                    ;   SIM: Cor correspondente ao status
+                                    ;   NAO: Cores da logica do objeto
+;_______________________________________________________________________________
+;
+; Permissao de entrada manual
+;
+ANA_OBEDECE_NAO_ENTRAVEL  NAO   ; Objetos analogicos obedecem `a permissao
+                                ;   individual de entrada manual
+DIG_OBEDECE_NAO_ENTRAVEL  NAO   ; Objetos digitais obedecem `a permissao
+                                ;   individual de entrada manual
+;_______________________________________________________________________________
+;
+; Inversao de estado de pontos digitais
+;
+INVERSAO_ESTADO_DIG       SIM   ; Exibicao de opcao para inverter estado no
+                                ; dialogo de pontos digitais
+                                ;   SIM: Exibe a opcao no dialogo; fica inibida
+                                ;        se o usuario nao tiver privilegio para
+                                ;        a acao ACAO_InverterEstadoDigitais na
+                                ;        licenca da tela
+                                ;   NAO: Nao exibe a opcao no dialogo
+;_______________________________________________________________________________
+;
+; Configuracao do dialogo de pontos analogicos
+;
+TITULO_LIMITE_ADV         Advertência      ; Titulos em dialogos
+;TITULO_LIMITE_URG         Urgência
+;TITULO_LIMITE_ESC         Escala
+
+TITULO_LIMITE_ADV         Operativo
+TITULO_LIMITE_URG         Físico
+
+;TITULO_LIMITE_ADV         Warning          ; Titulos em ingles
+;TITULO_LIMITE_URG         Urgency
+;TITULO_LIMITE_ESC         Scale
+;_______________________________________________________________________________
+;
+; Comportamento para Entrada de Dados
+;
+LOCK_INICIO_ENTRADA_DE_DADOS   SIM
+UNLOCK_FINAL_ENTRADA_DE_DADOS  SIM
+;
+TIMEOUT_ENTRADA_DADOS          120
+;
+BEEP_CLICK_ENTRAR_DADO         NAO
+;_______________________________________________________________________________
+;
+; Entrada grupada, generica ou de tempo-real
+;
+; Selecao de objetos
+;
+SELECAO_COR              OURO
+SELECAO_ESPESSURA        16
+ZOOM_AO_DESTACAR         2.0
+;
+; Titulo de cada objeto na primeira coluna da matriz do dialogo
+;
+ENTRADA_GRUPADA_TITULO   0          ; 0 = Nome do objeto no arquivo de tela
+                                    ; 1 = Chave da consulta SQL
+                                    ; 2 = Descricao do ponto
+;_______________________________________________________________________________
+;
+; Parametros do Visor de Acesso
+;
+TIMEOUT_ATIVACAO_PROGS      20      ; Tempo limite (segundos) de ativacao de programas
+
+MANTEM_PRGS_NO_LOGOUT       NAO
+MANTEM_BASE_NO_ENCERRAMENTO SIM
+;
+;Abaixo temos os parametros inseguros
+;MANTEM_PRGS_NO_LOGOUT       SIM
+;MANTEM_BASE_NO_ENCERRAMENTO NAO
+;_______________________________________________________________________________
+;
+; Parametros do Visor de Alarmes
+;
+VISOR_ALARME_VERSAO             TCL          ; Versão do Visor de Alarme
+                                             ; (TCL / JAVA)
+
+VISOR_ALARME_RECONHECER_LISTA   SIM          ; Inclui comando no menu Acao
+                                             ; para reconhecer toda a lista
+                                             ; sem precisar seleciona-la
+
+VISOR_ALARME_ELIMINAR_LISTA     SIM          ; Inclui comando no menu Acao
+                                             ; para eliminar toda a lista
+                                             ; sem precisar seleciona-la
+
+VISOR_ALARME_PERMITE_BLINK      SIM          ; Habilita piscagem
+                                             ; de alarmes nao reconhecidos
+
+VISOR_ALARME_SEVERIDADE_BLINK   urgencia     ; Menor severidade exibida piscando
+                                             ; (nula     / normal / advertencia /
+                                             ;  urgencia / fatal  / panic )
+
+VISOR_ALARME_MOSTRA_DATA        SIM          ; Exibicao da data em cada alarme
+
+COR_MACRO_LISTA_CONGELADA       black       ; Opcao nao implementada
+
+;VISOR_ALARME_TAMANHO_FONTE      PEQUENO      ; Define tamanho de fonte
+;VISOR_ALARME_TAMANHO_FONTE      GRANDE       ; Define tamanho de fonte
+VISOR_ALARME_TAMANHO_FONTE      17           ; Define tamanho de fonte
+                                             ; (GRANDE / PEQUENO/ numero)
+
+VISOR_ALARME_MAX_MAPS_POR_LINHA   16         ; Num maximo de botoes de macro-alarme
+                                             ; por linha
+
+VISOR_ALARME_MOSTRA_STATUS_DA_BASE SIM       ; Exibicao de status da base na linha de menu
+
+;_______________________________________________________________________________
+;
+; Parametros do Visor de Logs
+;
+;VISOR_LOG_TAMANHO_FONTE      GRANDE       ; Define tamanho de fonte grande
+VISOR_LOG_TAMANHO_FONTE      PEQUENO      ; Define tamanho de fonte pequeno
+;_______________________________________________________________________________
+
+;_______________________________________________________________________________
+;
+; Parametros do Visor de Calculos
+;
+CALC_ESTAVEL                     30          ; Limite em dias de calculo dinamico estavel
+CALC_MADURO                      45          ; Limite em dias de calculo dinamico maduro
+CALC_ELIMINAVEL                  60          ; Limite em dias de calculo dinamico eliminavel
+;_______________________________________________________________________________
+
